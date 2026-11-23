@@ -1,0 +1,432 @@
+using cuda
+==> Preparing data..
+47575 / 2010 Acc: %95.95: true / false finazalized dataset distribution
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Number of parameters in teacher model: 32700082
+lr: 0.01, epoch: 10, budget: 4k threshold: 98
+(0/10) Substitute Model Train Loss: 2.087	 Acc: 27.992% (13880/49585) |  Valid Loss: 0.096	 Acc: 78.917% (4735/6000)
+(1/10) Substitute Model Train Loss: 0.317	 Acc: 89.795% (44525/49585) |  Valid Loss: 0.043	 Acc: 89.567% (5374/6000)
+(2/10) Substitute Model Train Loss: 0.146	 Acc: 95.825% (47515/49585) |  Valid Loss: 0.041	 Acc: 90.633% (5438/6000)
+(3/10) Substitute Model Train Loss: 0.112	 Acc: 96.721% (47959/49585) |  Valid Loss: 0.040	 Acc: 91.083% (5465/6000)
+(4/10) Substitute Model Train Loss: 0.098	 Acc: 97.241% (48217/49585) |  Valid Loss: 0.042	 Acc: 91.067% (5464/6000)
+(5/10) Substitute Model Train Loss: 0.084	 Acc: 97.491% (48341/49585) |  Valid Loss: 0.042	 Acc: 91.050% (5463/6000)
+(6/10) Substitute Model Train Loss: 0.080	 Acc: 97.606% (48398/49585) |  Valid Loss: 0.040	 Acc: 91.517% (5491/6000)
+(7/10) Substitute Model Train Loss: 0.069	 Acc: 97.897% (48542/49585) |  Valid Loss: 0.040	 Acc: 91.567% (5494/6000)
+(8/10) Substitute Model Train Loss: 0.065	 Acc: 97.991% (48589/49585) |  Valid Loss: 0.042	 Acc: 91.333% (5480/6000)
+(9/10) Substitute Model Train Loss: 0.057	 Acc: 98.193% (48689/49585) |  Valid Loss: 0.043	 Acc: 91.483% (5489/6000)
+Test Loss: 0.353 | Acc: 91.483% (5489/6000)
+using cuda
+==> Preparing data..
+44061 / 1855 Acc: %95.96: true / false finazalized dataset distribution
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Number of parameters in teacher model: 32700082
+lr: 0.01, epoch: 10, budget: 2k threshold: 98
+(0/10) Substitute Model Train Loss: 2.149	 Acc: 26.803% (12307/45916) |  Valid Loss: 0.144	 Acc: 78.267% (4696/6000)
+(1/10) Substitute Model Train Loss: 0.338	 Acc: 89.224% (40968/45916) |  Valid Loss: 0.052	 Acc: 88.667% (5320/6000)
+(2/10) Substitute Model Train Loss: 0.121	 Acc: 96.602% (44356/45916) |  Valid Loss: 0.052	 Acc: 89.683% (5381/6000)
+(3/10) Substitute Model Train Loss: 0.093	 Acc: 97.358% (44703/45916) |  Valid Loss: 0.049	 Acc: 90.333% (5420/6000)
+(4/10) Substitute Model Train Loss: 0.082	 Acc: 97.687% (44854/45916) |  Valid Loss: 0.048	 Acc: 90.250% (5415/6000)
+(5/10) Substitute Model Train Loss: 0.072	 Acc: 97.866% (44936/45916) |  Valid Loss: 0.049	 Acc: 90.317% (5419/6000)
+(6/10) Substitute Model Train Loss: 0.063	 Acc: 98.131% (45058/45916) |  Valid Loss: 0.052	 Acc: 90.083% (5405/6000)
+(7/10) Substitute Model Train Loss: 0.059	 Acc: 98.232% (45104/45916) |  Valid Loss: 0.052	 Acc: 90.533% (5432/6000)
+(8/10) Substitute Model Train Loss: 0.054	 Acc: 98.384% (45174/45916) |  Valid Loss: 0.053	 Acc: 90.517% (5431/6000)
+(9/10) Substitute Model Train Loss: 0.050	 Acc: 98.530% (45241/45916) |  Valid Loss: 0.050	 Acc: 90.733% (5444/6000)
+Test Loss: 0.383 | Acc: 90.733% (5444/6000)
+using cuda
+==> Preparing data..
+44765 / 2546 Acc: %94.62: true / false finazalized dataset distribution
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Number of parameters in teacher model: 32700082
+lr: 0.01, epoch: 10, budget: 1k threshold: 98
+(0/10) Substitute Model Train Loss: 2.136	 Acc: 26.675% (12620/47311) |  Valid Loss: 0.135	 Acc: 73.683% (4421/6000)
+(1/10) Substitute Model Train Loss: 0.356	 Acc: 88.502% (41871/47311) |  Valid Loss: 0.046	 Acc: 89.067% (5344/6000)
+(2/10) Substitute Model Train Loss: 0.138	 Acc: 95.902% (45372/47311) |  Valid Loss: 0.049	 Acc: 89.733% (5384/6000)
+(3/10) Substitute Model Train Loss: 0.109	 Acc: 96.808% (45801/47311) |  Valid Loss: 0.049	 Acc: 89.800% (5388/6000)
+(4/10) Substitute Model Train Loss: 0.092	 Acc: 97.303% (46035/47311) |  Valid Loss: 0.052	 Acc: 90.033% (5402/6000)
+(5/10) Substitute Model Train Loss: 0.080	 Acc: 97.622% (46186/47311) |  Valid Loss: 0.053	 Acc: 90.100% (5406/6000)
+(6/10) Substitute Model Train Loss: 0.072	 Acc: 97.785% (46263/47311) |  Valid Loss: 0.053	 Acc: 90.167% (5410/6000)
+(7/10) Substitute Model Train Loss: 0.066	 Acc: 98.028% (46378/47311) |  Valid Loss: 0.054	 Acc: 90.417% (5425/6000)
+(8/10) Substitute Model Train Loss: 0.058	 Acc: 98.222% (46470/47311) |  Valid Loss: 0.055	 Acc: 90.183% (5411/6000)
+(9/10) Substitute Model Train Loss: 0.052	 Acc: 98.394% (46551/47311) |  Valid Loss: 0.056	 Acc: 90.300% (5418/6000)
+Test Loss: 0.440 | Acc: 90.300% (5418/6000)
+using cuda
+==> Preparing data..
+38172 / 2793 Acc: %93.18: true / false finazalized dataset distribution
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Number of parameters in teacher model: 32700082
+lr: 0.01, epoch: 10, budget: 250 threshold: 98
+(0/10) Substitute Model Train Loss: 2.164	 Acc: 21.487% (8802/40965) |  Valid Loss: 0.222	 Acc: 62.167% (3730/6000)
+(1/10) Substitute Model Train Loss: 0.382	 Acc: 88.844% (36395/40965) |  Valid Loss: 0.091	 Acc: 84.733% (5084/6000)
+(2/10) Substitute Model Train Loss: 0.122	 Acc: 96.607% (39575/40965) |  Valid Loss: 0.102	 Acc: 85.117% (5107/6000)
+(3/10) Substitute Model Train Loss: 0.102	 Acc: 97.100% (39777/40965) |  Valid Loss: 0.099	 Acc: 85.900% (5154/6000)
+(4/10) Substitute Model Train Loss: 0.085	 Acc: 97.513% (39946/40965) |  Valid Loss: 0.110	 Acc: 85.717% (5143/6000)
+(5/10) Substitute Model Train Loss: 0.078	 Acc: 97.935% (40119/40965) |  Valid Loss: 0.110	 Acc: 85.400% (5124/6000)
+(6/10) Substitute Model Train Loss: 0.074	 Acc: 97.925% (40115/40965) |  Valid Loss: 0.103	 Acc: 86.017% (5161/6000)
+(7/10) Substitute Model Train Loss: 0.067	 Acc: 98.123% (40196/40965) |  Valid Loss: 0.106	 Acc: 86.117% (5167/6000)
+(8/10) Substitute Model Train Loss: 0.061	 Acc: 98.372% (40298/40965) |  Valid Loss: 0.115	 Acc: 85.417% (5125/6000)
+(9/10) Substitute Model Train Loss: 0.058	 Acc: 98.428% (40321/40965) |  Valid Loss: 0.115	 Acc: 85.433% (5126/6000)
+Test Loss: 0.785 | Acc: 85.433% (5126/6000)
+using cuda
+==> Preparing data..
+48189 / 2195 Acc: %95.64: true / false finazalized dataset distribution
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Number of parameters in teacher model: 32700082
+lr: 0.01, epoch: 10, budget: 4k threshold: 95
+(0/10) Substitute Model Train Loss: 2.085	 Acc: 28.215% (14216/50384) |  Valid Loss: 0.095	 Acc: 79.817% (4789/6000)
+(1/10) Substitute Model Train Loss: 0.316	 Acc: 89.751% (45220/50384) |  Valid Loss: 0.042	 Acc: 89.567% (5374/6000)
+(2/10) Substitute Model Train Loss: 0.147	 Acc: 95.745% (48240/50384) |  Valid Loss: 0.037	 Acc: 90.717% (5443/6000)
+(3/10) Substitute Model Train Loss: 0.116	 Acc: 96.658% (48700/50384) |  Valid Loss: 0.040	 Acc: 91.167% (5470/6000)
+(4/10) Substitute Model Train Loss: 0.101	 Acc: 97.126% (48936/50384) |  Valid Loss: 0.041	 Acc: 91.033% (5462/6000)
+(5/10) Substitute Model Train Loss: 0.088	 Acc: 97.388% (49068/50384) |  Valid Loss: 0.040	 Acc: 91.583% (5495/6000)
+(6/10) Substitute Model Train Loss: 0.077	 Acc: 97.727% (49239/50384) |  Valid Loss: 0.040	 Acc: 91.783% (5507/6000)
+(7/10) Substitute Model Train Loss: 0.073	 Acc: 97.839% (49295/50384) |  Valid Loss: 0.040	 Acc: 92.000% (5520/6000)
+(8/10) Substitute Model Train Loss: 0.067	 Acc: 98.009% (49381/50384) |  Valid Loss: 0.041	 Acc: 91.683% (5501/6000)
+(9/10) Substitute Model Train Loss: 0.061	 Acc: 98.196% (49475/50384) |  Valid Loss: 0.040	 Acc: 91.667% (5500/6000)
+Test Loss: 0.338 | Acc: 91.667% (5500/6000)
+using cuda
+==> Preparing data..
+44859 / 2073 Acc: %95.58: true / false finazalized dataset distribution
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Number of parameters in teacher model: 32700082
+lr: 0.01, epoch: 10, budget: 2k threshold: 95
+(0/10) Substitute Model Train Loss: 2.137	 Acc: 25.388% (11915/46932) |  Valid Loss: 0.132	 Acc: 78.900% (4734/6000)
+(1/10) Substitute Model Train Loss: 0.324	 Acc: 89.772% (42132/46932) |  Valid Loss: 0.049	 Acc: 89.200% (5352/6000)
+(2/10) Substitute Model Train Loss: 0.126	 Acc: 96.361% (45224/46932) |  Valid Loss: 0.046	 Acc: 90.183% (5411/6000)
+(3/10) Substitute Model Train Loss: 0.099	 Acc: 97.200% (45618/46932) |  Valid Loss: 0.046	 Acc: 90.400% (5424/6000)
+(4/10) Substitute Model Train Loss: 0.086	 Acc: 97.486% (45752/46932) |  Valid Loss: 0.045	 Acc: 90.767% (5446/6000)
+(5/10) Substitute Model Train Loss: 0.076	 Acc: 97.754% (45878/46932) |  Valid Loss: 0.047	 Acc: 90.600% (5436/6000)
+(6/10) Substitute Model Train Loss: 0.067	 Acc: 98.031% (46008/46932) |  Valid Loss: 0.049	 Acc: 90.600% (5436/6000)
+(7/10) Substitute Model Train Loss: 0.063	 Acc: 98.161% (46069/46932) |  Valid Loss: 0.051	 Acc: 90.150% (5409/6000)
+(8/10) Substitute Model Train Loss: 0.058	 Acc: 98.244% (46108/46932) |  Valid Loss: 0.053	 Acc: 90.300% (5418/6000)
+(9/10) Substitute Model Train Loss: 0.053	 Acc: 98.466% (46212/46932) |  Valid Loss: 0.052	 Acc: 90.750% (5445/6000)
+Test Loss: 0.409 | Acc: 90.750% (5445/6000)
+using cuda
+==> Preparing data..
+45191 / 2843 Acc: %94.08: true / false finazalized dataset distribution
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Number of parameters in teacher model: 32700082
+lr: 0.01, epoch: 10, budget: 1k threshold: 95
+(0/10) Substitute Model Train Loss: 2.134	 Acc: 26.360% (12662/48034) |  Valid Loss: 0.128	 Acc: 77.433% (4646/6000)
+(1/10) Substitute Model Train Loss: 0.361	 Acc: 88.340% (42433/48034) |  Valid Loss: 0.049	 Acc: 88.517% (5311/6000)
+(2/10) Substitute Model Train Loss: 0.154	 Acc: 95.459% (45853/48034) |  Valid Loss: 0.048	 Acc: 89.517% (5371/6000)
+(3/10) Substitute Model Train Loss: 0.122	 Acc: 96.361% (46286/48034) |  Valid Loss: 0.049	 Acc: 89.700% (5382/6000)
+(4/10) Substitute Model Train Loss: 0.103	 Acc: 96.875% (46533/48034) |  Valid Loss: 0.051	 Acc: 90.033% (5402/6000)
+(5/10) Substitute Model Train Loss: 0.089	 Acc: 97.281% (46728/48034) |  Valid Loss: 0.050	 Acc: 90.017% (5401/6000)
+(6/10) Substitute Model Train Loss: 0.080	 Acc: 97.623% (46892/48034) |  Valid Loss: 0.054	 Acc: 90.083% (5405/6000)
+(7/10) Substitute Model Train Loss: 0.070	 Acc: 97.781% (46968/48034) |  Valid Loss: 0.053	 Acc: 90.250% (5415/6000)
+(8/10) Substitute Model Train Loss: 0.067	 Acc: 97.993% (47070/48034) |  Valid Loss: 0.055	 Acc: 90.133% (5408/6000)
+(9/10) Substitute Model Train Loss: 0.059	 Acc: 98.216% (47177/48034) |  Valid Loss: 0.056	 Acc: 90.350% (5421/6000)
+Test Loss: 0.445 | Acc: 90.350% (5421/6000)
+using cuda
+==> Preparing data..
+39556 / 3326 Acc: %92.24: true / false finazalized dataset distribution
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Number of parameters in teacher model: 32700082
+lr: 0.01, epoch: 10, budget: 250 threshold: 95
+(0/10) Substitute Model Train Loss: 2.141	 Acc: 22.842% (9795/42882) |  Valid Loss: 0.182	 Acc: 68.500% (4110/6000)
+(1/10) Substitute Model Train Loss: 0.379	 Acc: 88.632% (38007/42882) |  Valid Loss: 0.076	 Acc: 85.317% (5119/6000)
+(2/10) Substitute Model Train Loss: 0.167	 Acc: 95.364% (40894/42882) |  Valid Loss: 0.092	 Acc: 85.517% (5131/6000)
+(3/10) Substitute Model Train Loss: 0.130	 Acc: 96.280% (41287/42882) |  Valid Loss: 0.088	 Acc: 86.367% (5182/6000)
+(4/10) Substitute Model Train Loss: 0.108	 Acc: 97.078% (41629/42882) |  Valid Loss: 0.101	 Acc: 85.317% (5119/6000)
+(5/10) Substitute Model Train Loss: 0.111	 Acc: 97.094% (41636/42882) |  Valid Loss: 0.094	 Acc: 86.067% (5164/6000)
+(6/10) Substitute Model Train Loss: 0.089	 Acc: 97.484% (41803/42882) |  Valid Loss: 0.096	 Acc: 86.483% (5189/6000)
+(7/10) Substitute Model Train Loss: 0.089	 Acc: 97.820% (41947/42882) |  Valid Loss: 0.102	 Acc: 85.917% (5155/6000)
+(8/10) Substitute Model Train Loss: 0.104	 Acc: 97.405% (41769/42882) |  Valid Loss: 0.100	 Acc: 85.917% (5155/6000)
+(9/10) Substitute Model Train Loss: 0.074	 Acc: 97.794% (41936/42882) |  Valid Loss: 0.101	 Acc: 86.000% (5160/6000)
+Test Loss: 0.725 | Acc: 86.000% (5160/6000)
+using cuda
+==> Preparing data..
+48681 / 2370 Acc: %95.36: true / false finazalized dataset distribution
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Number of parameters in teacher model: 32700082
+lr: 0.01, epoch: 10, budget: 4k threshold: 9
+(0/10) Substitute Model Train Loss: 2.079	 Acc: 28.609% (14605/51051) |  Valid Loss: 0.091	 Acc: 80.100% (4806/6000)
+(1/10) Substitute Model Train Loss: 0.320	 Acc: 89.732% (45809/51051) |  Valid Loss: 0.037	 Acc: 90.400% (5424/6000)
+(2/10) Substitute Model Train Loss: 0.149	 Acc: 95.687% (48849/51051) |  Valid Loss: 0.038	 Acc: 91.033% (5462/6000)
+(3/10) Substitute Model Train Loss: 0.121	 Acc: 96.464% (49246/51051) |  Valid Loss: 0.038	 Acc: 91.167% (5470/6000)
+(4/10) Substitute Model Train Loss: 0.102	 Acc: 96.987% (49513/51051) |  Valid Loss: 0.039	 Acc: 91.383% (5483/6000)
+(5/10) Substitute Model Train Loss: 0.090	 Acc: 97.377% (49712/51051) |  Valid Loss: 0.040	 Acc: 91.633% (5498/6000)
+(6/10) Substitute Model Train Loss: 0.084	 Acc: 97.487% (49768/51051) |  Valid Loss: 0.038	 Acc: 91.750% (5505/6000)
+(7/10) Substitute Model Train Loss: 0.075	 Acc: 97.765% (49910/51051) |  Valid Loss: 0.038	 Acc: 92.067% (5524/6000)
+(8/10) Substitute Model Train Loss: 0.069	 Acc: 97.918% (49988/51051) |  Valid Loss: 0.041	 Acc: 91.683% (5501/6000)
+(9/10) Substitute Model Train Loss: 0.060	 Acc: 98.206% (50135/51051) |  Valid Loss: 0.041	 Acc: 91.933% (5516/6000)
+Test Loss: 0.351 | Acc: 91.933% (5516/6000)
+using cuda
+==> Preparing data..
+45587 / 2315 Acc: %95.17: true / false finazalized dataset distribution
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Number of parameters in teacher model: 32700082
+lr: 0.01, epoch: 10, budget: 2k threshold: 9
+(0/10) Substitute Model Train Loss: 2.133	 Acc: 26.057% (12482/47902) |  Valid Loss: 0.124	 Acc: 80.883% (4853/6000)
+(1/10) Substitute Model Train Loss: 0.338	 Acc: 89.218% (42737/47902) |  Valid Loss: 0.048	 Acc: 89.100% (5346/6000)
+(2/10) Substitute Model Train Loss: 0.137	 Acc: 96.119% (46043/47902) |  Valid Loss: 0.044	 Acc: 90.250% (5415/6000)
+(3/10) Substitute Model Train Loss: 0.108	 Acc: 96.846% (46391/47902) |  Valid Loss: 0.047	 Acc: 90.400% (5424/6000)
+(4/10) Substitute Model Train Loss: 0.093	 Acc: 97.290% (46604/47902) |  Valid Loss: 0.046	 Acc: 90.817% (5449/6000)
+(5/10) Substitute Model Train Loss: 0.083	 Acc: 97.482% (46696/47902) |  Valid Loss: 0.049	 Acc: 90.583% (5435/6000)
+(6/10) Substitute Model Train Loss: 0.073	 Acc: 97.775% (46836/47902) |  Valid Loss: 0.048	 Acc: 90.767% (5446/6000)
+(7/10) Substitute Model Train Loss: 0.067	 Acc: 97.956% (46923/47902) |  Valid Loss: 0.050	 Acc: 90.750% (5445/6000)
+(8/10) Substitute Model Train Loss: 0.060	 Acc: 98.198% (47039/47902) |  Valid Loss: 0.050	 Acc: 90.700% (5442/6000)
+(9/10) Substitute Model Train Loss: 0.056	 Acc: 98.315% (47095/47902) |  Valid Loss: 0.050	 Acc: 90.867% (5452/6000)
+Test Loss: 0.396 | Acc: 90.867% (5452/6000)
+using cuda
+==> Preparing data..
+45489 / 3188 Acc: %93.45: true / false finazalized dataset distribution
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Number of parameters in teacher model: 32700082
+lr: 0.01, epoch: 10, budget: 1k threshold: 9
+(0/10) Substitute Model Train Loss: 2.125	 Acc: 26.774% (13033/48677) |  Valid Loss: 0.124	 Acc: 74.483% (4469/6000)
+(1/10) Substitute Model Train Loss: 0.374	 Acc: 87.848% (42762/48677) |  Valid Loss: 0.047	 Acc: 88.733% (5324/6000)
+(2/10) Substitute Model Train Loss: 0.163	 Acc: 95.205% (46343/48677) |  Valid Loss: 0.047	 Acc: 89.733% (5384/6000)
+(3/10) Substitute Model Train Loss: 0.130	 Acc: 96.142% (46799/48677) |  Valid Loss: 0.049	 Acc: 89.917% (5395/6000)
+(4/10) Substitute Model Train Loss: 0.113	 Acc: 96.703% (47072/48677) |  Valid Loss: 0.048	 Acc: 90.167% (5410/6000)
+(5/10) Substitute Model Train Loss: 0.099	 Acc: 96.931% (47183/48677) |  Valid Loss: 0.051	 Acc: 90.100% (5406/6000)
+(6/10) Substitute Model Train Loss: 0.089	 Acc: 97.307% (47366/48677) |  Valid Loss: 0.052	 Acc: 90.100% (5406/6000)
+(7/10) Substitute Model Train Loss: 0.080	 Acc: 97.537% (47478/48677) |  Valid Loss: 0.053	 Acc: 90.183% (5411/6000)
+(8/10) Substitute Model Train Loss: 0.072	 Acc: 97.814% (47613/48677) |  Valid Loss: 0.054	 Acc: 90.417% (5425/6000)
+(9/10) Substitute Model Train Loss: 0.064	 Acc: 98.131% (47767/48677) |  Valid Loss: 0.059	 Acc: 89.950% (5397/6000)
+Test Loss: 0.477 | Acc: 89.950% (5397/6000)
+using cuda
+==> Preparing data..
+40514 / 4002 Acc: %91.01: true / false finazalized dataset distribution
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Number of parameters in teacher model: 32700082
+lr: 0.01, epoch: 10, budget: 250 threshold: 9
+(0/10) Substitute Model Train Loss: 2.122	 Acc: 22.870% (10181/44516) |  Valid Loss: 0.160	 Acc: 73.267% (4396/6000)
+(1/10) Substitute Model Train Loss: 0.365	 Acc: 88.620% (39450/44516) |  Valid Loss: 0.078	 Acc: 85.817% (5149/6000)
+(2/10) Substitute Model Train Loss: 0.154	 Acc: 95.363% (42452/44516) |  Valid Loss: 0.080	 Acc: 86.100% (5166/6000)
+(3/10) Substitute Model Train Loss: 0.128	 Acc: 96.087% (42774/44516) |  Valid Loss: 0.090	 Acc: 85.367% (5122/6000)
+(4/10) Substitute Model Train Loss: 0.112	 Acc: 96.505% (42960/44516) |  Valid Loss: 0.094	 Acc: 85.300% (5118/6000)
+(5/10) Substitute Model Train Loss: 0.102	 Acc: 96.873% (43124/44516) |  Valid Loss: 0.093	 Acc: 85.550% (5133/6000)
+(6/10) Substitute Model Train Loss: 0.093	 Acc: 97.221% (43279/44516) |  Valid Loss: 0.093	 Acc: 85.483% (5129/6000)
+(7/10) Substitute Model Train Loss: 0.086	 Acc: 97.338% (43331/44516) |  Valid Loss: 0.101	 Acc: 84.950% (5097/6000)
+(8/10) Substitute Model Train Loss: 0.076	 Acc: 97.668% (43478/44516) |  Valid Loss: 0.101	 Acc: 85.117% (5107/6000)
+(9/10) Substitute Model Train Loss: 0.072	 Acc: 97.751% (43515/44516) |  Valid Loss: 0.100	 Acc: 85.317% (5119/6000)
+Test Loss: 0.739 | Acc: 85.317% (5119/6000)
+using cuda
+==> Preparing data..
+49247 / 2651 Acc: %94.89: true / false finazalized dataset distribution
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Number of parameters in teacher model: 32700082
+lr: 0.01, epoch: 10, budget: 4k threshold: 8
+(0/10) Substitute Model Train Loss: 2.065	 Acc: 27.926% (14493/51898) |  Valid Loss: 0.085	 Acc: 81.517% (4891/6000)
+(1/10) Substitute Model Train Loss: 0.324	 Acc: 89.502% (46450/51898) |  Valid Loss: 0.040	 Acc: 90.150% (5409/6000)
+(2/10) Substitute Model Train Loss: 0.162	 Acc: 95.125% (49368/51898) |  Valid Loss: 0.041	 Acc: 90.733% (5444/6000)
+(3/10) Substitute Model Train Loss: 0.127	 Acc: 96.254% (49954/51898) |  Valid Loss: 0.039	 Acc: 91.100% (5466/6000)
+(4/10) Substitute Model Train Loss: 0.110	 Acc: 96.678% (50174/51898) |  Valid Loss: 0.037	 Acc: 91.550% (5493/6000)
+(5/10) Substitute Model Train Loss: 0.099	 Acc: 97.085% (50385/51898) |  Valid Loss: 0.041	 Acc: 90.867% (5452/6000)
+(6/10) Substitute Model Train Loss: 0.089	 Acc: 97.364% (50530/51898) |  Valid Loss: 0.040	 Acc: 91.467% (5488/6000)
+(7/10) Substitute Model Train Loss: 0.079	 Acc: 97.586% (50645/51898) |  Valid Loss: 0.040	 Acc: 91.317% (5479/6000)
+(8/10) Substitute Model Train Loss: 0.071	 Acc: 97.836% (50775/51898) |  Valid Loss: 0.043	 Acc: 91.283% (5477/6000)
+(9/10) Substitute Model Train Loss: 0.066	 Acc: 98.037% (50879/51898) |  Valid Loss: 0.041	 Acc: 91.600% (5496/6000)
+Test Loss: 0.352 | Acc: 91.600% (5496/6000)
+using cuda
+==> Preparing data..
+46337 / 2696 Acc: %94.50: true / false finazalized dataset distribution
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Number of parameters in teacher model: 32700082
+lr: 0.01, epoch: 10, budget: 2k threshold: 8
+(0/10) Substitute Model Train Loss: 2.115	 Acc: 27.006% (13242/49033) |  Valid Loss: 0.112	 Acc: 82.167% (4930/6000)
+(1/10) Substitute Model Train Loss: 0.334	 Acc: 89.362% (43817/49033) |  Valid Loss: 0.048	 Acc: 89.450% (5367/6000)
+(2/10) Substitute Model Train Loss: 0.142	 Acc: 95.825% (46986/49033) |  Valid Loss: 0.045	 Acc: 90.083% (5405/6000)
+(3/10) Substitute Model Train Loss: 0.113	 Acc: 96.737% (47433/49033) |  Valid Loss: 0.049	 Acc: 89.767% (5386/6000)
+(4/10) Substitute Model Train Loss: 0.105	 Acc: 96.937% (47531/49033) |  Valid Loss: 0.045	 Acc: 90.583% (5435/6000)
+(5/10) Substitute Model Train Loss: 0.092	 Acc: 97.304% (47711/49033) |  Valid Loss: 0.046	 Acc: 90.617% (5437/6000)
+(6/10) Substitute Model Train Loss: 0.080	 Acc: 97.593% (47853/49033) |  Valid Loss: 0.048	 Acc: 90.367% (5422/6000)
+(7/10) Substitute Model Train Loss: 0.075	 Acc: 97.718% (47914/49033) |  Valid Loss: 0.048	 Acc: 90.883% (5453/6000)
+(8/10) Substitute Model Train Loss: 0.072	 Acc: 97.820% (47964/49033) |  Valid Loss: 0.047	 Acc: 90.933% (5456/6000)
+(9/10) Substitute Model Train Loss: 0.062	 Acc: 98.187% (48144/49033) |  Valid Loss: 0.052	 Acc: 90.750% (5445/6000)
+Test Loss: 0.427 | Acc: 90.750% (5445/6000)
+using cuda
+==> Preparing data..
+45849 / 3560 Acc: %92.79: true / false finazalized dataset distribution
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Number of parameters in teacher model: 32700082
+lr: 0.01, epoch: 10, budget: 1k threshold: 8
+(0/10) Substitute Model Train Loss: 2.114	 Acc: 26.993% (13337/49409) |  Valid Loss: 0.124	 Acc: 64.600% (3876/6000)
+(1/10) Substitute Model Train Loss: 0.403	 Acc: 86.701% (42838/49409) |  Valid Loss: 0.049	 Acc: 88.517% (5311/6000)
+(2/10) Substitute Model Train Loss: 0.207	 Acc: 94.060% (46474/49409) |  Valid Loss: 0.047	 Acc: 89.833% (5390/6000)
+(3/10) Substitute Model Train Loss: 0.153	 Acc: 95.400% (47136/49409) |  Valid Loss: 0.052	 Acc: 89.850% (5391/6000)
+(4/10) Substitute Model Train Loss: 0.132	 Acc: 96.227% (47545/49409) |  Valid Loss: 0.053	 Acc: 89.933% (5396/6000)
+(5/10) Substitute Model Train Loss: 0.127	 Acc: 96.343% (47602/49409) |  Valid Loss: 0.054	 Acc: 89.767% (5386/6000)
+(6/10) Substitute Model Train Loss: 0.116	 Acc: 96.739% (47798/49409) |  Valid Loss: 0.055	 Acc: 89.650% (5379/6000)
+(7/10) Substitute Model Train Loss: 0.115	 Acc: 96.717% (47787/49409) |  Valid Loss: 0.054	 Acc: 90.050% (5403/6000)
+(8/10) Substitute Model Train Loss: 0.102	 Acc: 97.013% (47933/49409) |  Valid Loss: 0.059	 Acc: 89.650% (5379/6000)
+(9/10) Substitute Model Train Loss: 0.089	 Acc: 97.472% (48160/49409) |  Valid Loss: 0.061	 Acc: 89.550% (5373/6000)
+Test Loss: 0.503 | Acc: 89.550% (5373/6000)
+using cuda
+==> Preparing data..
+41422 / 4857 Acc: %89.50: true / false finazalized dataset distribution
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Number of parameters in teacher model: 32700082
+lr: 0.01, epoch: 10, budget: 250 threshold: 8
+(0/10) Substitute Model Train Loss: 2.099	 Acc: 24.391% (11288/46279) |  Valid Loss: 0.141	 Acc: 71.133% (4268/6000)
+(1/10) Substitute Model Train Loss: 0.369	 Acc: 88.342% (40884/46279) |  Valid Loss: 0.070	 Acc: 85.500% (5130/6000)
+(2/10) Substitute Model Train Loss: 0.181	 Acc: 94.503% (43735/46279) |  Valid Loss: 0.083	 Acc: 85.183% (5111/6000)
+(3/10) Substitute Model Train Loss: 0.149	 Acc: 95.404% (44152/46279) |  Valid Loss: 0.085	 Acc: 85.117% (5107/6000)
+(4/10) Substitute Model Train Loss: 0.134	 Acc: 95.879% (44372/46279) |  Valid Loss: 0.089	 Acc: 85.150% (5109/6000)
+(5/10) Substitute Model Train Loss: 0.122	 Acc: 96.361% (44595/46279) |  Valid Loss: 0.089	 Acc: 85.500% (5130/6000)
+(6/10) Substitute Model Train Loss: 0.111	 Acc: 96.497% (44658/46279) |  Valid Loss: 0.092	 Acc: 84.750% (5085/6000)
+(7/10) Substitute Model Train Loss: 0.097	 Acc: 96.912% (44850/46279) |  Valid Loss: 0.091	 Acc: 85.300% (5118/6000)
+(8/10) Substitute Model Train Loss: 0.095	 Acc: 97.014% (44897/46279) |  Valid Loss: 0.095	 Acc: 85.033% (5102/6000)
+(9/10) Substitute Model Train Loss: 0.084	 Acc: 97.327% (45042/46279) |  Valid Loss: 0.095	 Acc: 85.233% (5114/6000)
+Test Loss: 0.732 | Acc: 85.233% (5114/6000)
+using cuda
+==> Preparing data..
+49598 / 2880 Acc: %94.51: true / false finazalized dataset distribution
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Number of parameters in teacher model: 32700082
+lr: 0.01, epoch: 10, budget: 4k threshold: 7
+(0/10) Substitute Model Train Loss: 2.068	 Acc: 27.684% (14528/52478) |  Valid Loss: 0.087	 Acc: 77.600% (4656/6000)
+(1/10) Substitute Model Train Loss: 0.334	 Acc: 89.030% (46721/52478) |  Valid Loss: 0.038	 Acc: 90.217% (5413/6000)
+(2/10) Substitute Model Train Loss: 0.166	 Acc: 95.072% (49892/52478) |  Valid Loss: 0.038	 Acc: 90.933% (5456/6000)
+(3/10) Substitute Model Train Loss: 0.134	 Acc: 96.023% (50391/52478) |  Valid Loss: 0.038	 Acc: 91.150% (5469/6000)
+(4/10) Substitute Model Train Loss: 0.114	 Acc: 96.593% (50690/52478) |  Valid Loss: 0.037	 Acc: 91.517% (5491/6000)
+(5/10) Substitute Model Train Loss: 0.103	 Acc: 96.842% (50821/52478) |  Valid Loss: 0.039	 Acc: 91.400% (5484/6000)
+(6/10) Substitute Model Train Loss: 0.091	 Acc: 97.286% (51054/52478) |  Valid Loss: 0.039	 Acc: 91.500% (5490/6000)
+(7/10) Substitute Model Train Loss: 0.082	 Acc: 97.572% (51204/52478) |  Valid Loss: 0.040	 Acc: 91.600% (5496/6000)
+(8/10) Substitute Model Train Loss: 0.075	 Acc: 97.742% (51293/52478) |  Valid Loss: 0.041	 Acc: 91.617% (5497/6000)
+(9/10) Substitute Model Train Loss: 0.069	 Acc: 97.885% (51368/52478) |  Valid Loss: 0.042	 Acc: 91.550% (5493/6000)
+Test Loss: 0.371 | Acc: 91.550% (5493/6000)
+using cuda
+==> Preparing data..
+46825 / 3055 Acc: %93.88: true / false finazalized dataset distribution
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Number of parameters in teacher model: 32700082
+lr: 0.01, epoch: 10, budget: 2k threshold: 7
+(0/10) Substitute Model Train Loss: 2.111	 Acc: 27.418% (13676/49880) |  Valid Loss: 0.110	 Acc: 79.217% (4753/6000)
+(1/10) Substitute Model Train Loss: 0.340	 Acc: 88.903% (44345/49880) |  Valid Loss: 0.044	 Acc: 89.550% (5373/6000)
+(2/10) Substitute Model Train Loss: 0.152	 Acc: 95.601% (47686/49880) |  Valid Loss: 0.045	 Acc: 89.983% (5399/6000)
+(3/10) Substitute Model Train Loss: 0.123	 Acc: 96.439% (48104/49880) |  Valid Loss: 0.044	 Acc: 90.417% (5425/6000)
+(4/10) Substitute Model Train Loss: 0.110	 Acc: 96.750% (48259/49880) |  Valid Loss: 0.049	 Acc: 90.217% (5413/6000)
+(5/10) Substitute Model Train Loss: 0.093	 Acc: 97.231% (48499/49880) |  Valid Loss: 0.048	 Acc: 90.767% (5446/6000)
+(6/10) Substitute Model Train Loss: 0.087	 Acc: 97.370% (48568/49880) |  Valid Loss: 0.045	 Acc: 90.700% (5442/6000)
+(7/10) Substitute Model Train Loss: 0.075	 Acc: 97.713% (48739/49880) |  Valid Loss: 0.048	 Acc: 90.967% (5458/6000)
+(8/10) Substitute Model Train Loss: 0.067	 Acc: 97.915% (48840/49880) |  Valid Loss: 0.051	 Acc: 90.633% (5438/6000)
+(9/10) Substitute Model Train Loss: 0.063	 Acc: 98.019% (48892/49880) |  Valid Loss: 0.051	 Acc: 90.800% (5448/6000)
+Test Loss: 0.425 | Acc: 90.800% (5448/6000)
+using cuda
+==> Preparing data..
+46043 / 3856 Acc: %92.27: true / false finazalized dataset distribution
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Number of parameters in teacher model: 32700082
+lr: 0.01, epoch: 10, budget: 1k threshold: 7
+(0/10) Substitute Model Train Loss: 2.132	 Acc: 25.239% (12594/49899) |  Valid Loss: 0.126	 Acc: 66.583% (3995/6000)
+(1/10) Substitute Model Train Loss: 0.410	 Acc: 86.429% (43127/49899) |  Valid Loss: 0.045	 Acc: 88.767% (5326/6000)
+(2/10) Substitute Model Train Loss: 0.188	 Acc: 94.228% (47019/49899) |  Valid Loss: 0.045	 Acc: 89.783% (5387/6000)
+(3/10) Substitute Model Train Loss: 0.152	 Acc: 95.353% (47580/49899) |  Valid Loss: 0.046	 Acc: 89.817% (5389/6000)
+(4/10) Substitute Model Train Loss: 0.131	 Acc: 95.998% (47902/49899) |  Valid Loss: 0.050	 Acc: 89.700% (5382/6000)
+(5/10) Substitute Model Train Loss: 0.119	 Acc: 96.260% (48033/49899) |  Valid Loss: 0.052	 Acc: 89.717% (5383/6000)
+(6/10) Substitute Model Train Loss: 0.107	 Acc: 96.615% (48210/49899) |  Valid Loss: 0.052	 Acc: 89.650% (5379/6000)
+(7/10) Substitute Model Train Loss: 0.096	 Acc: 97.068% (48436/49899) |  Valid Loss: 0.056	 Acc: 89.433% (5366/6000)
+(8/10) Substitute Model Train Loss: 0.088	 Acc: 97.283% (48543/49899) |  Valid Loss: 0.054	 Acc: 89.733% (5384/6000)
+(9/10) Substitute Model Train Loss: 0.080	 Acc: 97.571% (48687/49899) |  Valid Loss: 0.057	 Acc: 89.300% (5358/6000)
+Test Loss: 0.477 | Acc: 89.300% (5358/6000)
+using cuda
+==> Preparing data..
+41844 / 5569 Acc: %88.25: true / false finazalized dataset distribution
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Number of parameters in teacher model: 32700082
+lr: 0.01, epoch: 10, budget: 250 threshold: 7
+(0/10) Substitute Model Train Loss: 2.083	 Acc: 24.278% (11511/47413) |  Valid Loss: 0.140	 Acc: 70.633% (4238/6000)
+(1/10) Substitute Model Train Loss: 0.374	 Acc: 88.105% (41773/47413) |  Valid Loss: 0.076	 Acc: 84.533% (5072/6000)
+(2/10) Substitute Model Train Loss: 0.200	 Acc: 93.820% (44483/47413) |  Valid Loss: 0.081	 Acc: 84.900% (5094/6000)
+(3/10) Substitute Model Train Loss: 0.166	 Acc: 94.862% (44977/47413) |  Valid Loss: 0.081	 Acc: 85.267% (5116/6000)
+(4/10) Substitute Model Train Loss: 0.148	 Acc: 95.354% (45210/47413) |  Valid Loss: 0.091	 Acc: 84.700% (5082/6000)
+(5/10) Substitute Model Train Loss: 0.133	 Acc: 95.809% (45426/47413) |  Valid Loss: 0.095	 Acc: 84.383% (5063/6000)
+(6/10) Substitute Model Train Loss: 0.124	 Acc: 96.092% (45560/47413) |  Valid Loss: 0.088	 Acc: 85.300% (5118/6000)
+(7/10) Substitute Model Train Loss: 0.112	 Acc: 96.425% (45718/47413) |  Valid Loss: 0.096	 Acc: 84.617% (5077/6000)
+(8/10) Substitute Model Train Loss: 0.104	 Acc: 96.693% (45845/47413) |  Valid Loss: 0.098	 Acc: 84.667% (5080/6000)
+(9/10) Substitute Model Train Loss: 0.098	 Acc: 96.843% (45916/47413) |  Valid Loss: 0.102	 Acc: 84.283% (5057/6000)
+Test Loss: 0.803 | Acc: 84.283% (5057/6000)
+using cuda
+==> Preparing data..
+49810 / 3163 Acc: %94.03: true / false finazalized dataset distribution
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Number of parameters in teacher model: 32700082
+lr: 0.01, epoch: 10, budget: 4k threshold: 6
+(0/10) Substitute Model Train Loss: 2.067	 Acc: 27.576% (14608/52973) |  Valid Loss: 0.083	 Acc: 83.000% (4980/6000)
+(1/10) Substitute Model Train Loss: 0.343	 Acc: 88.919% (47103/52973) |  Valid Loss: 0.037	 Acc: 90.133% (5408/6000)
+(2/10) Substitute Model Train Loss: 0.173	 Acc: 94.814% (50226/52973) |  Valid Loss: 0.037	 Acc: 90.867% (5452/6000)
+(3/10) Substitute Model Train Loss: 0.138	 Acc: 95.775% (50735/52973) |  Valid Loss: 0.041	 Acc: 90.833% (5450/6000)
+(4/10) Substitute Model Train Loss: 0.119	 Acc: 96.355% (51042/52973) |  Valid Loss: 0.038	 Acc: 91.300% (5478/6000)
+(5/10) Substitute Model Train Loss: 0.109	 Acc: 96.796% (51276/52973) |  Valid Loss: 0.039	 Acc: 91.283% (5477/6000)
+(6/10) Substitute Model Train Loss: 0.099	 Acc: 97.048% (51409/52973) |  Valid Loss: 0.041	 Acc: 90.933% (5456/6000)
+(7/10) Substitute Model Train Loss: 0.086	 Acc: 97.457% (51626/52973) |  Valid Loss: 0.041	 Acc: 91.333% (5480/6000)
+(8/10) Substitute Model Train Loss: 0.079	 Acc: 97.535% (51667/52973) |  Valid Loss: 0.042	 Acc: 91.350% (5481/6000)
+(9/10) Substitute Model Train Loss: 0.074	 Acc: 97.769% (51791/52973) |  Valid Loss: 0.042	 Acc: 91.600% (5496/6000)
+Test Loss: 0.369 | Acc: 91.600% (5496/6000)
+using cuda
+==> Preparing data..
+47131 / 3421 Acc: %93.23: true / false finazalized dataset distribution
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Number of parameters in teacher model: 32700082
+lr: 0.01, epoch: 10, budget: 2k threshold: 6
+(0/10) Substitute Model Train Loss: 2.102	 Acc: 26.592% (13443/50552) |  Valid Loss: 0.107	 Acc: 77.467% (4648/6000)
+(1/10) Substitute Model Train Loss: 0.349	 Acc: 88.505% (44741/50552) |  Valid Loss: 0.046	 Acc: 89.217% (5353/6000)
+(2/10) Substitute Model Train Loss: 0.164	 Acc: 95.161% (48106/50552) |  Valid Loss: 0.044	 Acc: 89.933% (5396/6000)
+(3/10) Substitute Model Train Loss: 0.132	 Acc: 96.026% (48543/50552) |  Valid Loss: 0.044	 Acc: 90.250% (5415/6000)
+(4/10) Substitute Model Train Loss: 0.117	 Acc: 96.471% (48768/50552) |  Valid Loss: 0.044	 Acc: 90.133% (5408/6000)
+(5/10) Substitute Model Train Loss: 0.103	 Acc: 96.880% (48975/50552) |  Valid Loss: 0.045	 Acc: 90.700% (5442/6000)
+(6/10) Substitute Model Train Loss: 0.094	 Acc: 97.207% (49140/50552) |  Valid Loss: 0.049	 Acc: 90.333% (5420/6000)
+(7/10) Substitute Model Train Loss: 0.083	 Acc: 97.385% (49230/50552) |  Valid Loss: 0.050	 Acc: 90.767% (5446/6000)
+(8/10) Substitute Model Train Loss: 0.077	 Acc: 97.610% (49344/50552) |  Valid Loss: 0.049	 Acc: 90.633% (5438/6000)
+(9/10) Substitute Model Train Loss: 0.072	 Acc: 97.769% (49424/50552) |  Valid Loss: 0.051	 Acc: 90.533% (5432/6000)
+Test Loss: 0.429 | Acc: 90.533% (5432/6000)
+using cuda
+==> Preparing data..
+46181 / 4149 Acc: %91.76: true / false finazalized dataset distribution
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Number of parameters in teacher model: 32700082
+lr: 0.01, epoch: 10, budget: 1k threshold: 6
+(0/10) Substitute Model Train Loss: 2.104	 Acc: 26.491% (13333/50330) |  Valid Loss: 0.109	 Acc: 75.533% (4532/6000)
+(1/10) Substitute Model Train Loss: 0.397	 Acc: 87.103% (43839/50330) |  Valid Loss: 0.044	 Acc: 88.917% (5335/6000)
+(2/10) Substitute Model Train Loss: 0.200	 Acc: 93.849% (47234/50330) |  Valid Loss: 0.047	 Acc: 89.350% (5361/6000)
+(3/10) Substitute Model Train Loss: 0.170	 Acc: 94.822% (47724/50330) |  Valid Loss: 0.047	 Acc: 89.717% (5383/6000)
+(4/10) Substitute Model Train Loss: 0.143	 Acc: 95.609% (48120/50330) |  Valid Loss: 0.047	 Acc: 89.967% (5398/6000)
+(5/10) Substitute Model Train Loss: 0.132	 Acc: 95.818% (48225/50330) |  Valid Loss: 0.048	 Acc: 90.117% (5407/6000)
+(6/10) Substitute Model Train Loss: 0.116	 Acc: 96.408% (48522/50330) |  Valid Loss: 0.049	 Acc: 89.900% (5394/6000)
+(7/10) Substitute Model Train Loss: 0.106	 Acc: 96.680% (48659/50330) |  Valid Loss: 0.052	 Acc: 90.183% (5411/6000)
+(8/10) Substitute Model Train Loss: 0.099	 Acc: 96.930% (48785/50330) |  Valid Loss: 0.051	 Acc: 89.900% (5394/6000)
+(9/10) Substitute Model Train Loss: 0.087	 Acc: 97.306% (48974/50330) |  Valid Loss: 0.054	 Acc: 89.867% (5392/6000)
+Test Loss: 0.451 | Acc: 89.867% (5392/6000)
+using cuda
+==> Preparing data..
+42148 / 6270 Acc: %87.05: true / false finazalized dataset distribution
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Number of parameters in teacher model: 32700082
+lr: 0.01, epoch: 10, budget: 250 threshold: 6
+(0/10) Substitute Model Train Loss: 2.069	 Acc: 24.222% (11728/48418) |  Valid Loss: 0.124	 Acc: 74.867% (4492/6000)
+(1/10) Substitute Model Train Loss: 0.387	 Acc: 87.608% (42418/48418) |  Valid Loss: 0.069	 Acc: 84.900% (5094/6000)
+(2/10) Substitute Model Train Loss: 0.222	 Acc: 93.118% (45086/48418) |  Valid Loss: 0.084	 Acc: 83.800% (5028/6000)
+(3/10) Substitute Model Train Loss: 0.185	 Acc: 94.339% (45677/48418) |  Valid Loss: 0.088	 Acc: 84.400% (5064/6000)
+(4/10) Substitute Model Train Loss: 0.168	 Acc: 94.729% (45866/48418) |  Valid Loss: 0.085	 Acc: 84.600% (5076/6000)
+(5/10) Substitute Model Train Loss: 0.150	 Acc: 95.140% (46065/48418) |  Valid Loss: 0.097	 Acc: 84.250% (5055/6000)
+(6/10) Substitute Model Train Loss: 0.140	 Acc: 95.590% (46283/48418) |  Valid Loss: 0.092	 Acc: 84.817% (5089/6000)
+(7/10) Substitute Model Train Loss: 0.123	 Acc: 96.006% (46484/48418) |  Valid Loss: 0.097	 Acc: 84.267% (5056/6000)
+(8/10) Substitute Model Train Loss: 0.120	 Acc: 96.216% (46586/48418) |  Valid Loss: 0.093	 Acc: 84.150% (5049/6000)
+(9/10) Substitute Model Train Loss: 0.109	 Acc: 96.495% (46721/48418) |  Valid Loss: 0.101	 Acc: 84.200% (5052/6000)
+Test Loss: 0.815 | Acc: 84.200% (5052/6000)

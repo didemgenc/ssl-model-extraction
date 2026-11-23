@@ -1,0 +1,724 @@
+victim accuracy on 1k test split (6000 samples): 94.10%
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+1k_MLP_finetune_seed1.pth: acc 88.93  fidelity 88.22
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+1k_MLP_finetune_seed1_final.pth: acc 88.93  fidelity 88.22
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+1k_MLP_finetune_seed2.pth: acc 89.05  fidelity 88.38
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+1k_MLP_finetune_seed2_final.pth: acc 88.47  fidelity 87.83
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+1k_MLP_finetune_seed3.pth: acc 89.12  fidelity 88.48
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+1k_MLP_finetune_seed3_final.pth: acc 88.57  fidelity 87.83
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+1k_MLP_finetune_seed4.pth: acc 88.90  fidelity 88.55
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+1k_MLP_finetune_seed4_final.pth: acc 88.47  fidelity 87.95
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+1k_MLP_finetune_seed950.pth: acc 89.47  fidelity 88.57
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+1k_MLP_finetune_seed950_final.pth: acc 89.33  fidelity 88.40
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+1k_MLP_frozen_seed1.pth: acc 85.27  fidelity 84.52
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+1k_MLP_frozen_seed1_final.pth: acc 84.55  fidelity 84.20
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+1k_MLP_frozen_seed2.pth: acc 85.42  fidelity 84.97
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+1k_MLP_frozen_seed2_final.pth: acc 84.88  fidelity 84.08
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+1k_MLP_frozen_seed3.pth: acc 85.40  fidelity 85.12
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+1k_MLP_frozen_seed3_final.pth: acc 84.62  fidelity 84.28
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+1k_MLP_frozen_seed4.pth: acc 85.43  fidelity 84.82
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+1k_MLP_frozen_seed4_final.pth: acc 84.73  fidelity 84.58
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+1k_MLP_frozen_seed950.pth: acc 85.67  fidelity 85.37
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+1k_MLP_frozen_seed950_final.pth: acc 84.27  fidelity 83.47
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+1k_MLP_layer4_seed1.pth: acc 87.27  fidelity 86.63
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+1k_MLP_layer4_seed1_final.pth: acc 87.27  fidelity 86.63
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+1k_MLP_layer4_seed2.pth: acc 87.23  fidelity 86.47
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+1k_MLP_layer4_seed2_final.pth: acc 87.00  fidelity 86.37
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+1k_MLP_layer4_seed3.pth: acc 86.77  fidelity 86.32
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+1k_MLP_layer4_seed3_final.pth: acc 86.13  fidelity 85.32
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+1k_MLP_layer4_seed4.pth: acc 87.27  fidelity 86.85
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+1k_MLP_layer4_seed4_final.pth: acc 86.67  fidelity 86.00
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+1k_MLP_layer4_seed950.pth: acc 87.32  fidelity 86.67
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+1k_MLP_layer4_seed950_final.pth: acc 86.67  fidelity 85.93
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+1k_linear_finetune_seed1.pth: acc 89.37  fidelity 88.90
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+1k_linear_finetune_seed1_final.pth: acc 89.12  fidelity 88.87
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+1k_linear_finetune_seed2.pth: acc 89.03  fidelity 88.60
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+1k_linear_finetune_seed2_final.pth: acc 88.90  fidelity 88.53
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+1k_linear_finetune_seed3.pth: acc 89.25  fidelity 88.92
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+1k_linear_finetune_seed3_final.pth: acc 89.10  fidelity 88.75
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+1k_linear_finetune_seed4.pth: acc 89.32  fidelity 88.82
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+1k_linear_finetune_seed4_final.pth: acc 88.98  fidelity 88.52
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+1k_linear_finetune_seed950.pth: acc 89.13  fidelity 88.65
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+1k_linear_finetune_seed950_final.pth: acc 89.13  fidelity 88.65
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+1k_linear_frozen_seed1.pth: acc 85.95  fidelity 85.37
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+1k_linear_frozen_seed1_final.pth: acc 85.78  fidelity 85.18
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+1k_linear_frozen_seed2.pth: acc 86.00  fidelity 85.38
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+1k_linear_frozen_seed2_final.pth: acc 85.98  fidelity 85.45
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+1k_linear_frozen_seed3.pth: acc 85.95  fidelity 85.40
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+1k_linear_frozen_seed3_final.pth: acc 85.82  fidelity 85.22
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+1k_linear_frozen_seed4.pth: acc 86.02  fidelity 85.33
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+1k_linear_frozen_seed4_final.pth: acc 85.77  fidelity 85.22
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+1k_linear_frozen_seed950.pth: acc 86.08  fidelity 85.47
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+1k_linear_frozen_seed950_final.pth: acc 85.70  fidelity 85.12
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+1k_linear_layer4_seed1.pth: acc 87.55  fidelity 86.95
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+1k_linear_layer4_seed1_final.pth: acc 87.55  fidelity 86.95
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+1k_linear_layer4_seed2.pth: acc 87.32  fidelity 86.83
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+1k_linear_layer4_seed2_final.pth: acc 87.22  fidelity 86.93
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+1k_linear_layer4_seed3.pth: acc 87.43  fidelity 87.05
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+1k_linear_layer4_seed3_final.pth: acc 87.43  fidelity 87.05
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+1k_linear_layer4_seed4.pth: acc 87.28  fidelity 86.92
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+1k_linear_layer4_seed4_final.pth: acc 87.32  fidelity 86.67
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+1k_linear_layer4_seed950.pth: acc 87.30  fidelity 86.85
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+1k_linear_layer4_seed950_final.pth: acc 87.17  fidelity 86.67
+victim accuracy on 250 test split (6000 samples): 94.38%
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+250_MLP_finetune_seed1.pth: acc 83.18  fidelity 83.18
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+250_MLP_finetune_seed1_final.pth: acc 83.02  fidelity 83.15
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+250_MLP_finetune_seed2.pth: acc 82.82  fidelity 82.73
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+250_MLP_finetune_seed2_final.pth: acc 82.82  fidelity 82.73
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+250_MLP_finetune_seed3.pth: acc 82.90  fidelity 82.93
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+250_MLP_finetune_seed3_final.pth: acc 82.90  fidelity 82.93
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+250_MLP_finetune_seed4.pth: acc 83.75  fidelity 83.60
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+250_MLP_finetune_seed4_final.pth: acc 83.75  fidelity 83.60
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+250_MLP_finetune_seed950.pth: acc 82.77  fidelity 82.87
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+250_MLP_finetune_seed950_final.pth: acc 82.70  fidelity 82.63
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+250_MLP_frozen_seed1.pth: acc 79.90  fidelity 80.13
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+250_MLP_frozen_seed1_final.pth: acc 79.73  fidelity 80.17
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+250_MLP_frozen_seed2.pth: acc 79.38  fidelity 79.60
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+250_MLP_frozen_seed2_final.pth: acc 79.38  fidelity 79.60
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+250_MLP_frozen_seed3.pth: acc 80.08  fidelity 80.07
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+250_MLP_frozen_seed3_final.pth: acc 80.08  fidelity 80.07
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+250_MLP_frozen_seed4.pth: acc 81.05  fidelity 81.45
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+250_MLP_frozen_seed4_final.pth: acc 81.05  fidelity 81.45
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+250_MLP_frozen_seed950.pth: acc 80.07  fidelity 80.28
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+250_MLP_frozen_seed950_final.pth: acc 80.07  fidelity 80.28
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+250_MLP_layer4_seed1.pth: acc 82.67  fidelity 82.68
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+250_MLP_layer4_seed1_final.pth: acc 82.10  fidelity 82.28
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+250_MLP_layer4_seed2.pth: acc 81.97  fidelity 81.95
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+250_MLP_layer4_seed2_final.pth: acc 81.97  fidelity 81.95
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+250_MLP_layer4_seed3.pth: acc 82.15  fidelity 82.18
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+250_MLP_layer4_seed3_final.pth: acc 82.15  fidelity 82.18
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+250_MLP_layer4_seed4.pth: acc 83.08  fidelity 83.10
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+250_MLP_layer4_seed4_final.pth: acc 83.08  fidelity 83.10
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+250_MLP_layer4_seed950.pth: acc 82.08  fidelity 82.05
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+250_MLP_layer4_seed950_final.pth: acc 81.87  fidelity 81.85
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+250_linear_finetune_seed1.pth: acc 85.42  fidelity 85.18
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+250_linear_finetune_seed1_final.pth: acc 85.22  fidelity 85.25
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+250_linear_finetune_seed2.pth: acc 85.43  fidelity 85.27
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+250_linear_finetune_seed2_final.pth: acc 84.97  fidelity 85.03
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+250_linear_finetune_seed3.pth: acc 85.40  fidelity 85.43
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+250_linear_finetune_seed3_final.pth: acc 85.25  fidelity 85.30
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+250_linear_finetune_seed4.pth: acc 85.32  fidelity 85.03
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+250_linear_finetune_seed4_final.pth: acc 85.10  fidelity 85.10
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+250_linear_finetune_seed950.pth: acc 85.40  fidelity 85.33
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+250_linear_finetune_seed950_final.pth: acc 84.93  fidelity 85.03
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+250_linear_frozen_seed1.pth: acc 82.38  fidelity 82.45
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+250_linear_frozen_seed1_final.pth: acc 82.13  fidelity 82.23
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+250_linear_frozen_seed2.pth: acc 82.13  fidelity 82.30
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+250_linear_frozen_seed2_final.pth: acc 81.95  fidelity 82.00
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+250_linear_frozen_seed3.pth: acc 82.42  fidelity 82.42
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+250_linear_frozen_seed3_final.pth: acc 81.93  fidelity 82.02
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+250_linear_frozen_seed4.pth: acc 82.30  fidelity 82.27
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+250_linear_frozen_seed4_final.pth: acc 82.20  fidelity 82.37
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+250_linear_frozen_seed950.pth: acc 82.30  fidelity 82.37
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+250_linear_frozen_seed950_final.pth: acc 82.13  fidelity 82.22
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+250_linear_layer4_seed1.pth: acc 84.63  fidelity 84.43
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+250_linear_layer4_seed1_final.pth: acc 84.43  fidelity 84.32
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+250_linear_layer4_seed2.pth: acc 84.55  fidelity 84.40
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+250_linear_layer4_seed2_final.pth: acc 84.17  fidelity 84.00
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+250_linear_layer4_seed3.pth: acc 84.55  fidelity 84.48
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+250_linear_layer4_seed3_final.pth: acc 84.28  fidelity 84.20
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+250_linear_layer4_seed4.pth: acc 84.47  fidelity 84.38
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+250_linear_layer4_seed4_final.pth: acc 84.32  fidelity 84.15
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+250_linear_layer4_seed950.pth: acc 84.40  fidelity 84.30
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+250_linear_layer4_seed950_final.pth: acc 84.12  fidelity 84.12
+victim accuracy on 2k test split (6000 samples): 94.60%
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+2k_MLP_finetune_seed1.pth: acc 90.43  fidelity 89.97
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+2k_MLP_finetune_seed1_final.pth: acc 89.95  fidelity 89.52
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+2k_MLP_finetune_seed2.pth: acc 90.32  fidelity 89.67
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+2k_MLP_finetune_seed2_final.pth: acc 89.22  fidelity 88.95
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+2k_MLP_finetune_seed3.pth: acc 90.28  fidelity 89.63
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+2k_MLP_finetune_seed3_final.pth: acc 89.12  fidelity 88.68
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+2k_MLP_finetune_seed4.pth: acc 90.22  fidelity 89.78
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+2k_MLP_finetune_seed4_final.pth: acc 89.27  fidelity 89.00
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+2k_MLP_finetune_seed950.pth: acc 90.28  fidelity 89.93
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+2k_MLP_finetune_seed950_final.pth: acc 89.35  fidelity 89.18
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+2k_MLP_frozen_seed1.pth: acc 86.38  fidelity 85.72
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+2k_MLP_frozen_seed1_final.pth: acc 86.32  fidelity 85.45
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+2k_MLP_frozen_seed2.pth: acc 86.92  fidelity 86.23
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+2k_MLP_frozen_seed2_final.pth: acc 85.55  fidelity 85.23
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+2k_MLP_frozen_seed3.pth: acc 86.77  fidelity 86.27
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+2k_MLP_frozen_seed3_final.pth: acc 86.08  fidelity 85.47
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+2k_MLP_frozen_seed4.pth: acc 86.83  fidelity 86.28
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+2k_MLP_frozen_seed4_final.pth: acc 85.48  fidelity 85.12
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+2k_MLP_frozen_seed950.pth: acc 86.92  fidelity 86.30
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+2k_MLP_frozen_seed950_final.pth: acc 85.15  fidelity 85.00
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+2k_MLP_layer4_seed1.pth: acc 88.08  fidelity 87.32
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+2k_MLP_layer4_seed1_final.pth: acc 88.05  fidelity 87.85
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+2k_MLP_layer4_seed2.pth: acc 88.37  fidelity 87.37
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+2k_MLP_layer4_seed2_final.pth: acc 87.82  fidelity 87.28
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+2k_MLP_layer4_seed3.pth: acc 88.48  fidelity 87.88
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+2k_MLP_layer4_seed3_final.pth: acc 87.27  fidelity 86.77
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+2k_MLP_layer4_seed4.pth: acc 88.22  fidelity 87.90
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+2k_MLP_layer4_seed4_final.pth: acc 87.58  fidelity 87.38
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+2k_MLP_layer4_seed950.pth: acc 88.08  fidelity 87.43
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+2k_MLP_layer4_seed950_final.pth: acc 86.83  fidelity 86.67
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+2k_linear_finetune_seed1.pth: acc 90.28  fidelity 89.98
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+2k_linear_finetune_seed1_final.pth: acc 89.92  fidelity 89.82
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+2k_linear_finetune_seed2.pth: acc 90.27  fidelity 90.23
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+2k_linear_finetune_seed2_final.pth: acc 89.95  fidelity 89.78
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+2k_linear_finetune_seed3.pth: acc 90.25  fidelity 90.10
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+2k_linear_finetune_seed3_final.pth: acc 90.20  fidelity 89.92
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+2k_linear_finetune_seed4.pth: acc 90.17  fidelity 89.97
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+2k_linear_finetune_seed4_final.pth: acc 89.90  fidelity 89.87
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+2k_linear_finetune_seed950.pth: acc 90.18  fidelity 89.95
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+2k_linear_finetune_seed950_final.pth: acc 90.18  fidelity 89.95
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+2k_linear_frozen_seed1.pth: acc 87.18  fidelity 86.73
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+2k_linear_frozen_seed1_final.pth: acc 86.82  fidelity 86.32
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+2k_linear_frozen_seed2.pth: acc 87.07  fidelity 86.48
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+2k_linear_frozen_seed2_final.pth: acc 86.95  fidelity 86.47
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+2k_linear_frozen_seed3.pth: acc 87.20  fidelity 86.45
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+2k_linear_frozen_seed3_final.pth: acc 87.02  fidelity 86.48
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+2k_linear_frozen_seed4.pth: acc 87.12  fidelity 86.55
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+2k_linear_frozen_seed4_final.pth: acc 86.95  fidelity 86.37
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+2k_linear_frozen_seed950.pth: acc 87.12  fidelity 86.58
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+2k_linear_frozen_seed950_final.pth: acc 87.12  fidelity 86.55
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+2k_linear_layer4_seed1.pth: acc 88.45  fidelity 87.97
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+2k_linear_layer4_seed1_final.pth: acc 88.35  fidelity 87.83
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+2k_linear_layer4_seed2.pth: acc 88.52  fidelity 87.97
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+2k_linear_layer4_seed2_final.pth: acc 87.95  fidelity 87.43
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+2k_linear_layer4_seed3.pth: acc 88.65  fidelity 88.20
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+2k_linear_layer4_seed3_final.pth: acc 88.13  fidelity 87.90
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+2k_linear_layer4_seed4.pth: acc 88.43  fidelity 88.02
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+2k_linear_layer4_seed4_final.pth: acc 88.03  fidelity 87.63
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+2k_linear_layer4_seed950.pth: acc 88.33  fidelity 88.07
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+2k_linear_layer4_seed950_final.pth: acc 88.07  fidelity 87.70
+victim accuracy on 4k test split (6000 samples): 94.65%
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+4k_MLP_finetune_seed1.pth: acc 90.88  fidelity 90.32
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+4k_MLP_finetune_seed1_final.pth: acc 90.28  fidelity 89.88
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+4k_MLP_finetune_seed2.pth: acc 90.45  fidelity 89.97
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+4k_MLP_finetune_seed2_final.pth: acc 90.37  fidelity 89.95
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+4k_MLP_finetune_seed3.pth: acc 90.50  fidelity 89.53
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+4k_MLP_finetune_seed3_final.pth: acc 90.30  fidelity 89.88
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+4k_MLP_finetune_seed4.pth: acc 90.47  fidelity 89.87
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+4k_MLP_finetune_seed4_final.pth: acc 89.88  fidelity 89.80
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+4k_MLP_finetune_seed950.pth: acc 90.88  fidelity 90.22
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+4k_MLP_finetune_seed950_final.pth: acc 90.28  fidelity 89.83
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+4k_MLP_frozen_seed1.pth: acc 87.37  fidelity 86.82
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+4k_MLP_frozen_seed1_final.pth: acc 86.93  fidelity 85.93
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+4k_MLP_frozen_seed2.pth: acc 87.65  fidelity 86.75
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+4k_MLP_frozen_seed2_final.pth: acc 85.75  fidelity 85.30
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+4k_MLP_frozen_seed3.pth: acc 86.85  fidelity 86.03
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+4k_MLP_frozen_seed3_final.pth: acc 86.33  fidelity 85.87
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+4k_MLP_frozen_seed4.pth: acc 87.28  fidelity 86.77
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+4k_MLP_frozen_seed4_final.pth: acc 85.75  fidelity 85.08
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+4k_MLP_frozen_seed950.pth: acc 87.48  fidelity 86.73
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+4k_MLP_frozen_seed950_final.pth: acc 85.48  fidelity 84.92
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+4k_MLP_layer4_seed1.pth: acc 89.07  fidelity 88.67
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+4k_MLP_layer4_seed1_final.pth: acc 88.50  fidelity 87.88
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+4k_MLP_layer4_seed2.pth: acc 88.72  fidelity 87.97
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+4k_MLP_layer4_seed2_final.pth: acc 87.77  fidelity 87.10
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+4k_MLP_layer4_seed3.pth: acc 88.98  fidelity 87.75
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+4k_MLP_layer4_seed3_final.pth: acc 88.50  fidelity 87.88
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+4k_MLP_layer4_seed4.pth: acc 88.90  fidelity 88.10
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+4k_MLP_layer4_seed4_final.pth: acc 88.02  fidelity 87.28
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+4k_MLP_layer4_seed950.pth: acc 88.48  fidelity 87.70
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+4k_MLP_layer4_seed950_final.pth: acc 87.90  fidelity 87.43
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+4k_linear_finetune_seed1.pth: acc 91.17  fidelity 90.75
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+4k_linear_finetune_seed1_final.pth: acc 90.70  fidelity 90.38
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+4k_linear_finetune_seed2.pth: acc 91.03  fidelity 90.58
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+4k_linear_finetune_seed2_final.pth: acc 90.92  fidelity 90.48
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+4k_linear_finetune_seed3.pth: acc 91.00  fidelity 90.77
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+4k_linear_finetune_seed3_final.pth: acc 90.92  fidelity 90.62
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+4k_linear_finetune_seed4.pth: acc 90.90  fidelity 90.38
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+4k_linear_finetune_seed4_final.pth: acc 90.30  fidelity 90.05
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+4k_linear_finetune_seed950.pth: acc 91.25  fidelity 91.00
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+4k_linear_finetune_seed950_final.pth: acc 90.93  fidelity 90.77
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+4k_linear_frozen_seed1.pth: acc 88.08  fidelity 87.37
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+4k_linear_frozen_seed1_final.pth: acc 87.65  fidelity 87.00
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+4k_linear_frozen_seed2.pth: acc 87.93  fidelity 87.40
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+4k_linear_frozen_seed2_final.pth: acc 87.93  fidelity 87.40
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+4k_linear_frozen_seed3.pth: acc 87.98  fidelity 87.20
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+4k_linear_frozen_seed3_final.pth: acc 87.70  fidelity 87.03
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+4k_linear_frozen_seed4.pth: acc 87.88  fidelity 87.18
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+4k_linear_frozen_seed4_final.pth: acc 87.68  fidelity 87.02
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+4k_linear_frozen_seed950.pth: acc 87.95  fidelity 87.25
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+4k_linear_frozen_seed950_final.pth: acc 87.78  fidelity 87.07
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+4k_linear_layer4_seed1.pth: acc 89.52  fidelity 88.48
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+4k_linear_layer4_seed1_final.pth: acc 88.82  fidelity 88.12
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+4k_linear_layer4_seed2.pth: acc 88.82  fidelity 88.07
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+4k_linear_layer4_seed2_final.pth: acc 88.60  fidelity 87.75
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+4k_linear_layer4_seed3.pth: acc 89.35  fidelity 88.73
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+4k_linear_layer4_seed3_final.pth: acc 88.85  fidelity 88.27
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+4k_linear_layer4_seed4.pth: acc 89.27  fidelity 88.43
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+4k_linear_layer4_seed4_final.pth: acc 89.05  fidelity 88.35
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+4k_linear_layer4_seed950.pth: acc 89.13  fidelity 88.30
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+4k_linear_layer4_seed950_final.pth: acc 88.80  fidelity 88.20

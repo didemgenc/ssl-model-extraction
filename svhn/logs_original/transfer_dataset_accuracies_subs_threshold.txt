@@ -1,0 +1,65 @@
+Subs_threshold: 0.6	budget: 2k	Threshold: 0.95
+predicted by substitute: 42359/1878/44237 Acc: %95.75
+1940 / 60 / 2000 Acc: %97.00: true / false distribution susbtitute+ target labeled dataset!!
+8876 / 4683 / 13559 Acc: %65.46: true / false distribution cos_sim labeled dataset!!
+53175 / 6621 / 59796 Acc: %88.93: true / false finazalized dataset distribution
+Subs_threshold: 0.6	budget: 2k	Threshold: 0.9
+predicted by substitute: 44787/2654/47441 Acc: %94.41
+1940 / 60 / 2000 Acc: %97.00: true / false distribution susbtitute+ target labeled dataset!!
+6608 / 4236 / 10844 Acc: %60.94: true / false distribution cos_sim labeled dataset!!
+53335 / 6950 / 60285 Acc: %88.47: true / false finazalized dataset distribution
+Subs_threshold: 0.7	budget: 2k	Threshold: 0.9
+predicted by substitute: 44787/2654/47441 Acc: %94.41
+1940 / 60 / 2000 Acc: %97.00: true / false distribution susbtitute+ target labeled dataset!!
+3303 / 1392 / 4695 Acc: %70.35: true / false distribution cos_sim labeled dataset!!
+50030 / 4106 / 54136 Acc: %92.42: true / false finazalized dataset distribution
+Subs_threshold: 0.7	budget: 2k	Threshold: 0.95
+predicted by substitute: 42359/1878/44237 Acc: %95.75
+1940 / 60 / 2000 Acc: %97.00: true / false distribution susbtitute+ target labeled dataset!!
+4678 / 1578 / 6256 Acc: %74.78: true / false distribution cos_sim labeled dataset!!
+48977 / 3516 / 52493 Acc: %93.30: true / false finazalized dataset distribution
+Subs_threshold: 0.7	budget: 1k	Threshold: 0.95
+predicted by substitute: 44813/3144/47957 Acc: %93.44
+974 / 26 / 1000 Acc: %97.40: true / false distribution susbtitute+ target labeled dataset!!
+4080 / 1660 / 5740 Acc: %71.08: true / false distribution cos_sim labeled dataset!!
+49867 / 4830 / 54697 Acc: %91.17: true / false finazalized dataset distribution
+Subs_threshold: 0.7	budget: 1k	Threshold: 0.9
+predicted by substitute: 46509/4060/50569 Acc: %91.97
+974 / 26 / 1000 Acc: %97.40: true / false distribution susbtitute+ target labeled dataset!!
+2969 / 1424 / 4393 Acc: %67.58: true / false distribution cos_sim labeled dataset!!
+50452 / 5510 / 55962 Acc: %90.15: true / false finazalized dataset distribution
+Subs_threshold: 0.6	budget: 1k	Threshold: 0.9
+predicted by substitute: 46509/4060/50569 Acc: %91.97
+974 / 26 / 1000 Acc: %97.40: true / false distribution susbtitute+ target labeled dataset!!
+5024 / 3543 / 8567 Acc: %58.64: true / false distribution cos_sim labeled dataset!!
+52507 / 7629 / 60136 Acc: %87.31: true / false finazalized dataset distribution
+Subs_threshold: 0.6	budget: 1k	Threshold: 0.95
+predicted by substitute: 44813/3144/47957 Acc: %93.44
+974 / 26 / 1000 Acc: %97.40: true / false distribution susbtitute+ target labeled dataset!!
+6751 / 4165 / 10916 Acc: %61.84: true / false distribution cos_sim labeled dataset!!
+52538 / 7335 / 59873 Acc: %87.75: true / false finazalized dataset distribution
+Subs_threshold: 0.6	budget: 250	Threshold: 0.95
+predicted by substitute: 1/0/1 Acc: %100.00
+242 / 8 / 250 Acc: %96.80: true / false distribution susbtitute+ target labeled dataset!!
+2611 / 9660 / 12271 Acc: %21.28: true / false distribution cos_sim labeled dataset!!
+2854 / 9668 / 12522 Acc: %22.79: true / false finazalized dataset distribution
+Subs_threshold: 0.6	budget: 4k	Threshold: 0.95
+predicted by substitute: 52102/1082/53184 Acc: %97.97
+3893 / 107 / 4000 Acc: %97.33: true / false distribution susbtitute+ target labeled dataset!!
+4074 / 1828 / 5902 Acc: %69.03: true / false distribution cos_sim labeled dataset!!
+60069 / 3017 / 63086 Acc: %95.22: true / false finazalized dataset distribution
+Subs_threshold: 0.6	budget: 4k	Threshold: 0.9
+predicted by substitute: 53317/1433/54750 Acc: %97.38
+3893 / 107 / 4000 Acc: %97.33: true / false distribution susbtitute+ target labeled dataset!!
+2903 / 1551 / 4454 Acc: %65.18: true / false distribution cos_sim labeled dataset!!
+60113 / 3091 / 63204 Acc: %95.11: true / false finazalized dataset distribution
+Subs_threshold: 0.7	budget: 4k	Threshold: 0.9
+predicted by substitute: 53317/1433/54750 Acc: %97.38
+3893 / 107 / 4000 Acc: %97.33: true / false distribution susbtitute+ target labeled dataset!!
+1770 / 664 / 2434 Acc: %72.72: true / false distribution cos_sim labeled dataset!!
+58980 / 2204 / 61184 Acc: %96.40: true / false finazalized dataset distribution
+Subs_threshold: 0.7	budget: 4k	Threshold: 0.95
+predicted by substitute: 52102/1082/53184 Acc: %97.97
+3893 / 107 / 4000 Acc: %97.33: true / false distribution susbtitute+ target labeled dataset!!
+2626 / 847 / 3473 Acc: %75.61: true / false distribution cos_sim labeled dataset!!
+58621 / 2036 / 60657 Acc: %96.64: true / false finazalized dataset distribution

@@ -1,0 +1,2084 @@
+using cuda
+==> Preparing data..
+using cuda
+==> Preparing data..
+using cuda
+==> Preparing data..
+using cuda
+==> Preparing data..
+using cuda
+==> Preparing data..
+using cuda
+==> Preparing data..
+Files already downloaded and verified
+Files already downloaded and verified
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Test feature extractor
+Test Loss: 0.575 | Acc: 82.917% (4975/6000)
+predicted by substitute model all/true: 27891/27279, acc: 97.81
+transformed samples labeled by model 27891
+transformed target labeled 250
+total dataset length 28141
+Samples pseudolabeled by encoder+MLP model has created and saved
+27515 / 626 / 28141 Acc: %97.78: true / false distribution susbtitute labeled dataset!!
+embeddings are calculated, most similar labels will calculate
+calculting similarity matrix
+Calculating similarity matrix in batches...
+Top values: tensor([[0.8027],
+        [0.9423],
+        [0.6757],
+        ...,
+        [0.6106],
+        [0.9477],
+        [0.7862]])
+Top indices: tensor([[24351],
+        [13824],
+        [25438],
+        ...,
+        [11399],
+        [17410],
+        [13953]])
+Top indices size: torch.Size([22109, 1])
+images are chosen
+15061 / 5415 / 20476 Acc: %73.55: true / false distribution cos_sim labeled dataset!!
+42576 / 6041 / 48617 Acc: %87.57: true / false finazalized dataset distribution
+using cuda
+==> Preparing data..
+Files already downloaded and verified
+Files already downloaded and verified
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Test feature extractor
+Test Loss: 0.575 | Acc: 82.917% (4975/6000)
+predicted by substitute model all/true: 32924/31789, acc: 96.55
+transformed samples labeled by model 32924
+transformed target labeled 250
+total dataset length 33174
+Samples pseudolabeled by encoder+MLP model has created and saved
+32025 / 1149 / 33174 Acc: %96.54: true / false distribution susbtitute labeled dataset!!
+embeddings are calculated, most similar labels will calculate
+calculting similarity matrix
+Calculating similarity matrix in batches...
+Top values: tensor([[0.8027],
+        [0.9423],
+        [0.6895],
+        ...,
+        [0.6461],
+        [0.6106],
+        [0.7862]])
+Top indices: tensor([[28723],
+        [16348],
+        [ 1366],
+        ...,
+        [ 2431],
+        [13435],
+        [16499]])
+Top indices size: torch.Size([17076, 1])
+images are chosen
+10862 / 5112 / 15974 Acc: %68.00: true / false distribution cos_sim labeled dataset!!
+42887 / 6261 / 49148 Acc: %87.26: true / false finazalized dataset distribution
+using cuda
+==> Preparing data..
+Files already downloaded and verified
+Files already downloaded and verified
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Test feature extractor
+Test Loss: 0.575 | Acc: 82.917% (4975/6000)
+predicted by substitute model all/true: 36546/34710, acc: 94.98
+transformed samples labeled by model 36546
+transformed target labeled 250
+total dataset length 36796
+Samples pseudolabeled by encoder+MLP model has created and saved
+34946 / 1850 / 36796 Acc: %94.97: true / false distribution susbtitute labeled dataset!!
+embeddings are calculated, most similar labels will calculate
+calculting similarity matrix
+Calculating similarity matrix in batches...
+Top values: tensor([[0.7249],
+        [0.7344],
+        [0.6174],
+        ...,
+        [0.6499],
+        [0.6461],
+        [0.6106]])
+Top indices: tensor([[32686],
+        [25693],
+        [14377],
+        ...,
+        [ 2944],
+        [ 2669],
+        [14905]])
+Top indices size: torch.Size([13454, 1])
+images are chosen
+8113 / 4609 / 12722 Acc: %63.77: true / false distribution cos_sim labeled dataset!!
+43059 / 6459 / 49518 Acc: %86.96: true / false finazalized dataset distribution
+using cuda
+==> Preparing data..
+Files already downloaded and verified
+Files already downloaded and verified
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Test feature extractor
+Test Loss: 0.575 | Acc: 82.917% (4975/6000)
+predicted by substitute model all/true: 40458/37460, acc: 92.59
+transformed samples labeled by model 40458
+transformed target labeled 250
+total dataset length 40708
+Samples pseudolabeled by encoder+MLP model has created and saved
+37696 / 3012 / 40708 Acc: %92.60: true / false distribution susbtitute labeled dataset!!
+embeddings are calculated, most similar labels will calculate
+calculting similarity matrix
+Calculating similarity matrix in batches...
+Top values: tensor([[0.7782],
+        [0.7996],
+        [0.6245],
+        ...,
+        [0.6630],
+        [0.6461],
+        [0.6106]])
+Top indices: tensor([[27679],
+        [33141],
+        [ 1427],
+        ...,
+        [24147],
+        [ 2963],
+        [16529]])
+Top indices size: torch.Size([9542, 1])
+images are chosen
+5374 / 3716 / 9090 Acc: %59.12: true / false distribution cos_sim labeled dataset!!
+43070 / 6728 / 49798 Acc: %86.49: true / false finazalized dataset distribution
+using cuda
+==> Preparing data..
+Files already downloaded and verified
+Files already downloaded and verified
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Test feature extractor
+Test Loss: 0.575 | Acc: 82.917% (4975/6000)
+predicted by substitute model all/true: 43216/39144, acc: 90.58
+transformed samples labeled by model 43216
+transformed target labeled 250
+total dataset length 43466
+Samples pseudolabeled by encoder+MLP model has created and saved
+39380 / 4086 / 43466 Acc: %90.60: true / false distribution susbtitute labeled dataset!!
+embeddings are calculated, most similar labels will calculate
+calculting similarity matrix
+Calculating similarity matrix in batches...
+Top values: tensor([[0.7996],
+        [0.6245],
+        [0.7713],
+        ...,
+        [0.7240],
+        [0.6629],
+        [0.6612]])
+Top indices: tensor([[35416],
+        [ 1521],
+        [ 6347],
+        ...,
+        [ 9088],
+        [25790],
+        [12796]])
+Top indices size: torch.Size([6784, 1])
+images are chosen
+3588 / 2905 / 6493 Acc: %55.26: true / false distribution cos_sim labeled dataset!!
+42968 / 6991 / 49959 Acc: %86.01: true / false finazalized dataset distribution
+using cuda
+==> Preparing data..
+Files already downloaded and verified
+Files already downloaded and verified
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Test feature extractor
+Test Loss: 0.575 | Acc: 82.917% (4975/6000)
+predicted by substitute model all/true: 45685/40473, acc: 88.59
+transformed samples labeled by model 45685
+transformed target labeled 250
+total dataset length 45935
+Samples pseudolabeled by encoder+MLP model has created and saved
+40709 / 5226 / 45935 Acc: %88.62: true / false distribution susbtitute labeled dataset!!
+embeddings are calculated, most similar labels will calculate
+calculting similarity matrix
+Calculating similarity matrix in batches...
+Top values: tensor([[0.7996],
+        [0.8004],
+        [0.8727],
+        ...,
+        [0.6825],
+        [0.7240],
+        [0.6629]])
+Top indices: tensor([[37424],
+        [43399],
+        [25371],
+        ...,
+        [ 6556],
+        [ 9577],
+        [27227]])
+Top indices size: torch.Size([4315, 1])
+images are chosen
+2107 / 2017 / 4124 Acc: %51.09: true / false distribution cos_sim labeled dataset!!
+42816 / 7243 / 50059 Acc: %85.53: true / false finazalized dataset distribution
+using cuda
+==> Preparing data..
+Files already downloaded and verified
+Files already downloaded and verified
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Test feature extractor
+Test Loss: 0.575 | Acc: 82.917% (4975/6000)
+predicted by substitute model all/true: 50000/42219, acc: 84.44
+transformed samples labeled by model 50000
+transformed target labeled 250
+-------------------------   budget 1k    --------------------------------
+using cuda
+==> Preparing data..
+Files already downloaded and verified
+Files already downloaded and verified
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Test feature extractor
+Test Loss: 0.557 | Acc: 88.983% (5339/6000)
+predicted by substitute model all/true: 43615/41945, acc: 96.17
+transformed samples labeled by model 43615
+transformed target labeled 1000
+total dataset length 44615
+Samples pseudolabeled by encoder+MLP model has created and saved
+42885 / 1730 / 44615 Acc: %96.12: true / false distribution susbtitute labeled dataset!!
+embeddings are calculated, most similar labels will calculate
+calculting similarity matrix
+Calculating similarity matrix in batches...
+Top values: tensor([[0.7155],
+        [0.6159],
+        [0.6348],
+        ...,
+        [0.6886],
+        [0.6134],
+        [0.5981]])
+Top indices: tensor([[31085],
+        [25195],
+        [14364],
+        ...,
+        [ 3559],
+        [ 3215],
+        [    0]])
+Top indices size: torch.Size([6385, 1])
+images are chosen
+3517 / 2092 / 5609 Acc: %62.70: true / false distribution cos_sim labeled dataset!!
+46402 / 3822 / 50224 Acc: %92.39: true / false finazalized dataset distribution
+using cuda
+==> Preparing data..
+Files already downloaded and verified
+Files already downloaded and verified
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Test feature extractor
+Test Loss: 0.557 | Acc: 88.983% (5339/6000)
+predicted by substitute model all/true: 44987/42890, acc: 95.34
+transformed samples labeled by model 44987
+transformed target labeled 1000
+total dataset length 45987
+Samples pseudolabeled by encoder+MLP model has created and saved
+43830 / 2157 / 45987 Acc: %95.31: true / false distribution susbtitute labeled dataset!!
+embeddings are calculated, most similar labels will calculate
+calculting similarity matrix
+Calculating similarity matrix in batches...
+Top values: tensor([[0.7155],
+        [0.6280],
+        [0.6393],
+        ...,
+        [0.6886],
+        [0.6134],
+        [0.5980]])
+Top indices: tensor([[32066],
+        [14905],
+        [38539],
+        ...,
+        [ 3666],
+        [ 3317],
+        [    0]])
+Top indices size: torch.Size([5013, 1])
+images are chosen
+2574 / 1800 / 4374 Acc: %58.85: true / false distribution cos_sim labeled dataset!!
+46404 / 3957 / 50361 Acc: %92.14: true / false finazalized dataset distribution
+using cuda
+==> Preparing data..
+Files already downloaded and verified
+Files already downloaded and verified
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Test feature extractor
+Test Loss: 0.557 | Acc: 88.983% (5339/6000)
+predicted by substitute model all/true: 46040/43517, acc: 94.52
+transformed samples labeled by model 46040
+transformed target labeled 1000
+total dataset length 47040
+Samples pseudolabeled by encoder+MLP model has created and saved
+44457 / 2583 / 47040 Acc: %94.51: true / false distribution susbtitute labeled dataset!!
+embeddings are calculated, most similar labels will calculate
+calculting similarity matrix
+Calculating similarity matrix in batches...
+Top values: tensor([[0.7155],
+        [0.6280],
+        [0.6647],
+        ...,
+        [0.7399],
+        [0.7501],
+        [0.6134]])
+Top indices: tensor([[32808],
+        [15222],
+        [18799],
+        ...,
+        [43326],
+        [27446],
+        [ 3378]])
+Top indices size: torch.Size([3960, 1])
+images are chosen
+1973 / 1504 / 3477 Acc: %56.74: true / false distribution cos_sim labeled dataset!!
+46430 / 4087 / 50517 Acc: %91.91: true / false finazalized dataset distribution
+using cuda
+==> Preparing data..
+Files already downloaded and verified
+Files already downloaded and verified
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Test feature extractor
+Test Loss: 0.557 | Acc: 88.983% (5339/6000)
+predicted by substitute model all/true: 47299/44232, acc: 93.52
+transformed samples labeled by model 47299
+transformed target labeled 1000
+total dataset length 48299
+Samples pseudolabeled by encoder+MLP model has created and saved
+45172 / 3127 / 48299 Acc: %93.53: true / false distribution susbtitute labeled dataset!!
+embeddings are calculated, most similar labels will calculate
+calculting similarity matrix
+Calculating similarity matrix in batches...
+Top values: tensor([[0.7155],
+        [0.6280],
+        [0.6647],
+        ...,
+        [0.7399],
+        [0.7501],
+        [0.6134]])
+Top indices: tensor([[33692],
+        [15622],
+        [19287],
+        ...,
+        [44509],
+        [28172],
+        [ 3460]])
+Top indices size: torch.Size([2701, 1])
+images are chosen
+1277 / 1070 / 2347 Acc: %54.41: true / false distribution cos_sim labeled dataset!!
+46449 / 4197 / 50646 Acc: %91.71: true / false finazalized dataset distribution
+using cuda
+==> Preparing data..
+Files already downloaded and verified
+Files already downloaded and verified
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Test feature extractor
+Test Loss: 0.557 | Acc: 88.983% (5339/6000)
+predicted by substitute model all/true: 48152/44673, acc: 92.77
+transformed samples labeled by model 48152
+transformed target labeled 1000
+total dataset length 49152
+Samples pseudolabeled by encoder+MLP model has created and saved
+45613 / 3539 / 49152 Acc: %92.80: true / false distribution susbtitute labeled dataset!!
+embeddings are calculated, most similar labels will calculate
+calculting similarity matrix
+Calculating similarity matrix in batches...
+Top values: tensor([[0.7155],
+        [0.6647],
+        [0.9031],
+        ...,
+        [0.6624],
+        [0.7399],
+        [0.6134]])
+Top indices: tensor([[34297],
+        [19658],
+        [19808],
+        ...,
+        [ 6917],
+        [45315],
+        [ 3531]])
+Top indices size: torch.Size([1848, 1])
+images are chosen
+827 / 765 / 1592 Acc: %51.95: true / false distribution cos_sim labeled dataset!!
+46440 / 4304 / 50744 Acc: %91.52: true / false finazalized dataset distribution
+using cuda
+==> Preparing data..
+Files already downloaded and verified
+Files already downloaded and verified
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Test feature extractor
+Test Loss: 0.557 | Acc: 88.983% (5339/6000)
+predicted by substitute model all/true: 48902/45013, acc: 92.05
+transformed samples labeled by model 48902
+transformed target labeled 1000
+total dataset length 49902
+Samples pseudolabeled by encoder+MLP model has created and saved
+45953 / 3949 / 49902 Acc: %92.09: true / false distribution susbtitute labeled dataset!!
+embeddings are calculated, most similar labels will calculate
+calculting similarity matrix
+Calculating similarity matrix in batches...
+Top values: tensor([[0.9031],
+        [0.7161],
+        [0.7528],
+        ...,
+        [0.7597],
+        [0.6671],
+        [0.7398]])
+Top indices: tensor([[20111],
+        [24800],
+        [12335],
+        ...,
+        [24279],
+        [31741],
+        [46025]])
+Top indices size: torch.Size([1098, 1])
+images are chosen
+443 / 488 / 931 Acc: %47.58: true / false distribution cos_sim labeled dataset!!
+46396 / 4437 / 50833 Acc: %91.27: true / false finazalized dataset distribution
+using cuda
+==> Preparing data..
+Files already downloaded and verified
+Files already downloaded and verified
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Test feature extractor
+Test Loss: 0.557 | Acc: 88.983% (5339/6000)
+predicted by substitute model all/true: 50000/45455, acc: 90.91
+transformed samples labeled by model 50000
+transformed target labeled 1000
+-------------------------   budget 2k    --------------------------------
+using cuda
+==> Preparing data..
+Files already downloaded and verified
+Files already downloaded and verified
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Test feature extractor
+Test Loss: 0.329 | Acc: 89.717% (5383/6000)
+predicted by substitute model all/true: 36457/36136, acc: 99.12
+transformed samples labeled by model 36457
+transformed target labeled 2000
+total dataset length 38457
+Samples pseudolabeled by encoder+MLP model has created and saved
+38010 / 447 / 38457 Acc: %98.84: true / false distribution susbtitute labeled dataset!!
+embeddings are calculated, most similar labels will calculate
+calculting similarity matrix
+Calculating similarity matrix in batches...
+Top values: tensor([[0.8258],
+        [0.7945],
+        [0.8619],
+        ...,
+        [0.6578],
+        [0.6391],
+        [0.6105]])
+Top indices: tensor([[31836],
+        [29847],
+        [ 5593],
+        ...,
+        [33787],
+        [ 2694],
+        [ 6375]])
+Top indices size: torch.Size([13543, 1])
+images are chosen
+9258 / 3350 / 12608 Acc: %73.43: true / false distribution cos_sim labeled dataset!!
+47268 / 3797 / 51065 Acc: %92.56: true / false finazalized dataset distribution
+using cuda
+==> Preparing data..
+Files already downloaded and verified
+Files already downloaded and verified
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Test feature extractor
+Test Loss: 0.329 | Acc: 89.717% (5383/6000)
+predicted by substitute model all/true: 39710/39068, acc: 98.38
+transformed samples labeled by model 39710
+transformed target labeled 2000
+total dataset length 41710
+Samples pseudolabeled by encoder+MLP model has created and saved
+40942 / 768 / 41710 Acc: %98.16: true / false distribution susbtitute labeled dataset!!
+embeddings are calculated, most similar labels will calculate
+calculting similarity matrix
+Calculating similarity matrix in batches...
+Top values: tensor([[0.8258],
+        [0.7945],
+        [0.8619],
+        ...,
+        [0.6630],
+        [0.6391],
+        [0.6104]])
+Top indices: tensor([[34689],
+        [32526],
+        [ 6045],
+        ...,
+        [ 1836],
+        [ 2896],
+        [ 6891]])
+Top indices size: torch.Size([10290, 1])
+images are chosen
+6491 / 3059 / 9550 Acc: %67.97: true / false distribution cos_sim labeled dataset!!
+47433 / 3827 / 51260 Acc: %92.53: true / false finazalized dataset distribution
+using cuda
+==> Preparing data..
+Files already downloaded and verified
+Files already downloaded and verified
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Test feature extractor
+Test Loss: 0.329 | Acc: 89.717% (5383/6000)
+predicted by substitute model all/true: 41946/40927, acc: 97.57
+transformed samples labeled by model 41946
+transformed target labeled 2000
+total dataset length 43946
+Samples pseudolabeled by encoder+MLP model has created and saved
+42801 / 1145 / 43946 Acc: %97.39: true / false distribution susbtitute labeled dataset!!
+embeddings are calculated, most similar labels will calculate
+calculting similarity matrix
+Calculating similarity matrix in batches...
+Top values: tensor([[0.8619],
+        [0.7366],
+        [0.6920],
+        ...,
+        [0.6678],
+        [0.6391],
+        [0.6104]])
+Top indices: tensor([[ 6420],
+        [43817],
+        [10009],
+        ...,
+        [ 3407],
+        [ 3080],
+        [ 7326]])
+Top indices size: torch.Size([8054, 1])
+images are chosen
+4737 / 2742 / 7479 Acc: %63.34: true / false distribution cos_sim labeled dataset!!
+47538 / 3887 / 51425 Acc: %92.44: true / false finazalized dataset distribution
+using cuda
+==> Preparing data..
+Files already downloaded and verified
+Files already downloaded and verified
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Test feature extractor
+Test Loss: 0.329 | Acc: 89.717% (5383/6000)
+predicted by substitute model all/true: 44414/42767, acc: 96.29
+transformed samples labeled by model 44414
+transformed target labeled 2000
+total dataset length 46414
+Samples pseudolabeled by encoder+MLP model has created and saved
+44641 / 1773 / 46414 Acc: %96.18: true / false distribution susbtitute labeled dataset!!
+embeddings are calculated, most similar labels will calculate
+calculting similarity matrix
+Calculating similarity matrix in batches...
+Top values: tensor([[0.7366],
+        [0.7260],
+        [0.6266],
+        ...,
+        [0.6738],
+        [0.6678],
+        [0.6104]])
+Top indices: tensor([[46285],
+        [13470],
+        [39476],
+        ...,
+        [13219],
+        [ 3614],
+        [ 7753]])
+Top indices size: torch.Size([5586, 1])
+images are chosen
+3003 / 2172 / 5175 Acc: %58.03: true / false distribution cos_sim labeled dataset!!
+47644 / 3945 / 51589 Acc: %92.35: true / false finazalized dataset distribution
+using cuda
+==> Preparing data..
+Files already downloaded and verified
+Files already downloaded and verified
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Test feature extractor
+Test Loss: 0.329 | Acc: 89.717% (5383/6000)
+predicted by substitute model all/true: 46093/43849, acc: 95.13
+transformed samples labeled by model 46093
+transformed target labeled 2000
+total dataset length 48093
+Samples pseudolabeled by encoder+MLP model has created and saved
+45723 / 2370 / 48093 Acc: %95.07: true / false distribution susbtitute labeled dataset!!
+embeddings are calculated, most similar labels will calculate
+calculting similarity matrix
+Calculating similarity matrix in batches...
+Top values: tensor([[0.7260],
+        [0.6375],
+        [0.7055],
+        ...,
+        [0.5960],
+        [0.6939],
+        [0.7176]])
+Top indices: tensor([[13971],
+        [16039],
+        [18840],
+        ...,
+        [    0],
+        [ 6646],
+        [27501]])
+Top indices size: torch.Size([3907, 1])
+images are chosen
+1996 / 1625 / 3621 Acc: %55.12: true / false distribution cos_sim labeled dataset!!
+47719 / 3995 / 51714 Acc: %92.27: true / false finazalized dataset distribution
+using cuda
+==> Preparing data..
+Files already downloaded and verified
+Files already downloaded and verified
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Test feature extractor
+Test Loss: 0.329 | Acc: 89.717% (5383/6000)
+predicted by substitute model all/true: 47444/44605, acc: 94.02
+transformed samples labeled by model 47444
+transformed target labeled 2000
+total dataset length 49444
+Samples pseudolabeled by encoder+MLP model has created and saved
+46479 / 2965 / 49444 Acc: %94.00: true / false distribution susbtitute labeled dataset!!
+embeddings are calculated, most similar labels will calculate
+calculting similarity matrix
+Calculating similarity matrix in batches...
+Top values: tensor([[0.7260],
+        [0.6375],
+        [0.7055],
+        ...,
+        [0.6988],
+        [0.6940],
+        [0.7176]])
+Top indices: tensor([[14350],
+        [16474],
+        [19367],
+        ...,
+        [30815],
+        [ 6828],
+        [28286]])
+Top indices size: torch.Size([2556, 1])
+images are chosen
+1222 / 1119 / 2341 Acc: %52.20: true / false distribution cos_sim labeled dataset!!
+47701 / 4084 / 51785 Acc: %92.11: true / false finazalized dataset distribution
+using cuda
+==> Preparing data..
+Files already downloaded and verified
+Files already downloaded and verified
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Test feature extractor
+Test Loss: 0.329 | Acc: 89.717% (5383/6000)
+predicted by substitute model all/true: 50000/45660, acc: 91.32
+transformed samples labeled by model 50000
+transformed target labeled 2000
+-------------------------   budget 4k    --------------------------------
+using cuda
+==> Preparing data..
+Files already downloaded and verified
+Files already downloaded and verified
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Test feature extractor
+Test Loss: 0.312 | Acc: 90.667% (5440/6000)
+predicted by substitute model all/true: 40328/39826, acc: 98.76
+transformed samples labeled by model 40328
+transformed target labeled 4000
+total dataset length 44328
+Samples pseudolabeled by encoder+MLP model has created and saved
+43591 / 737 / 44328 Acc: %98.34: true / false distribution susbtitute labeled dataset!!
+embeddings are calculated, most similar labels will calculate
+calculting similarity matrix
+Calculating similarity matrix in batches...
+Top values: tensor([[0.7964],
+        [0.7590],
+        [0.7414],
+        ...,
+        [0.7099],
+        [0.6340],
+        [0.6359]])
+Top indices: tensor([[33025],
+        [44083],
+        [12201],
+        ...,
+        [37379],
+        [ 2978],
+        [ 7041]])
+Top indices size: torch.Size([9672, 1])
+images are chosen
+6304 / 2780 / 9084 Acc: %69.40: true / false distribution cos_sim labeled dataset!!
+49895 / 3517 / 53412 Acc: %93.42: true / false finazalized dataset distribution
+using cuda
+==> Preparing data..
+Files already downloaded and verified
+Files already downloaded and verified
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Test feature extractor
+Test Loss: 0.312 | Acc: 90.667% (5440/6000)
+predicted by substitute model all/true: 42612/41795, acc: 98.08
+transformed samples labeled by model 42612
+transformed target labeled 4000
+total dataset length 46612
+Samples pseudolabeled by encoder+MLP model has created and saved
+45560 / 1052 / 46612 Acc: %97.74: true / false distribution susbtitute labeled dataset!!
+embeddings are calculated, most similar labels will calculate
+calculting similarity matrix
+Calculating similarity matrix in batches...
+Top values: tensor([[0.7590],
+        [0.7414],
+        [0.6248],
+        ...,
+        [0.7098],
+        [0.6374],
+        [0.6359]])
+Top indices: tensor([[46367],
+        [12890],
+        [14797],
+        ...,
+        [39516],
+        [26301],
+        [ 7434]])
+Top indices size: torch.Size([7388, 1])
+images are chosen
+4403 / 2520 / 6923 Acc: %63.60: true / false distribution cos_sim labeled dataset!!
+49963 / 3572 / 53535 Acc: %93.33: true / false finazalized dataset distribution
+using cuda
+==> Preparing data..
+Files already downloaded and verified
+Files already downloaded and verified
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Test feature extractor
+Test Loss: 0.312 | Acc: 90.667% (5440/6000)
+predicted by substitute model all/true: 44270/43093, acc: 97.34
+transformed samples labeled by model 44270
+transformed target labeled 4000
+total dataset length 48270
+Samples pseudolabeled by encoder+MLP model has created and saved
+46858 / 1412 / 48270 Acc: %97.07: true / false distribution susbtitute labeled dataset!!
+embeddings are calculated, most similar labels will calculate
+calculting similarity matrix
+Calculating similarity matrix in batches...
+Top values: tensor([[0.6430],
+        [0.7075],
+        [0.6673],
+        ...,
+        [0.7098],
+        [0.6374],
+        [0.6359]])
+Top indices: tensor([[16925],
+        [ 9443],
+        [ 1340],
+        ...,
+        [41054],
+        [27343],
+        [ 7729]])
+Top indices size: torch.Size([5730, 1])
+images are chosen
+3196 / 2136 / 5332 Acc: %59.94: true / false distribution cos_sim labeled dataset!!
+50054 / 3548 / 53602 Acc: %93.38: true / false finazalized dataset distribution
+using cuda
+==> Preparing data..
+Files already downloaded and verified
+Files already downloaded and verified
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Test feature extractor
+Test Loss: 0.312 | Acc: 90.667% (5440/6000)
+predicted by substitute model all/true: 46007/44310, acc: 96.31
+transformed samples labeled by model 46007
+transformed target labeled 4000
+total dataset length 50007
+Samples pseudolabeled by encoder+MLP model has created and saved
+48075 / 1932 / 50007 Acc: %96.14: true / false distribution susbtitute labeled dataset!!
+embeddings are calculated, most similar labels will calculate
+calculting similarity matrix
+Calculating similarity matrix in batches...
+Top values: tensor([[0.6430],
+        [0.7075],
+        [0.8917],
+        ...,
+        [0.7288],
+        [0.6924],
+        [0.6645]])
+Top indices: tensor([[17614],
+        [ 9823],
+        [18965],
+        ...,
+        [47477],
+        [ 6655],
+        [13706]])
+Top indices size: torch.Size([3993, 1])
+images are chosen
+2068 / 1632 / 3700 Acc: %55.89: true / false distribution cos_sim labeled dataset!!
+50143 / 3564 / 53707 Acc: %93.36: true / false finazalized dataset distribution
+using cuda
+==> Preparing data..
+Files already downloaded and verified
+Files already downloaded and verified
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Test feature extractor
+Test Loss: 0.312 | Acc: 90.667% (5440/6000)
+predicted by substitute model all/true: 47217/45075, acc: 95.46
+transformed samples labeled by model 47217
+transformed target labeled 4000
+total dataset length 51217
+Samples pseudolabeled by encoder+MLP model has created and saved
+48840 / 2377 / 51217 Acc: %95.36: true / false distribution susbtitute labeled dataset!!
+embeddings are calculated, most similar labels will calculate
+calculting similarity matrix
+Calculating similarity matrix in batches...
+Top values: tensor([[0.6430],
+        [0.7641],
+        [0.6920],
+        ...,
+        [0.7287],
+        [0.6924],
+        [0.6645]])
+Top indices: tensor([[18049],
+        [16392],
+        [50209],
+        ...,
+        [48687],
+        [ 6813],
+        [14041]])
+Top indices size: torch.Size([2783, 1])
+images are chosen
+1361 / 1211 / 2572 Acc: %52.92: true / false distribution cos_sim labeled dataset!!
+50201 / 3588 / 53789 Acc: %93.33: true / false finazalized dataset distribution
+using cuda
+==> Preparing data..
+Files already downloaded and verified
+Files already downloaded and verified
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Test feature extractor
+Test Loss: 0.312 | Acc: 90.667% (5440/6000)
+predicted by substitute model all/true: 48215/45613, acc: 94.60
+transformed samples labeled by model 48215
+transformed target labeled 4000
+total dataset length 52215
+Samples pseudolabeled by encoder+MLP model has created and saved
+49378 / 2837 / 52215 Acc: %94.57: true / false distribution susbtitute labeled dataset!!
+embeddings are calculated, most similar labels will calculate
+calculting similarity matrix
+Calculating similarity matrix in batches...
+Top values: tensor([[0.8466],
+        [0.7203],
+        [0.7283],
+        ...,
+        [0.6951],
+        [0.7288],
+        [0.6645]])
+Top indices: tensor([[ 5476],
+        [24479],
+        [35348],
+        ...,
+        [27452],
+        [49685],
+        [14326]])
+Top indices size: torch.Size([1785, 1])
+images are chosen
+810 / 839 / 1649 Acc: %49.12: true / false distribution cos_sim labeled dataset!!
+50188 / 3676 / 53864 Acc: %93.18: true / false finazalized dataset distribution
+using cuda
+==> Preparing data..
+Files already downloaded and verified
+Files already downloaded and verified
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Test feature extractor
+Test Loss: 0.312 | Acc: 90.667% (5440/6000)
+predicted by substitute model all/true: 50000/46360, acc: 92.72
+transformed samples labeled by model 50000
+transformed target labeled 4000
+using cuda
+==> Preparing data..
+Files already downloaded and verified
+Files already downloaded and verified
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Test feature extractor
+Test Loss: 0.575 | Acc: 82.917% (4975/6000)
+predicted by substitute model all/true: 27891/27279, acc: 97.81
+transformed samples labeled by model 27891
+transformed target labeled 250
+total dataset length 28141
+Samples pseudolabeled by encoder+MLP model has created and saved
+27515 / 626 / 28141 Acc: %97.78: true / false distribution susbtitute labeled dataset!!
+embeddings are calculated, most similar labels will calculate
+calculting similarity matrix
+Calculating similarity matrix in batches...
+Top values: tensor([[0.8027],
+        [0.9423],
+        [0.6757],
+        ...,
+        [0.6106],
+        [0.9477],
+        [0.7862]])
+Top indices: tensor([[24351],
+        [13824],
+        [    0],
+        ...,
+        [    0],
+        [17410],
+        [    0]])
+Top indices size: torch.Size([22109, 1])
+images are chosen
+3779 / 491 / 4270 Acc: %88.50: true / false distribution cos_sim labeled dataset!!
+31294 / 1117 / 32411 Acc: %96.55: true / false finazalized dataset distribution
+using cuda
+==> Preparing data..
+Files already downloaded and verified
+Files already downloaded and verified
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Test feature extractor
+Test Loss: 0.575 | Acc: 82.917% (4975/6000)
+predicted by substitute model all/true: 32924/31789, acc: 96.55
+transformed samples labeled by model 32924
+transformed target labeled 250
+total dataset length 33174
+Samples pseudolabeled by encoder+MLP model has created and saved
+32025 / 1149 / 33174 Acc: %96.54: true / false distribution susbtitute labeled dataset!!
+embeddings are calculated, most similar labels will calculate
+calculting similarity matrix
+Calculating similarity matrix in batches...
+Top values: tensor([[0.8027],
+        [0.9423],
+        [0.6895],
+        ...,
+        [0.6461],
+        [0.6106],
+        [0.7862]])
+Top indices: tensor([[28723],
+        [16348],
+        [    0],
+        ...,
+        [    0],
+        [    0],
+        [    0]])
+Top indices size: torch.Size([17076, 1])
+images are chosen
+2517 / 486 / 3003 Acc: %83.82: true / false distribution cos_sim labeled dataset!!
+34542 / 1635 / 36177 Acc: %95.48: true / false finazalized dataset distribution
+using cuda
+==> Preparing data..
+Files already downloaded and verified
+Files already downloaded and verified
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Test feature extractor
+Test Loss: 0.575 | Acc: 82.917% (4975/6000)
+predicted by substitute model all/true: 36546/34710, acc: 94.98
+transformed samples labeled by model 36546
+transformed target labeled 250
+total dataset length 36796
+Samples pseudolabeled by encoder+MLP model has created and saved
+34946 / 1850 / 36796 Acc: %94.97: true / false distribution susbtitute labeled dataset!!
+embeddings are calculated, most similar labels will calculate
+calculting similarity matrix
+Calculating similarity matrix in batches...
+Top values: tensor([[0.7249],
+        [0.7344],
+        [0.6174],
+        ...,
+        [0.6499],
+        [0.6461],
+        [0.6106]])
+Top indices: tensor([[0],
+        [0],
+        [0],
+        ...,
+        [0],
+        [0],
+        [0]])
+Top indices size: torch.Size([13454, 1])
+images are chosen
+1710 / 511 / 2221 Acc: %76.99: true / false distribution cos_sim labeled dataset!!
+36656 / 2361 / 39017 Acc: %93.95: true / false finazalized dataset distribution
+using cuda
+==> Preparing data..
+Files already downloaded and verified
+Files already downloaded and verified
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Test feature extractor
+Test Loss: 0.575 | Acc: 82.917% (4975/6000)
+predicted by substitute model all/true: 40458/37460, acc: 92.59
+transformed samples labeled by model 40458
+transformed target labeled 250
+total dataset length 40708
+Samples pseudolabeled by encoder+MLP model has created and saved
+37696 / 3012 / 40708 Acc: %92.60: true / false distribution susbtitute labeled dataset!!
+embeddings are calculated, most similar labels will calculate
+calculting similarity matrix
+Calculating similarity matrix in batches...
+Top values: tensor([[0.7782],
+        [0.7996],
+        [0.6245],
+        ...,
+        [0.6630],
+        [0.6461],
+        [0.6106]])
+Top indices: tensor([[0],
+        [0],
+        [0],
+        ...,
+        [0],
+        [0],
+        [0]])
+Top indices size: torch.Size([9542, 1])
+images are chosen
+1192 / 442 / 1634 Acc: %72.95: true / false distribution cos_sim labeled dataset!!
+38888 / 3454 / 42342 Acc: %91.84: true / false finazalized dataset distribution
+using cuda
+==> Preparing data..
+Files already downloaded and verified
+Files already downloaded and verified
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Test feature extractor
+Test Loss: 0.575 | Acc: 82.917% (4975/6000)
+predicted by substitute model all/true: 43216/39144, acc: 90.58
+transformed samples labeled by model 43216
+transformed target labeled 250
+total dataset length 43466
+Samples pseudolabeled by encoder+MLP model has created and saved
+39380 / 4086 / 43466 Acc: %90.60: true / false distribution susbtitute labeled dataset!!
+embeddings are calculated, most similar labels will calculate
+calculting similarity matrix
+Calculating similarity matrix in batches...
+Top values: tensor([[0.7996],
+        [0.6245],
+        [0.7713],
+        ...,
+        [0.7240],
+        [0.6629],
+        [0.6612]])
+Top indices: tensor([[0],
+        [0],
+        [0],
+        ...,
+        [0],
+        [0],
+        [0]])
+Top indices size: torch.Size([6784, 1])
+images are chosen
+816 / 366 / 1182 Acc: %69.04: true / false distribution cos_sim labeled dataset!!
+40196 / 4452 / 44648 Acc: %90.03: true / false finazalized dataset distribution
+using cuda
+==> Preparing data..
+Files already downloaded and verified
+Files already downloaded and verified
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Test feature extractor
+Test Loss: 0.575 | Acc: 82.917% (4975/6000)
+predicted by substitute model all/true: 45685/40473, acc: 88.59
+transformed samples labeled by model 45685
+transformed target labeled 250
+total dataset length 45935
+Samples pseudolabeled by encoder+MLP model has created and saved
+40709 / 5226 / 45935 Acc: %88.62: true / false distribution susbtitute labeled dataset!!
+embeddings are calculated, most similar labels will calculate
+calculting similarity matrix
+Calculating similarity matrix in batches...
+Top values: tensor([[0.7996],
+        [0.8004],
+        [0.8727],
+        ...,
+        [0.6825],
+        [0.7240],
+        [0.6629]])
+Top indices: tensor([[    0],
+        [43399],
+        [25371],
+        ...,
+        [    0],
+        [    0],
+        [    0]])
+Top indices size: torch.Size([4315, 1])
+images are chosen
+511 / 270 / 781 Acc: %65.43: true / false distribution cos_sim labeled dataset!!
+41220 / 5496 / 46716 Acc: %88.24: true / false finazalized dataset distribution
+using cuda
+==> Preparing data..
+Files already downloaded and verified
+Files already downloaded and verified
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Test feature extractor
+Test Loss: 0.575 | Acc: 82.917% (4975/6000)
+predicted by substitute model all/true: 50000/42219, acc: 84.44
+transformed samples labeled by model 50000
+transformed target labeled 250
+-------------------------   budget 1k    --------------------------------
+using cuda
+==> Preparing data..
+Files already downloaded and verified
+Files already downloaded and verified
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Test feature extractor
+Test Loss: 0.557 | Acc: 88.983% (5339/6000)
+predicted by substitute model all/true: 43615/41945, acc: 96.17
+transformed samples labeled by model 43615
+transformed target labeled 1000
+total dataset length 44615
+Samples pseudolabeled by encoder+MLP model has created and saved
+42885 / 1730 / 44615 Acc: %96.12: true / false distribution susbtitute labeled dataset!!
+embeddings are calculated, most similar labels will calculate
+calculting similarity matrix
+Calculating similarity matrix in batches...
+Top values: tensor([[0.7155],
+        [0.6159],
+        [0.6348],
+        ...,
+        [0.6886],
+        [0.6134],
+        [0.5981]])
+Top indices: tensor([[0],
+        [0],
+        [0],
+        ...,
+        [0],
+        [0],
+        [0]])
+Top indices size: torch.Size([6385, 1])
+images are chosen
+421 / 107 / 528 Acc: %79.73: true / false distribution cos_sim labeled dataset!!
+43306 / 1837 / 45143 Acc: %95.93: true / false finazalized dataset distribution
+using cuda
+==> Preparing data..
+Files already downloaded and verified
+Files already downloaded and verified
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Test feature extractor
+Test Loss: 0.557 | Acc: 88.983% (5339/6000)
+predicted by substitute model all/true: 44987/42890, acc: 95.34
+transformed samples labeled by model 44987
+transformed target labeled 1000
+total dataset length 45987
+Samples pseudolabeled by encoder+MLP model has created and saved
+43830 / 2157 / 45987 Acc: %95.31: true / false distribution susbtitute labeled dataset!!
+embeddings are calculated, most similar labels will calculate
+calculting similarity matrix
+Calculating similarity matrix in batches...
+Top values: tensor([[0.7155],
+        [0.6280],
+        [0.6393],
+        ...,
+        [0.6886],
+        [0.6134],
+        [0.5980]])
+Top indices: tensor([[0],
+        [0],
+        [0],
+        ...,
+        [0],
+        [0],
+        [0]])
+Top indices size: torch.Size([5013, 1])
+images are chosen
+299 / 92 / 391 Acc: %76.47: true / false distribution cos_sim labeled dataset!!
+44129 / 2249 / 46378 Acc: %95.15: true / false finazalized dataset distribution
+using cuda
+==> Preparing data..
+Files already downloaded and verified
+Files already downloaded and verified
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Test feature extractor
+Test Loss: 0.557 | Acc: 88.983% (5339/6000)
+predicted by substitute model all/true: 46040/43517, acc: 94.52
+transformed samples labeled by model 46040
+transformed target labeled 1000
+total dataset length 47040
+Samples pseudolabeled by encoder+MLP model has created and saved
+44457 / 2583 / 47040 Acc: %94.51: true / false distribution susbtitute labeled dataset!!
+embeddings are calculated, most similar labels will calculate
+calculting similarity matrix
+Calculating similarity matrix in batches...
+Top values: tensor([[0.7155],
+        [0.6280],
+        [0.6647],
+        ...,
+        [0.7399],
+        [0.7501],
+        [0.6134]])
+Top indices: tensor([[0],
+        [0],
+        [0],
+        ...,
+        [0],
+        [0],
+        [0]])
+Top indices size: torch.Size([3960, 1])
+images are chosen
+240 / 98 / 338 Acc: %71.01: true / false distribution cos_sim labeled dataset!!
+44697 / 2681 / 47378 Acc: %94.34: true / false finazalized dataset distribution
+using cuda
+==> Preparing data..
+Files already downloaded and verified
+Files already downloaded and verified
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Test feature extractor
+Test Loss: 0.557 | Acc: 88.983% (5339/6000)
+predicted by substitute model all/true: 47299/44232, acc: 93.52
+transformed samples labeled by model 47299
+transformed target labeled 1000
+total dataset length 48299
+Samples pseudolabeled by encoder+MLP model has created and saved
+45172 / 3127 / 48299 Acc: %93.53: true / false distribution susbtitute labeled dataset!!
+embeddings are calculated, most similar labels will calculate
+calculting similarity matrix
+Calculating similarity matrix in batches...
+Top values: tensor([[0.7155],
+        [0.6280],
+        [0.6647],
+        ...,
+        [0.7399],
+        [0.7501],
+        [0.6134]])
+Top indices: tensor([[0],
+        [0],
+        [0],
+        ...,
+        [0],
+        [0],
+        [0]])
+Top indices size: torch.Size([2701, 1])
+images are chosen
+160 / 83 / 243 Acc: %65.84: true / false distribution cos_sim labeled dataset!!
+45332 / 3210 / 48542 Acc: %93.39: true / false finazalized dataset distribution
+using cuda
+==> Preparing data..
+Files already downloaded and verified
+Files already downloaded and verified
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Test feature extractor
+Test Loss: 0.557 | Acc: 88.983% (5339/6000)
+predicted by substitute model all/true: 48152/44673, acc: 92.77
+transformed samples labeled by model 48152
+transformed target labeled 1000
+total dataset length 49152
+Samples pseudolabeled by encoder+MLP model has created and saved
+45613 / 3539 / 49152 Acc: %92.80: true / false distribution susbtitute labeled dataset!!
+embeddings are calculated, most similar labels will calculate
+calculting similarity matrix
+Calculating similarity matrix in batches...
+Top values: tensor([[0.7155],
+        [0.6647],
+        [0.9031],
+        ...,
+        [0.6624],
+        [0.7399],
+        [0.6134]])
+Top indices: tensor([[    0],
+        [    0],
+        [19808],
+        ...,
+        [    0],
+        [    0],
+        [    0]])
+Top indices size: torch.Size([1848, 1])
+images are chosen
+102 / 65 / 167 Acc: %61.08: true / false distribution cos_sim labeled dataset!!
+45715 / 3604 / 49319 Acc: %92.69: true / false finazalized dataset distribution
+using cuda
+==> Preparing data..
+Files already downloaded and verified
+Files already downloaded and verified
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Test feature extractor
+Test Loss: 0.557 | Acc: 88.983% (5339/6000)
+predicted by substitute model all/true: 48902/45013, acc: 92.05
+transformed samples labeled by model 48902
+transformed target labeled 1000
+total dataset length 49902
+Samples pseudolabeled by encoder+MLP model has created and saved
+45953 / 3949 / 49902 Acc: %92.09: true / false distribution susbtitute labeled dataset!!
+embeddings are calculated, most similar labels will calculate
+calculting similarity matrix
+Calculating similarity matrix in batches...
+Top values: tensor([[0.9031],
+        [0.7161],
+        [0.7528],
+        ...,
+        [0.7597],
+        [0.6671],
+        [0.7398]])
+Top indices: tensor([[20111],
+        [    0],
+        [    0],
+        ...,
+        [    0],
+        [    0],
+        [    0]])
+Top indices size: torch.Size([1098, 1])
+images are chosen
+66 / 46 / 112 Acc: %58.93: true / false distribution cos_sim labeled dataset!!
+46019 / 3995 / 50014 Acc: %92.01: true / false finazalized dataset distribution
+using cuda
+==> Preparing data..
+Files already downloaded and verified
+Files already downloaded and verified
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Test feature extractor
+Test Loss: 0.557 | Acc: 88.983% (5339/6000)
+predicted by substitute model all/true: 50000/45455, acc: 90.91
+transformed samples labeled by model 50000
+transformed target labeled 1000
+-------------------------   budget 2k    --------------------------------
+using cuda
+==> Preparing data..
+Files already downloaded and verified
+Files already downloaded and verified
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Test feature extractor
+Test Loss: 0.329 | Acc: 89.717% (5383/6000)
+predicted by substitute model all/true: 36457/36136, acc: 99.12
+transformed samples labeled by model 36457
+transformed target labeled 2000
+total dataset length 38457
+Samples pseudolabeled by encoder+MLP model has created and saved
+38010 / 447 / 38457 Acc: %98.84: true / false distribution susbtitute labeled dataset!!
+embeddings are calculated, most similar labels will calculate
+calculting similarity matrix
+Calculating similarity matrix in batches...
+Top values: tensor([[0.8258],
+        [0.7945],
+        [0.8619],
+        ...,
+        [0.6578],
+        [0.6391],
+        [0.6105]])
+Top indices: tensor([[31836],
+        [    0],
+        [ 5593],
+        ...,
+        [    0],
+        [    0],
+        [    0]])
+Top indices size: torch.Size([13543, 1])
+images are chosen
+1471 / 156 / 1627 Acc: %90.41: true / false distribution cos_sim labeled dataset!!
+39481 / 603 / 40084 Acc: %98.50: true / false finazalized dataset distribution
+using cuda
+==> Preparing data..
+Files already downloaded and verified
+Files already downloaded and verified
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Test feature extractor
+Test Loss: 0.329 | Acc: 89.717% (5383/6000)
+predicted by substitute model all/true: 39710/39068, acc: 98.38
+transformed samples labeled by model 39710
+transformed target labeled 2000
+total dataset length 41710
+Samples pseudolabeled by encoder+MLP model has created and saved
+40942 / 768 / 41710 Acc: %98.16: true / false distribution susbtitute labeled dataset!!
+embeddings are calculated, most similar labels will calculate
+calculting similarity matrix
+Calculating similarity matrix in batches...
+Top values: tensor([[0.8258],
+        [0.7945],
+        [0.8619],
+        ...,
+        [0.6630],
+        [0.6391],
+        [0.6104]])
+Top indices: tensor([[34689],
+        [    0],
+        [ 6045],
+        ...,
+        [    0],
+        [    0],
+        [    0]])
+Top indices size: torch.Size([10290, 1])
+images are chosen
+813 / 145 / 958 Acc: %84.86: true / false distribution cos_sim labeled dataset!!
+41755 / 913 / 42668 Acc: %97.86: true / false finazalized dataset distribution
+using cuda
+==> Preparing data..
+Files already downloaded and verified
+Files already downloaded and verified
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Test feature extractor
+Test Loss: 0.329 | Acc: 89.717% (5383/6000)
+predicted by substitute model all/true: 41946/40927, acc: 97.57
+transformed samples labeled by model 41946
+transformed target labeled 2000
+total dataset length 43946
+Samples pseudolabeled by encoder+MLP model has created and saved
+42801 / 1145 / 43946 Acc: %97.39: true / false distribution susbtitute labeled dataset!!
+embeddings are calculated, most similar labels will calculate
+calculting similarity matrix
+Calculating similarity matrix in batches...
+Top values: tensor([[0.8619],
+        [0.7366],
+        [0.6920],
+        ...,
+        [0.6678],
+        [0.6391],
+        [0.6104]])
+Top indices: tensor([[6420],
+        [   0],
+        [   0],
+        ...,
+        [   0],
+        [   0],
+        [   0]])
+Top indices size: torch.Size([8054, 1])
+images are chosen
+561 / 137 / 698 Acc: %80.37: true / false distribution cos_sim labeled dataset!!
+43362 / 1282 / 44644 Acc: %97.13: true / false finazalized dataset distribution
+using cuda
+==> Preparing data..
+Files already downloaded and verified
+Files already downloaded and verified
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Test feature extractor
+Test Loss: 0.329 | Acc: 89.717% (5383/6000)
+predicted by substitute model all/true: 44414/42767, acc: 96.29
+transformed samples labeled by model 44414
+transformed target labeled 2000
+total dataset length 46414
+Samples pseudolabeled by encoder+MLP model has created and saved
+44641 / 1773 / 46414 Acc: %96.18: true / false distribution susbtitute labeled dataset!!
+embeddings are calculated, most similar labels will calculate
+calculting similarity matrix
+Calculating similarity matrix in batches...
+Top values: tensor([[0.7366],
+        [0.7260],
+        [0.6266],
+        ...,
+        [0.6738],
+        [0.6678],
+        [0.6104]])
+Top indices: tensor([[0],
+        [0],
+        [0],
+        ...,
+        [0],
+        [0],
+        [0]])
+Top indices size: torch.Size([5586, 1])
+images are chosen
+368 / 111 / 479 Acc: %76.83: true / false distribution cos_sim labeled dataset!!
+45009 / 1884 / 46893 Acc: %95.98: true / false finazalized dataset distribution
+using cuda
+==> Preparing data..
+Files already downloaded and verified
+Files already downloaded and verified
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Test feature extractor
+Test Loss: 0.329 | Acc: 89.717% (5383/6000)
+predicted by substitute model all/true: 46093/43849, acc: 95.13
+transformed samples labeled by model 46093
+transformed target labeled 2000
+total dataset length 48093
+Samples pseudolabeled by encoder+MLP model has created and saved
+45723 / 2370 / 48093 Acc: %95.07: true / false distribution susbtitute labeled dataset!!
+embeddings are calculated, most similar labels will calculate
+calculting similarity matrix
+Calculating similarity matrix in batches...
+Top values: tensor([[0.7260],
+        [0.6375],
+        [0.7055],
+        ...,
+        [0.5960],
+        [0.6939],
+        [0.7176]])
+Top indices: tensor([[0],
+        [0],
+        [0],
+        ...,
+        [0],
+        [0],
+        [0]])
+Top indices size: torch.Size([3907, 1])
+images are chosen
+241 / 107 / 348 Acc: %69.25: true / false distribution cos_sim labeled dataset!!
+45964 / 2477 / 48441 Acc: %94.89: true / false finazalized dataset distribution
+using cuda
+==> Preparing data..
+Files already downloaded and verified
+Files already downloaded and verified
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Test feature extractor
+Test Loss: 0.329 | Acc: 89.717% (5383/6000)
+predicted by substitute model all/true: 47444/44605, acc: 94.02
+transformed samples labeled by model 47444
+transformed target labeled 2000
+total dataset length 49444
+Samples pseudolabeled by encoder+MLP model has created and saved
+46479 / 2965 / 49444 Acc: %94.00: true / false distribution susbtitute labeled dataset!!
+embeddings are calculated, most similar labels will calculate
+calculting similarity matrix
+Calculating similarity matrix in batches...
+Top values: tensor([[0.7260],
+        [0.6375],
+        [0.7055],
+        ...,
+        [0.6988],
+        [0.6940],
+        [0.7176]])
+Top indices: tensor([[0],
+        [0],
+        [0],
+        ...,
+        [0],
+        [0],
+        [0]])
+Top indices size: torch.Size([2556, 1])
+images are chosen
+157 / 73 / 230 Acc: %68.26: true / false distribution cos_sim labeled dataset!!
+46636 / 3038 / 49674 Acc: %93.88: true / false finazalized dataset distribution
+using cuda
+==> Preparing data..
+Files already downloaded and verified
+Files already downloaded and verified
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Test feature extractor
+Test Loss: 0.329 | Acc: 89.717% (5383/6000)
+predicted by substitute model all/true: 50000/45660, acc: 91.32
+transformed samples labeled by model 50000
+transformed target labeled 2000
+-------------------------   budget 4k    --------------------------------
+using cuda
+==> Preparing data..
+Files already downloaded and verified
+Files already downloaded and verified
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Test feature extractor
+Test Loss: 0.312 | Acc: 90.667% (5440/6000)
+predicted by substitute model all/true: 40328/39826, acc: 98.76
+transformed samples labeled by model 40328
+transformed target labeled 4000
+total dataset length 44328
+Samples pseudolabeled by encoder+MLP model has created and saved
+43591 / 737 / 44328 Acc: %98.34: true / false distribution susbtitute labeled dataset!!
+embeddings are calculated, most similar labels will calculate
+calculting similarity matrix
+Calculating similarity matrix in batches...
+Top values: tensor([[0.7964],
+        [0.7590],
+        [0.7414],
+        ...,
+        [0.7099],
+        [0.6340],
+        [0.6359]])
+Top indices: tensor([[0],
+        [0],
+        [0],
+        ...,
+        [0],
+        [0],
+        [0]])
+Top indices size: torch.Size([9672, 1])
+images are chosen
+861 / 147 / 1008 Acc: %85.42: true / false distribution cos_sim labeled dataset!!
+44452 / 884 / 45336 Acc: %98.05: true / false finazalized dataset distribution
+using cuda
+==> Preparing data..
+Files already downloaded and verified
+Files already downloaded and verified
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Test feature extractor
+Test Loss: 0.312 | Acc: 90.667% (5440/6000)
+predicted by substitute model all/true: 42612/41795, acc: 98.08
+transformed samples labeled by model 42612
+transformed target labeled 4000
+total dataset length 46612
+Samples pseudolabeled by encoder+MLP model has created and saved
+45560 / 1052 / 46612 Acc: %97.74: true / false distribution susbtitute labeled dataset!!
+embeddings are calculated, most similar labels will calculate
+calculting similarity matrix
+Calculating similarity matrix in batches...
+Top values: tensor([[0.7590],
+        [0.7414],
+        [0.6248],
+        ...,
+        [0.7098],
+        [0.6374],
+        [0.6359]])
+Top indices: tensor([[0],
+        [0],
+        [0],
+        ...,
+        [0],
+        [0],
+        [0]])
+Top indices size: torch.Size([7388, 1])
+images are chosen
+527 / 155 / 682 Acc: %77.27: true / false distribution cos_sim labeled dataset!!
+46087 / 1207 / 47294 Acc: %97.45: true / false finazalized dataset distribution
+using cuda
+==> Preparing data..
+Files already downloaded and verified
+Files already downloaded and verified
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Test feature extractor
+Test Loss: 0.312 | Acc: 90.667% (5440/6000)
+predicted by substitute model all/true: 44270/43093, acc: 97.34
+transformed samples labeled by model 44270
+transformed target labeled 4000
+total dataset length 48270
+Samples pseudolabeled by encoder+MLP model has created and saved
+46858 / 1412 / 48270 Acc: %97.07: true / false distribution susbtitute labeled dataset!!
+embeddings are calculated, most similar labels will calculate
+calculting similarity matrix
+Calculating similarity matrix in batches...
+Top values: tensor([[0.6430],
+        [0.7075],
+        [0.6673],
+        ...,
+        [0.7098],
+        [0.6374],
+        [0.6359]])
+Top indices: tensor([[0],
+        [0],
+        [0],
+        ...,
+        [0],
+        [0],
+        [0]])
+Top indices size: torch.Size([5730, 1])
+images are chosen
+366 / 143 / 509 Acc: %71.91: true / false distribution cos_sim labeled dataset!!
+47224 / 1555 / 48779 Acc: %96.81: true / false finazalized dataset distribution
+using cuda
+==> Preparing data..
+Files already downloaded and verified
+Files already downloaded and verified
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Test feature extractor
+Test Loss: 0.312 | Acc: 90.667% (5440/6000)
+predicted by substitute model all/true: 46007/44310, acc: 96.31
+transformed samples labeled by model 46007
+transformed target labeled 4000
+total dataset length 50007
+Samples pseudolabeled by encoder+MLP model has created and saved
+48075 / 1932 / 50007 Acc: %96.14: true / false distribution susbtitute labeled dataset!!
+embeddings are calculated, most similar labels will calculate
+calculting similarity matrix
+Calculating similarity matrix in batches...
+Top values: tensor([[0.6430],
+        [0.7075],
+        [0.8917],
+        ...,
+        [0.7288],
+        [0.6924],
+        [0.6645]])
+Top indices: tensor([[    0],
+        [    0],
+        [18965],
+        ...,
+        [    0],
+        [    0],
+        [    0]])
+Top indices size: torch.Size([3993, 1])
+images are chosen
+245 / 108 / 353 Acc: %69.41: true / false distribution cos_sim labeled dataset!!
+48320 / 2040 / 50360 Acc: %95.95: true / false finazalized dataset distribution
+using cuda
+==> Preparing data..
+Files already downloaded and verified
+Files already downloaded and verified
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Test feature extractor
+Test Loss: 0.312 | Acc: 90.667% (5440/6000)
+predicted by substitute model all/true: 47217/45075, acc: 95.46
+transformed samples labeled by model 47217
+transformed target labeled 4000
+total dataset length 51217
+Samples pseudolabeled by encoder+MLP model has created and saved
+48840 / 2377 / 51217 Acc: %95.36: true / false distribution susbtitute labeled dataset!!
+embeddings are calculated, most similar labels will calculate
+calculting similarity matrix
+Calculating similarity matrix in batches...
+Top values: tensor([[0.6430],
+        [0.7641],
+        [0.6920],
+        ...,
+        [0.7287],
+        [0.6924],
+        [0.6645]])
+Top indices: tensor([[0],
+        [0],
+        [0],
+        ...,
+        [0],
+        [0],
+        [0]])
+Top indices size: torch.Size([2783, 1])
+images are chosen
+162 / 77 / 239 Acc: %67.78: true / false distribution cos_sim labeled dataset!!
+49002 / 2454 / 51456 Acc: %95.23: true / false finazalized dataset distribution
+using cuda
+==> Preparing data..
+Files already downloaded and verified
+Files already downloaded and verified
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Test feature extractor
+Test Loss: 0.312 | Acc: 90.667% (5440/6000)
+predicted by substitute model all/true: 48215/45613, acc: 94.60
+transformed samples labeled by model 48215
+transformed target labeled 4000
+total dataset length 52215
+Samples pseudolabeled by encoder+MLP model has created and saved
+49378 / 2837 / 52215 Acc: %94.57: true / false distribution susbtitute labeled dataset!!
+embeddings are calculated, most similar labels will calculate
+calculting similarity matrix
+Calculating similarity matrix in batches...
+Top values: tensor([[0.8466],
+        [0.7203],
+        [0.7283],
+        ...,
+        [0.6951],
+        [0.7288],
+        [0.6645]])
+Top indices: tensor([[5476],
+        [   0],
+        [   0],
+        ...,
+        [   0],
+        [   0],
+        [   0]])
+Top indices size: torch.Size([1785, 1])
+images are chosen
+93 / 59 / 152 Acc: %61.18: true / false distribution cos_sim labeled dataset!!
+49471 / 2896 / 52367 Acc: %94.47: true / false finazalized dataset distribution
+using cuda
+==> Preparing data..
+Files already downloaded and verified
+Files already downloaded and verified
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Test feature extractor
+Test Loss: 0.312 | Acc: 90.667% (5440/6000)
+predicted by substitute model all/true: 50000/46360, acc: 92.72
+transformed samples labeled by model 50000
+transformed target labeled 4000
+using cuda
+==> Preparing data..
+49895 / 3517 Acc: %93.42: true / false finazalized dataset distribution
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Number of parameters in teacher model: 32700082
+lr: 0.01, epoch: 10, budget: 4k threshold: 98
+(0/10) Substitute Model Train Loss: 2.051	 Acc: 28.619% (15286/53412) |  Valid Loss: 0.079	 Acc: 82.717% (4963/6000)
+(1/10) Substitute Model Train Loss: 0.360	 Acc: 88.246% (47134/53412) |  Valid Loss: 0.036	 Acc: 90.167% (5410/6000)
+(2/10) Substitute Model Train Loss: 0.205	 Acc: 93.747% (50072/53412) |  Valid Loss: 0.035	 Acc: 90.750% (5445/6000)
+(3/10) Substitute Model Train Loss: 0.169	 Acc: 94.846% (50659/53412) |  Valid Loss: 0.034	 Acc: 91.133% (5468/6000)
+(4/10) Substitute Model Train Loss: 0.149	 Acc: 95.385% (50947/53412) |  Valid Loss: 0.035	 Acc: 91.200% (5472/6000)
+(5/10) Substitute Model Train Loss: 0.133	 Acc: 95.746% (51140/53412) |  Valid Loss: 0.034	 Acc: 91.417% (5485/6000)
+(6/10) Substitute Model Train Loss: 0.124	 Acc: 96.128% (51344/53412) |  Valid Loss: 0.036	 Acc: 91.450% (5487/6000)
+(7/10) Substitute Model Train Loss: 0.117	 Acc: 96.388% (51483/53412) |  Valid Loss: 0.035	 Acc: 91.350% (5481/6000)
+(8/10) Substitute Model Train Loss: 0.103	 Acc: 96.767% (51685/53412) |  Valid Loss: 0.041	 Acc: 91.300% (5478/6000)
+(9/10) Substitute Model Train Loss: 0.095	 Acc: 96.945% (51780/53412) |  Valid Loss: 0.039	 Acc: 91.200% (5472/6000)
+Test Loss: 0.351 | Acc: 91.200% (5472/6000)
+using cuda
+==> Preparing data..
+47268 / 3797 Acc: %92.56: true / false finazalized dataset distribution
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Number of parameters in teacher model: 32700082
+lr: 0.01, epoch: 10, budget: 2k threshold: 98
+(0/10) Substitute Model Train Loss: 2.104	 Acc: 25.266% (12902/51065) |  Valid Loss: 0.107	 Acc: 78.950% (4737/6000)
+(1/10) Substitute Model Train Loss: 0.378	 Acc: 87.812% (44841/51065) |  Valid Loss: 0.042	 Acc: 89.433% (5366/6000)
+(2/10) Substitute Model Train Loss: 0.196	 Acc: 94.078% (48041/51065) |  Valid Loss: 0.041	 Acc: 89.983% (5399/6000)
+(3/10) Substitute Model Train Loss: 0.168	 Acc: 94.848% (48434/51065) |  Valid Loss: 0.039	 Acc: 90.533% (5432/6000)
+(4/10) Substitute Model Train Loss: 0.147	 Acc: 95.488% (48761/51065) |  Valid Loss: 0.039	 Acc: 90.733% (5444/6000)
+(5/10) Substitute Model Train Loss: 0.135	 Acc: 95.839% (48940/51065) |  Valid Loss: 0.042	 Acc: 90.283% (5417/6000)
+(6/10) Substitute Model Train Loss: 0.123	 Acc: 96.170% (49109/51065) |  Valid Loss: 0.042	 Acc: 90.800% (5448/6000)
+(7/10) Substitute Model Train Loss: 0.113	 Acc: 96.471% (49263/51065) |  Valid Loss: 0.042	 Acc: 90.750% (5445/6000)
+(8/10) Substitute Model Train Loss: 0.105	 Acc: 96.616% (49337/51065) |  Valid Loss: 0.044	 Acc: 90.650% (5439/6000)
+(9/10) Substitute Model Train Loss: 0.099	 Acc: 96.877% (49470/51065) |  Valid Loss: 0.046	 Acc: 90.750% (5445/6000)
+Test Loss: 0.390 | Acc: 90.750% (5445/6000)
+using cuda
+==> Preparing data..
+46402 / 3822 Acc: %92.39: true / false finazalized dataset distribution
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Number of parameters in teacher model: 32700082
+lr: 0.01, epoch: 10, budget: 1k threshold: 98
+(0/10) Substitute Model Train Loss: 2.109	 Acc: 26.065% (13091/50224) |  Valid Loss: 0.109	 Acc: 77.800% (4668/6000)
+(1/10) Substitute Model Train Loss: 0.390	 Acc: 87.367% (43879/50224) |  Valid Loss: 0.043	 Acc: 89.050% (5343/6000)
+(2/10) Substitute Model Train Loss: 0.195	 Acc: 94.021% (47221/50224) |  Valid Loss: 0.043	 Acc: 89.317% (5359/6000)
+(3/10) Substitute Model Train Loss: 0.166	 Acc: 94.939% (47682/50224) |  Valid Loss: 0.045	 Acc: 89.750% (5385/6000)
+(4/10) Substitute Model Train Loss: 0.145	 Acc: 95.580% (48004/50224) |  Valid Loss: 0.043	 Acc: 90.217% (5413/6000)
+(5/10) Substitute Model Train Loss: 0.127	 Acc: 96.030% (48230/50224) |  Valid Loss: 0.047	 Acc: 89.817% (5389/6000)
+(6/10) Substitute Model Train Loss: 0.119	 Acc: 96.203% (48317/50224) |  Valid Loss: 0.046	 Acc: 90.150% (5409/6000)
+(7/10) Substitute Model Train Loss: 0.108	 Acc: 96.599% (48516/50224) |  Valid Loss: 0.048	 Acc: 90.217% (5413/6000)
+(8/10) Substitute Model Train Loss: 0.098	 Acc: 96.784% (48609/50224) |  Valid Loss: 0.049	 Acc: 89.967% (5398/6000)
+(9/10) Substitute Model Train Loss: 0.089	 Acc: 97.101% (48768/50224) |  Valid Loss: 0.051	 Acc: 90.067% (5404/6000)
+Test Loss: 0.426 | Acc: 90.067% (5404/6000)
+using cuda
+==> Preparing data..
+42576 / 6041 Acc: %87.57: true / false finazalized dataset distribution
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Number of parameters in teacher model: 32700082
+lr: 0.01, epoch: 10, budget: 250 threshold: 98
+(0/10) Substitute Model Train Loss: 2.079	 Acc: 24.936% (12123/48617) |  Valid Loss: 0.125	 Acc: 72.467% (4348/6000)
+(1/10) Substitute Model Train Loss: 0.406	 Acc: 87.233% (42410/48617) |  Valid Loss: 0.072	 Acc: 84.417% (5065/6000)
+(2/10) Substitute Model Train Loss: 0.232	 Acc: 92.881% (45156/48617) |  Valid Loss: 0.074	 Acc: 85.117% (5107/6000)
+(3/10) Substitute Model Train Loss: 0.198	 Acc: 93.934% (45668/48617) |  Valid Loss: 0.077	 Acc: 85.300% (5118/6000)
+(4/10) Substitute Model Train Loss: 0.181	 Acc: 94.368% (45879/48617) |  Valid Loss: 0.078	 Acc: 85.417% (5125/6000)
+(5/10) Substitute Model Train Loss: 0.166	 Acc: 94.800% (46089/48617) |  Valid Loss: 0.083	 Acc: 85.550% (5133/6000)
+(6/10) Substitute Model Train Loss: 0.153	 Acc: 95.166% (46267/48617) |  Valid Loss: 0.087	 Acc: 84.867% (5092/6000)
+(7/10) Substitute Model Train Loss: 0.141	 Acc: 95.452% (46406/48617) |  Valid Loss: 0.092	 Acc: 84.700% (5082/6000)
+(8/10) Substitute Model Train Loss: 0.132	 Acc: 95.744% (46548/48617) |  Valid Loss: 0.085	 Acc: 85.367% (5122/6000)
+(9/10) Substitute Model Train Loss: 0.121	 Acc: 96.154% (46747/48617) |  Valid Loss: 0.092	 Acc: 84.817% (5089/6000)
+Test Loss: 0.745 | Acc: 84.817% (5089/6000)
+using cuda
+==> Preparing data..
+49963 / 3572 Acc: %93.33: true / false finazalized dataset distribution
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Number of parameters in teacher model: 32700082
+lr: 0.01, epoch: 10, budget: 4k threshold: 95
+(0/10) Substitute Model Train Loss: 2.052	 Acc: 28.183% (15088/53535) |  Valid Loss: 0.083	 Acc: 80.133% (4808/6000)
+(1/10) Substitute Model Train Loss: 0.366	 Acc: 87.858% (47035/53535) |  Valid Loss: 0.036	 Acc: 90.067% (5404/6000)
+(2/10) Substitute Model Train Loss: 0.201	 Acc: 93.901% (50270/53535) |  Valid Loss: 0.035	 Acc: 90.767% (5446/6000)
+(3/10) Substitute Model Train Loss: 0.171	 Acc: 94.759% (50729/53535) |  Valid Loss: 0.033	 Acc: 91.267% (5476/6000)
+(4/10) Substitute Model Train Loss: 0.149	 Acc: 95.481% (51116/53535) |  Valid Loss: 0.036	 Acc: 91.267% (5476/6000)
+(5/10) Substitute Model Train Loss: 0.138	 Acc: 95.737% (51253/53535) |  Valid Loss: 0.035	 Acc: 91.367% (5482/6000)
+(6/10) Substitute Model Train Loss: 0.124	 Acc: 96.161% (51480/53535) |  Valid Loss: 0.036	 Acc: 91.717% (5503/6000)
+(7/10) Substitute Model Train Loss: 0.114	 Acc: 96.369% (51591/53535) |  Valid Loss: 0.037	 Acc: 91.583% (5495/6000)
+(8/10) Substitute Model Train Loss: 0.107	 Acc: 96.694% (51765/53535) |  Valid Loss: 0.035	 Acc: 91.650% (5499/6000)
+(9/10) Substitute Model Train Loss: 0.098	 Acc: 96.877% (51863/53535) |  Valid Loss: 0.037	 Acc: 91.650% (5499/6000)
+Test Loss: 0.330 | Acc: 91.650% (5499/6000)
+using cuda
+==> Preparing data..
+using cuda
+==> Preparing data..
+46404 / 3957 Acc: %92.14: true / false finazalized dataset distribution
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Number of parameters in teacher model: 32700082
+lr: 0.01, epoch: 10, budget: 1k threshold: 95
+(0/10) Substitute Model Train Loss: 2.110	 Acc: 26.121% (13155/50361) |  Valid Loss: 0.112	 Acc: 80.200% (4812/6000)
+(1/10) Substitute Model Train Loss: 0.396	 Acc: 87.034% (43831/50361) |  Valid Loss: 0.042	 Acc: 88.983% (5339/6000)
+(2/10) Substitute Model Train Loss: 0.198	 Acc: 93.807% (47242/50361) |  Valid Loss: 0.041	 Acc: 89.900% (5394/6000)
+(3/10) Substitute Model Train Loss: 0.167	 Acc: 94.833% (47759/50361) |  Valid Loss: 0.044	 Acc: 89.967% (5398/6000)
+(4/10) Substitute Model Train Loss: 0.146	 Acc: 95.469% (48079/50361) |  Valid Loss: 0.042	 Acc: 90.200% (5412/6000)
+(5/10) Substitute Model Train Loss: 0.132	 Acc: 95.862% (48277/50361) |  Valid Loss: 0.044	 Acc: 90.150% (5409/6000)
+(6/10) Substitute Model Train Loss: 0.120	 Acc: 96.245% (48470/50361) |  Valid Loss: 0.048	 Acc: 89.933% (5396/6000)
+(7/10) Substitute Model Train Loss: 0.112	 Acc: 96.440% (48568/50361) |  Valid Loss: 0.046	 Acc: 90.150% (5409/6000)
+(8/10) Substitute Model Train Loss: 0.101	 Acc: 96.837% (48768/50361) |  Valid Loss: 0.048	 Acc: 90.233% (5414/6000)
+(9/10) Substitute Model Train Loss: 0.095	 Acc: 96.960% (48830/50361) |  Valid Loss: 0.049	 Acc: 90.200% (5412/6000)
+Test Loss: 0.412 | Acc: 90.200% (5412/6000)
+using cuda
+==> Preparing data..
+42887 / 6261 Acc: %87.26: true / false finazalized dataset distribution
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Number of parameters in teacher model: 32700082
+lr: 0.01, epoch: 10, budget: 250 threshold: 95
+(0/10) Substitute Model Train Loss: 2.073	 Acc: 24.854% (12215/49148) |  Valid Loss: 0.123	 Acc: 75.183% (4511/6000)
+(1/10) Substitute Model Train Loss: 0.412	 Acc: 87.031% (42774/49148) |  Valid Loss: 0.068	 Acc: 85.367% (5122/6000)
+(2/10) Substitute Model Train Loss: 0.236	 Acc: 92.791% (45605/49148) |  Valid Loss: 0.074	 Acc: 85.367% (5122/6000)
+(3/10) Substitute Model Train Loss: 0.206	 Acc: 93.621% (46013/49148) |  Valid Loss: 0.077	 Acc: 85.200% (5112/6000)
+(4/10) Substitute Model Train Loss: 0.183	 Acc: 94.386% (46389/49148) |  Valid Loss: 0.085	 Acc: 84.967% (5098/6000)
+(5/10) Substitute Model Train Loss: 0.170	 Acc: 94.657% (46522/49148) |  Valid Loss: 0.075	 Acc: 85.933% (5156/6000)
+(6/10) Substitute Model Train Loss: 0.155	 Acc: 95.194% (46786/49148) |  Valid Loss: 0.082	 Acc: 85.383% (5123/6000)
+(7/10) Substitute Model Train Loss: 0.145	 Acc: 95.442% (46908/49148) |  Valid Loss: 0.085	 Acc: 85.400% (5124/6000)
+(8/10) Substitute Model Train Loss: 0.131	 Acc: 95.878% (47122/49148) |  Valid Loss: 0.083	 Acc: 85.567% (5134/6000)
+(9/10) Substitute Model Train Loss: 0.120	 Acc: 96.136% (47249/49148) |  Valid Loss: 0.090	 Acc: 85.250% (5115/6000)
+Test Loss: 0.739 | Acc: 85.250% (5115/6000)
+using cuda
+==> Preparing data..
+50054 / 3548 Acc: %93.38: true / false finazalized dataset distribution
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Number of parameters in teacher model: 32700082
+lr: 0.01, epoch: 10, budget: 4k threshold: 9
+(0/10) Substitute Model Train Loss: 2.058	 Acc: 28.210% (15121/53602) |  Valid Loss: 0.081	 Acc: 82.900% (4974/6000)
+(1/10) Substitute Model Train Loss: 0.363	 Acc: 88.265% (47312/53602) |  Valid Loss: 0.037	 Acc: 90.150% (5409/6000)
+(2/10) Substitute Model Train Loss: 0.203	 Acc: 93.756% (50255/53602) |  Valid Loss: 0.034	 Acc: 91.117% (5467/6000)
+(3/10) Substitute Model Train Loss: 0.172	 Acc: 94.832% (50832/53602) |  Valid Loss: 0.036	 Acc: 91.033% (5462/6000)
+(4/10) Substitute Model Train Loss: 0.148	 Acc: 95.364% (51117/53602) |  Valid Loss: 0.035	 Acc: 91.433% (5486/6000)
+(5/10) Substitute Model Train Loss: 0.133	 Acc: 95.884% (51396/53602) |  Valid Loss: 0.035	 Acc: 91.417% (5485/6000)
+(6/10) Substitute Model Train Loss: 0.125	 Acc: 96.123% (51524/53602) |  Valid Loss: 0.036	 Acc: 91.400% (5484/6000)
+(7/10) Substitute Model Train Loss: 0.113	 Acc: 96.491% (51721/53602) |  Valid Loss: 0.035	 Acc: 91.750% (5505/6000)
+(8/10) Substitute Model Train Loss: 0.105	 Acc: 96.703% (51835/53602) |  Valid Loss: 0.036	 Acc: 91.683% (5501/6000)
+(9/10) Substitute Model Train Loss: 0.095	 Acc: 97.062% (52027/53602) |  Valid Loss: 0.037	 Acc: 91.833% (5510/6000)
+Test Loss: 0.326 | Acc: 91.833% (5510/6000)
+using cuda
+==> Preparing data..
+47538 / 3887 Acc: %92.44: true / false finazalized dataset distribution
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Number of parameters in teacher model: 32700082
+lr: 0.01, epoch: 10, budget: 2k threshold: 9
+(0/10) Substitute Model Train Loss: 2.095	 Acc: 26.030% (13386/51425) |  Valid Loss: 0.098	 Acc: 81.233% (4874/6000)
+(1/10) Substitute Model Train Loss: 0.372	 Acc: 88.053% (45281/51425) |  Valid Loss: 0.042	 Acc: 89.233% (5354/6000)
+(2/10) Substitute Model Train Loss: 0.203	 Acc: 93.830% (48252/51425) |  Valid Loss: 0.040	 Acc: 89.950% (5397/6000)
+(3/10) Substitute Model Train Loss: 0.174	 Acc: 94.691% (48695/51425) |  Valid Loss: 0.040	 Acc: 90.483% (5429/6000)
+(4/10) Substitute Model Train Loss: 0.148	 Acc: 95.337% (49027/51425) |  Valid Loss: 0.040	 Acc: 90.667% (5440/6000)
+(5/10) Substitute Model Train Loss: 0.142	 Acc: 95.469% (49095/51425) |  Valid Loss: 0.042	 Acc: 90.200% (5412/6000)
+(6/10) Substitute Model Train Loss: 0.129	 Acc: 95.944% (49339/51425) |  Valid Loss: 0.041	 Acc: 90.567% (5434/6000)
+(7/10) Substitute Model Train Loss: 0.119	 Acc: 96.247% (49495/51425) |  Valid Loss: 0.042	 Acc: 90.617% (5437/6000)
+(8/10) Substitute Model Train Loss: 0.111	 Acc: 96.504% (49627/51425) |  Valid Loss: 0.043	 Acc: 90.767% (5446/6000)
+(9/10) Substitute Model Train Loss: 0.102	 Acc: 96.710% (49733/51425) |  Valid Loss: 0.045	 Acc: 90.483% (5429/6000)
+Test Loss: 0.386 | Acc: 90.483% (5429/6000)
+using cuda
+==> Preparing data..
+46430 / 4087 Acc: %91.91: true / false finazalized dataset distribution
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Number of parameters in teacher model: 32700082
+lr: 0.01, epoch: 10, budget: 1k threshold: 9
+(0/10) Substitute Model Train Loss: 2.114	 Acc: 26.547% (13411/50517) |  Valid Loss: 0.112	 Acc: 69.650% (4179/6000)
+(1/10) Substitute Model Train Loss: 0.397	 Acc: 86.810% (43854/50517) |  Valid Loss: 0.041	 Acc: 89.217% (5353/6000)
+(2/10) Substitute Model Train Loss: 0.206	 Acc: 93.638% (47303/50517) |  Valid Loss: 0.042	 Acc: 89.633% (5378/6000)
+(3/10) Substitute Model Train Loss: 0.169	 Acc: 94.816% (47898/50517) |  Valid Loss: 0.044	 Acc: 89.983% (5399/6000)
+(4/10) Substitute Model Train Loss: 0.147	 Acc: 95.417% (48202/50517) |  Valid Loss: 0.046	 Acc: 89.917% (5395/6000)
+(5/10) Substitute Model Train Loss: 0.135	 Acc: 95.837% (48414/50517) |  Valid Loss: 0.047	 Acc: 90.133% (5408/6000)
+(6/10) Substitute Model Train Loss: 0.123	 Acc: 96.154% (48574/50517) |  Valid Loss: 0.050	 Acc: 89.783% (5387/6000)
+(7/10) Substitute Model Train Loss: 0.112	 Acc: 96.526% (48762/50517) |  Valid Loss: 0.048	 Acc: 90.200% (5412/6000)
+(8/10) Substitute Model Train Loss: 0.104	 Acc: 96.732% (48866/50517) |  Valid Loss: 0.051	 Acc: 90.067% (5404/6000)
+(9/10) Substitute Model Train Loss: 0.092	 Acc: 97.104% (49054/50517) |  Valid Loss: 0.050	 Acc: 90.117% (5407/6000)
+Test Loss: 0.420 | Acc: 90.117% (5407/6000)
+using cuda
+==> Preparing data..
+43059 / 6459 Acc: %86.96: true / false finazalized dataset distribution
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Number of parameters in teacher model: 32700082
+lr: 0.01, epoch: 10, budget: 250 threshold: 9
+(0/10) Substitute Model Train Loss: 2.060	 Acc: 25.078% (12418/49518) |  Valid Loss: 0.117	 Acc: 73.917% (4435/6000)
+(1/10) Substitute Model Train Loss: 0.412	 Acc: 86.875% (43019/49518) |  Valid Loss: 0.064	 Acc: 85.817% (5149/6000)
+(2/10) Substitute Model Train Loss: 0.246	 Acc: 92.530% (45819/49518) |  Valid Loss: 0.071	 Acc: 85.633% (5138/6000)
+(3/10) Substitute Model Train Loss: 0.214	 Acc: 93.473% (46286/49518) |  Valid Loss: 0.074	 Acc: 85.767% (5146/6000)
+(4/10) Substitute Model Train Loss: 0.192	 Acc: 94.020% (46557/49518) |  Valid Loss: 0.075	 Acc: 85.600% (5136/6000)
+(5/10) Substitute Model Train Loss: 0.173	 Acc: 94.543% (46816/49518) |  Valid Loss: 0.075	 Acc: 85.567% (5134/6000)
+(6/10) Substitute Model Train Loss: 0.160	 Acc: 94.887% (46986/49518) |  Valid Loss: 0.082	 Acc: 85.533% (5132/6000)
+(7/10) Substitute Model Train Loss: 0.153	 Acc: 95.222% (47152/49518) |  Valid Loss: 0.083	 Acc: 85.467% (5128/6000)
+(8/10) Substitute Model Train Loss: 0.137	 Acc: 95.585% (47332/49518) |  Valid Loss: 0.082	 Acc: 85.717% (5143/6000)
+(9/10) Substitute Model Train Loss: 0.127	 Acc: 95.931% (47503/49518) |  Valid Loss: 0.088	 Acc: 85.567% (5134/6000)
+Test Loss: 0.722 | Acc: 85.567% (5134/6000)
+using cuda
+==> Preparing data..
+50143 / 3564 Acc: %93.36: true / false finazalized dataset distribution
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Number of parameters in teacher model: 32700082
+lr: 0.01, epoch: 10, budget: 4k threshold: 8
+(0/10) Substitute Model Train Loss: 2.046	 Acc: 28.089% (15086/53707) |  Valid Loss: 0.077	 Acc: 83.267% (4996/6000)
+(1/10) Substitute Model Train Loss: 0.359	 Acc: 88.454% (47506/53707) |  Valid Loss: 0.035	 Acc: 90.417% (5425/6000)
+(2/10) Substitute Model Train Loss: 0.199	 Acc: 93.973% (50470/53707) |  Valid Loss: 0.035	 Acc: 90.883% (5453/6000)
+(3/10) Substitute Model Train Loss: 0.166	 Acc: 94.917% (50977/53707) |  Valid Loss: 0.035	 Acc: 91.350% (5481/6000)
+(4/10) Substitute Model Train Loss: 0.150	 Acc: 95.436% (51256/53707) |  Valid Loss: 0.034	 Acc: 91.567% (5494/6000)
+(5/10) Substitute Model Train Loss: 0.134	 Acc: 95.913% (51512/53707) |  Valid Loss: 0.034	 Acc: 91.550% (5493/6000)
+(6/10) Substitute Model Train Loss: 0.123	 Acc: 96.237% (51686/53707) |  Valid Loss: 0.036	 Acc: 91.683% (5501/6000)
+(7/10) Substitute Model Train Loss: 0.110	 Acc: 96.488% (51821/53707) |  Valid Loss: 0.036	 Acc: 91.833% (5510/6000)
+(8/10) Substitute Model Train Loss: 0.104	 Acc: 96.723% (51947/53707) |  Valid Loss: 0.036	 Acc: 91.783% (5507/6000)
+(9/10) Substitute Model Train Loss: 0.097	 Acc: 97.017% (52105/53707) |  Valid Loss: 0.037	 Acc: 91.750% (5505/6000)
+Test Loss: 0.326 | Acc: 91.750% (5505/6000)
+using cuda
+==> Preparing data..
+47644 / 3945 Acc: %92.35: true / false finazalized dataset distribution
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Number of parameters in teacher model: 32700082
+lr: 0.01, epoch: 10, budget: 2k threshold: 8
+(0/10) Substitute Model Train Loss: 2.088	 Acc: 26.979% (13918/51589) |  Valid Loss: 0.100	 Acc: 74.933% (4496/6000)
+(1/10) Substitute Model Train Loss: 0.374	 Acc: 87.796% (45293/51589) |  Valid Loss: 0.041	 Acc: 89.283% (5357/6000)
+(2/10) Substitute Model Train Loss: 0.202	 Acc: 93.890% (48437/51589) |  Valid Loss: 0.039	 Acc: 90.450% (5427/6000)
+(3/10) Substitute Model Train Loss: 0.166	 Acc: 94.941% (48979/51589) |  Valid Loss: 0.040	 Acc: 90.533% (5432/6000)
+(4/10) Substitute Model Train Loss: 0.156	 Acc: 95.216% (49121/51589) |  Valid Loss: 0.042	 Acc: 90.433% (5426/6000)
+(5/10) Substitute Model Train Loss: 0.138	 Acc: 95.761% (49402/51589) |  Valid Loss: 0.043	 Acc: 90.683% (5441/6000)
+(6/10) Substitute Model Train Loss: 0.124	 Acc: 96.084% (49569/51589) |  Valid Loss: 0.043	 Acc: 90.983% (5459/6000)
+(7/10) Substitute Model Train Loss: 0.117	 Acc: 96.292% (49676/51589) |  Valid Loss: 0.044	 Acc: 90.833% (5450/6000)
+(8/10) Substitute Model Train Loss: 0.106	 Acc: 96.703% (49888/51589) |  Valid Loss: 0.046	 Acc: 90.567% (5434/6000)
+(9/10) Substitute Model Train Loss: 0.101	 Acc: 96.883% (49981/51589) |  Valid Loss: 0.047	 Acc: 90.533% (5432/6000)
+Test Loss: 0.406 | Acc: 90.533% (5432/6000)
+using cuda
+==> Preparing data..
+46449 / 4197 Acc: %91.71: true / false finazalized dataset distribution
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Number of parameters in teacher model: 32700082
+lr: 0.01, epoch: 10, budget: 1k threshold: 8
+(0/10) Substitute Model Train Loss: 2.111	 Acc: 25.337% (12832/50646) |  Valid Loss: 0.113	 Acc: 78.817% (4729/6000)
+(1/10) Substitute Model Train Loss: 0.407	 Acc: 86.830% (43976/50646) |  Valid Loss: 0.043	 Acc: 88.983% (5339/6000)
+(2/10) Substitute Model Train Loss: 0.208	 Acc: 93.690% (47450/50646) |  Valid Loss: 0.044	 Acc: 89.483% (5369/6000)
+(3/10) Substitute Model Train Loss: 0.171	 Acc: 94.762% (47993/50646) |  Valid Loss: 0.045	 Acc: 89.800% (5388/6000)
+(4/10) Substitute Model Train Loss: 0.153	 Acc: 95.257% (48244/50646) |  Valid Loss: 0.044	 Acc: 90.050% (5403/6000)
+(5/10) Substitute Model Train Loss: 0.136	 Acc: 95.723% (48480/50646) |  Valid Loss: 0.049	 Acc: 89.767% (5386/6000)
+(6/10) Substitute Model Train Loss: 0.122	 Acc: 96.158% (48700/50646) |  Valid Loss: 0.048	 Acc: 89.833% (5390/6000)
+(7/10) Substitute Model Train Loss: 0.115	 Acc: 96.436% (48841/50646) |  Valid Loss: 0.049	 Acc: 89.567% (5374/6000)
+(8/10) Substitute Model Train Loss: 0.106	 Acc: 96.675% (48962/50646) |  Valid Loss: 0.055	 Acc: 89.367% (5362/6000)
+(9/10) Substitute Model Train Loss: 0.092	 Acc: 97.060% (49157/50646) |  Valid Loss: 0.053	 Acc: 89.733% (5384/6000)
+Test Loss: 0.445 | Acc: 89.733% (5384/6000)
+using cuda
+==> Preparing data..
+43070 / 6728 Acc: %86.49: true / false finazalized dataset distribution
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Number of parameters in teacher model: 32700082
+lr: 0.01, epoch: 10, budget: 250 threshold: 8
+(0/10) Substitute Model Train Loss: 2.061	 Acc: 24.457% (12179/49798) |  Valid Loss: 0.119	 Acc: 73.067% (4384/6000)
+(1/10) Substitute Model Train Loss: 0.420	 Acc: 86.614% (43132/49798) |  Valid Loss: 0.070	 Acc: 84.800% (5088/6000)
+(2/10) Substitute Model Train Loss: 0.257	 Acc: 92.100% (45864/49798) |  Valid Loss: 0.073	 Acc: 85.283% (5117/6000)
+(3/10) Substitute Model Train Loss: 0.218	 Acc: 93.245% (46434/49798) |  Valid Loss: 0.077	 Acc: 85.617% (5137/6000)
+(4/10) Substitute Model Train Loss: 0.202	 Acc: 93.644% (46633/49798) |  Valid Loss: 0.080	 Acc: 84.883% (5093/6000)
+(5/10) Substitute Model Train Loss: 0.185	 Acc: 94.235% (46927/49798) |  Valid Loss: 0.079	 Acc: 85.083% (5105/6000)
+(6/10) Substitute Model Train Loss: 0.173	 Acc: 94.626% (47122/49798) |  Valid Loss: 0.086	 Acc: 84.767% (5086/6000)
+(7/10) Substitute Model Train Loss: 0.156	 Acc: 94.966% (47291/49798) |  Valid Loss: 0.081	 Acc: 85.600% (5136/6000)
+(8/10) Substitute Model Train Loss: 0.152	 Acc: 95.227% (47421/49798) |  Valid Loss: 0.086	 Acc: 84.833% (5090/6000)
+(9/10) Substitute Model Train Loss: 0.138	 Acc: 95.632% (47623/49798) |  Valid Loss: 0.090	 Acc: 85.367% (5122/6000)
+Test Loss: 0.747 | Acc: 85.367% (5122/6000)
+using cuda
+==> Preparing data..
+50201 / 3588 Acc: %93.33: true / false finazalized dataset distribution
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Number of parameters in teacher model: 32700082
+lr: 0.01, epoch: 10, budget: 4k threshold: 7
+(0/10) Substitute Model Train Loss: 2.052	 Acc: 28.312% (15229/53789) |  Valid Loss: 0.079	 Acc: 82.633% (4958/6000)
+(1/10) Substitute Model Train Loss: 0.360	 Acc: 88.191% (47437/53789) |  Valid Loss: 0.037	 Acc: 89.983% (5399/6000)
+(2/10) Substitute Model Train Loss: 0.205	 Acc: 93.861% (50487/53789) |  Valid Loss: 0.033	 Acc: 91.383% (5483/6000)
+(3/10) Substitute Model Train Loss: 0.165	 Acc: 94.936% (51065/53789) |  Valid Loss: 0.033	 Acc: 91.433% (5486/6000)
+(4/10) Substitute Model Train Loss: 0.145	 Acc: 95.666% (51458/53789) |  Valid Loss: 0.035	 Acc: 91.500% (5490/6000)
+(5/10) Substitute Model Train Loss: 0.132	 Acc: 95.973% (51623/53789) |  Valid Loss: 0.035	 Acc: 91.750% (5505/6000)
+(6/10) Substitute Model Train Loss: 0.120	 Acc: 96.300% (51799/53789) |  Valid Loss: 0.038	 Acc: 91.617% (5497/6000)
+(7/10) Substitute Model Train Loss: 0.112	 Acc: 96.520% (51917/53789) |  Valid Loss: 0.038	 Acc: 91.417% (5485/6000)
+(8/10) Substitute Model Train Loss: 0.102	 Acc: 96.750% (52041/53789) |  Valid Loss: 0.039	 Acc: 91.800% (5508/6000)
+(9/10) Substitute Model Train Loss: 0.091	 Acc: 97.144% (52253/53789) |  Valid Loss: 0.038	 Acc: 91.900% (5514/6000)
+Test Loss: 0.339 | Acc: 91.900% (5514/6000)
+using cuda
+==> Preparing data..
+47719 / 3995 Acc: %92.27: true / false finazalized dataset distribution
+** Using avgpool **
+======> Encoder: output dim 2048 | 25.549M parameters
+Number of parameters in teacher model: 32700082
+lr: 0.01, epoch: 10, budget: 2k threshold: 7
+(0/10) Substitute Model Train Loss: 2.092	 Acc: 26.693% (13804/51714) |  Valid Loss: 0.108	 Acc: 73.650% (4419/6000)
+(1/10) Substitute Model Train Loss: 0.392	 Acc: 87.636% (45320/51714) |  Valid Loss: 0.043	 Acc: 89.100% (5346/6000)
+(2/10) Substitute Model Train Loss: 0.208	 Acc: 93.737% (48475/51714) |  Valid Loss: 0.045	 Acc: 90.000% (5400/6000)

@@ -1,0 +1,29 @@
+=== seed 950 budget 4k  Pzt 23 Kas 2026 09:36:13 +03
+budget 4k conf 0.9 sim 0.7: 51051 training samples, pseudo-label accuracy 95.36%, 6000 test samples
+RESULT budget=4k conf=0.9 sim=0.7 seed=950 best_acc=91.83 (epoch 7) final_acc=91.82 time=19.5min
+=== seed 950 budget 2k  Pzt 23 Kas 2026 09:55:50 +03
+budget 2k conf 0.9 sim 0.7: 47902 training samples, pseudo-label accuracy 95.17%, 6000 test samples
+RESULT budget=2k conf=0.9 sim=0.7 seed=950 best_acc=90.97 (epoch 6) final_acc=90.80 time=16.6min
+=== seed 950 budget 1k  Pzt 23 Kas 2026 10:12:49 +03
+budget 1k conf 0.95 sim 0.7: 48034 training samples, pseudo-label accuracy 94.08%, 6000 test samples
+RESULT budget=1k conf=0.95 sim=0.7 seed=950 best_acc=90.45 (epoch 7) final_acc=90.05 time=15.4min
+=== seed 950 budget 250  Pzt 23 Kas 2026 10:28:33 +03
+skip seed 950 budget 4k (done)
+skip seed 950 budget 2k (done)
+skip seed 950 budget 1k (done)
+=== seed 950 budget 250  Pzt 23 Kas 2026 10:44:49 +03
+budget 250 conf 0.95 sim 0.7: 42882 training samples, pseudo-label accuracy 92.24%, 6000 test samples
+RESULT budget=250 conf=0.95 sim=0.7 seed=950 best_acc=85.87 (epoch 8) final_acc=85.58 time=12.9min
+=== seed 1 budget 4k  Pzt 23 Kas 2026 10:57:51 +03
+budget 4k conf 0.9 sim 0.7: 51051 training samples, pseudo-label accuracy 95.36%, 6000 test samples
+skip seed 950 budget 4k (done)
+skip seed 950 budget 2k (done)
+skip seed 950 budget 1k (done)
+skip seed 950 budget 250 (done)
+=== seed 1 budget 4k  Pzt 23 Kas 2026 11:04:30 +03
+budget 4k conf 0.9 sim 0.7: 51051 training samples, pseudo-label accuracy 95.36%, 6000 test samples
+RESULT budget=4k conf=0.9 sim=0.7 seed=1 best_acc=92.02 (epoch 8) final_acc=92.02 time=14.3min
+=== seed 1 budget 2k  Pzt 23 Kas 2026 11:19:06 +03
+budget 2k conf 0.9 sim 0.7: 47902 training samples, pseudo-label accuracy 95.17%, 6000 test samples
+RESULT budget=2k conf=0.9 sim=0.7 seed=1 best_acc=90.95 (epoch 8) final_acc=90.50 time=13.6min
+=== seed 1 budget 1k  Pzt 23 Kas 2026 11:32:58 +03

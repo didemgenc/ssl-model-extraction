@@ -1,0 +1,363 @@
+=== seed 950 budget 4k method frozen model linear  Prş 19 Kas 2026 08:47:43 +03
+budget 4k: 4000 query samples, 6000 test samples, overlap 0
+RESULT budget=4k model=linear method=frozen seed=950 best_acc=87.95 (epoch 12) final_acc=87.78 time=2.0min
+=== seed 950 budget 4k method frozen model MLP  Prş 19 Kas 2026 08:49:53 +03
+budget 4k: 4000 query samples, 6000 test samples, overlap 0
+RESULT budget=4k model=MLP method=frozen seed=950 best_acc=87.48 (epoch 8) final_acc=85.48 time=2.7min
+=== seed 950 budget 4k method layer4 model linear  Prş 19 Kas 2026 08:52:45 +03
+budget 4k: 4000 query samples, 6000 test samples, overlap 0
+RESULT budget=4k model=linear method=layer4 seed=950 best_acc=89.15 (epoch 12) final_acc=88.80 time=3.2min
+=== seed 950 budget 4k method layer4 model MLP  Prş 19 Kas 2026 08:56:03 +03
+budget 4k: 4000 query samples, 6000 test samples, overlap 0
+RESULT budget=4k model=MLP method=layer4 seed=950 best_acc=88.48 (epoch 11) final_acc=87.90 time=3.4min
+=== seed 950 budget 4k method finetune model linear  Prş 19 Kas 2026 08:59:33 +03
+budget 4k: 4000 query samples, 6000 test samples, overlap 0
+RESULT budget=4k model=linear method=finetune seed=950 best_acc=91.25 (epoch 17) final_acc=90.93 time=4.3min
+=== seed 950 budget 4k method finetune model MLP  Prş 19 Kas 2026 09:04:04 +03
+budget 4k: 4000 query samples, 6000 test samples, overlap 0
+RESULT budget=4k model=MLP method=finetune seed=950 best_acc=90.90 (epoch 4) final_acc=90.28 time=5.1min
+=== seed 950 budget 2k method frozen model linear  Prş 19 Kas 2026 09:09:27 +03
+budget 2k: 2000 query samples, 6000 test samples, overlap 0
+RESULT budget=2k model=linear method=frozen seed=950 best_acc=87.12 (epoch 15) final_acc=87.12 time=2.6min
+=== seed 950 budget 2k method frozen model MLP  Prş 19 Kas 2026 09:12:20 +03
+budget 2k: 2000 query samples, 6000 test samples, overlap 0
+RESULT budget=2k model=MLP method=frozen seed=950 best_acc=86.92 (epoch 10) final_acc=85.13 time=2.7min
+=== seed 950 budget 2k method layer4 model linear  Prş 19 Kas 2026 09:15:19 +03
+budget 2k: 2000 query samples, 6000 test samples, overlap 0
+RESULT budget=2k model=linear method=layer4 seed=950 best_acc=88.33 (epoch 16) final_acc=88.07 time=2.6min
+=== seed 950 budget 2k method layer4 model MLP  Prş 19 Kas 2026 09:18:14 +03
+budget 2k: 2000 query samples, 6000 test samples, overlap 0
+RESULT budget=2k model=MLP method=layer4 seed=950 best_acc=88.08 (epoch 18) final_acc=86.83 time=2.4min
+=== seed 950 budget 2k method finetune model linear  Prş 19 Kas 2026 09:20:58 +03
+budget 2k: 2000 query samples, 6000 test samples, overlap 0
+RESULT budget=2k model=linear method=finetune seed=950 best_acc=90.18 (epoch 19) final_acc=90.18 time=3.2min
+=== seed 950 budget 2k method finetune model MLP  Prş 19 Kas 2026 09:24:29 +03
+budget 2k: 2000 query samples, 6000 test samples, overlap 0
+RESULT budget=2k model=MLP method=finetune seed=950 best_acc=90.28 (epoch 13) final_acc=89.35 time=3.1min
+=== seed 950 budget 1k method frozen model linear  Prş 19 Kas 2026 09:27:52 +03
+budget 1k: 1000 query samples, 6000 test samples, overlap 0
+RESULT budget=1k model=linear method=frozen seed=950 best_acc=86.08 (epoch 12) final_acc=85.70 time=1.8min
+=== seed 950 budget 1k method frozen model MLP  Prş 19 Kas 2026 09:29:58 +03
+budget 1k: 1000 query samples, 6000 test samples, overlap 0
+RESULT budget=1k model=MLP method=frozen seed=950 best_acc=85.67 (epoch 12) final_acc=84.27 time=2.0min
+=== seed 950 budget 1k method layer4 model linear  Prş 19 Kas 2026 09:32:16 +03
+budget 1k: 1000 query samples, 6000 test samples, overlap 0
+RESULT budget=1k model=linear method=layer4 seed=950 best_acc=87.30 (epoch 16) final_acc=87.15 time=2.0min
+=== seed 950 budget 1k method layer4 model MLP  Prş 19 Kas 2026 09:34:33 +03
+budget 1k: 1000 query samples, 6000 test samples, overlap 0
+RESULT budget=1k model=MLP method=layer4 seed=950 best_acc=87.30 (epoch 15) final_acc=86.67 time=1.9min
+=== seed 950 budget 1k method finetune model linear  Prş 19 Kas 2026 09:36:44 +03
+budget 1k: 1000 query samples, 6000 test samples, overlap 0
+RESULT budget=1k model=linear method=finetune seed=950 best_acc=89.13 (epoch 19) final_acc=89.13 time=2.4min
+=== seed 950 budget 1k method finetune model MLP  Prş 19 Kas 2026 09:39:24 +03
+budget 1k: 1000 query samples, 6000 test samples, overlap 0
+RESULT budget=1k model=MLP method=finetune seed=950 best_acc=89.47 (epoch 15) final_acc=89.32 time=2.9min
+=== seed 950 budget 250 method frozen model linear  Prş 19 Kas 2026 09:42:35 +03
+budget 250: 250 query samples, 6000 test samples, overlap 0
+RESULT budget=250 model=linear method=frozen seed=950 best_acc=82.30 (epoch 12) final_acc=82.13 time=2.1min
+=== seed 950 budget 250 method frozen model MLP  Prş 19 Kas 2026 09:44:58 +03
+budget 250: 250 query samples, 6000 test samples, overlap 0
+RESULT budget=250 model=MLP method=frozen seed=950 best_acc=80.05 (epoch 19) final_acc=80.05 time=2.2min
+=== seed 950 budget 250 method layer4 model linear  Prş 19 Kas 2026 09:47:28 +03
+budget 250: 250 query samples, 6000 test samples, overlap 0
+RESULT budget=250 model=linear method=layer4 seed=950 best_acc=84.42 (epoch 15) final_acc=84.12 time=2.1min
+=== seed 950 budget 250 method layer4 model MLP  Prş 19 Kas 2026 09:49:53 +03
+budget 250: 250 query samples, 6000 test samples, overlap 0
+RESULT budget=250 model=MLP method=layer4 seed=950 best_acc=82.08 (epoch 18) final_acc=81.87 time=2.3min
+=== seed 950 budget 250 method finetune model linear  Prş 19 Kas 2026 09:52:26 +03
+budget 250: 250 query samples, 6000 test samples, overlap 0
+RESULT budget=250 model=linear method=finetune seed=950 best_acc=85.40 (epoch 13) final_acc=84.93 time=2.2min
+=== seed 950 budget 250 method finetune model MLP  Prş 19 Kas 2026 09:54:55 +03
+budget 250: 250 query samples, 6000 test samples, overlap 0
+RESULT budget=250 model=MLP method=finetune seed=950 best_acc=82.77 (epoch 18) final_acc=82.70 time=2.4min
+DONE Prş 19 Kas 2026 09:57:36 +03
+=== seed 1 budget 4k method frozen model linear  Prş 19 Kas 2026 10:28:04 +03
+budget 4k: 4000 query samples, 6000 test samples, overlap 0
+RESULT budget=4k model=linear method=frozen seed=1 best_acc=88.08 (epoch 18) final_acc=87.65 time=2.1min
+=== seed 1 budget 4k method frozen model MLP  Prş 19 Kas 2026 10:30:13 +03
+budget 4k: 4000 query samples, 6000 test samples, overlap 0
+RESULT budget=4k model=MLP method=frozen seed=1 best_acc=87.37 (epoch 7) final_acc=86.93 time=3.3min
+=== seed 1 budget 4k method layer4 model linear  Prş 19 Kas 2026 10:33:41 +03
+budget 4k: 4000 query samples, 6000 test samples, overlap 0
+RESULT budget=4k model=linear method=layer4 seed=1 best_acc=89.52 (epoch 4) final_acc=88.82 time=3.7min
+=== seed 1 budget 4k method layer4 model MLP  Prş 19 Kas 2026 10:37:33 +03
+budget 4k: 4000 query samples, 6000 test samples, overlap 0
+RESULT budget=4k model=MLP method=layer4 seed=1 best_acc=89.07 (epoch 15) final_acc=88.52 time=3.9min
+=== seed 1 budget 4k method finetune model linear  Prş 19 Kas 2026 10:41:33 +03
+budget 4k: 4000 query samples, 6000 test samples, overlap 0
+RESULT budget=4k model=linear method=finetune seed=1 best_acc=91.17 (epoch 7) final_acc=90.70 time=5.8min
+=== seed 1 budget 4k method finetune model MLP  Prş 19 Kas 2026 10:47:34 +03
+budget 4k: 4000 query samples, 6000 test samples, overlap 0
+RESULT budget=4k model=MLP method=finetune seed=1 best_acc=90.88 (epoch 7) final_acc=90.27 time=4.5min
+=== seed 1 budget 2k method frozen model linear  Prş 19 Kas 2026 10:52:17 +03
+budget 2k: 2000 query samples, 6000 test samples, overlap 0
+RESULT budget=2k model=linear method=frozen seed=1 best_acc=87.18 (epoch 16) final_acc=86.82 time=2.6min
+=== seed 1 budget 2k method frozen model MLP  Prş 19 Kas 2026 10:55:00 +03
+budget 2k: 2000 query samples, 6000 test samples, overlap 0
+RESULT budget=2k model=MLP method=frozen seed=1 best_acc=86.40 (epoch 16) final_acc=86.32 time=2.8min
+=== seed 1 budget 2k method layer4 model linear  Prş 19 Kas 2026 10:57:53 +03
+budget 2k: 2000 query samples, 6000 test samples, overlap 0
+RESULT budget=2k model=linear method=layer4 seed=1 best_acc=88.45 (epoch 16) final_acc=88.35 time=2.5min
+=== seed 1 budget 2k method layer4 model MLP  Prş 19 Kas 2026 11:00:34 +03
+budget 2k: 2000 query samples, 6000 test samples, overlap 0
+RESULT budget=2k model=MLP method=layer4 seed=1 best_acc=88.08 (epoch 14) final_acc=88.05 time=2.6min
+=== seed 1 budget 2k method finetune model linear  Prş 19 Kas 2026 11:03:20 +03
+budget 2k: 2000 query samples, 6000 test samples, overlap 0
+RESULT budget=2k model=linear method=finetune seed=1 best_acc=90.28 (epoch 7) final_acc=89.93 time=3.1min
+=== seed 1 budget 2k method finetune model MLP  Prş 19 Kas 2026 11:06:37 +03
+budget 2k: 2000 query samples, 6000 test samples, overlap 0
+RESULT budget=2k model=MLP method=finetune seed=1 best_acc=90.43 (epoch 16) final_acc=89.95 time=3.3min
+=== seed 1 budget 1k method frozen model linear  Prş 19 Kas 2026 11:10:09 +03
+budget 1k: 1000 query samples, 6000 test samples, overlap 0
+RESULT budget=1k model=linear method=frozen seed=1 best_acc=85.95 (epoch 10) final_acc=85.78 time=2.1min
+=== seed 1 budget 1k method frozen model MLP  Prş 19 Kas 2026 11:12:21 +03
+budget 1k: 1000 query samples, 6000 test samples, overlap 0
+RESULT budget=1k model=MLP method=frozen seed=1 best_acc=85.27 (epoch 12) final_acc=84.55 time=2.3min
+=== seed 1 budget 1k method layer4 model linear  Prş 19 Kas 2026 11:14:48 +03
+budget 1k: 1000 query samples, 6000 test samples, overlap 0
+RESULT budget=1k model=linear method=layer4 seed=1 best_acc=87.55 (epoch 19) final_acc=87.55 time=2.1min
+=== seed 1 budget 1k method layer4 model MLP  Prş 19 Kas 2026 11:17:03 +03
+budget 1k: 1000 query samples, 6000 test samples, overlap 0
+RESULT budget=1k model=MLP method=layer4 seed=1 best_acc=87.25 (epoch 19) final_acc=87.25 time=2.2min
+=== seed 1 budget 1k method finetune model linear  Prş 19 Kas 2026 11:19:20 +03
+budget 1k: 1000 query samples, 6000 test samples, overlap 0
+RESULT budget=1k model=linear method=finetune seed=1 best_acc=89.37 (epoch 14) final_acc=89.12 time=2.6min
+=== seed 1 budget 1k method finetune model MLP  Prş 19 Kas 2026 11:22:04 +03
+budget 1k: 1000 query samples, 6000 test samples, overlap 0
+RESULT budget=1k model=MLP method=finetune seed=1 best_acc=88.93 (epoch 19) final_acc=88.93 time=3.4min
+=== seed 1 budget 250 method frozen model linear  Prş 19 Kas 2026 11:25:34 +03
+budget 250: 250 query samples, 6000 test samples, overlap 0
+RESULT budget=250 model=linear method=frozen seed=1 best_acc=82.38 (epoch 9) final_acc=82.13 time=1.8min
+=== seed 1 budget 250 method frozen model MLP  Prş 19 Kas 2026 11:27:31 +03
+budget 250: 250 query samples, 6000 test samples, overlap 0
+RESULT budget=250 model=MLP method=frozen seed=1 best_acc=79.90 (epoch 18) final_acc=79.73 time=2.1min
+=== seed 1 budget 250 method layer4 model linear  Prş 19 Kas 2026 11:29:42 +03
+budget 250: 250 query samples, 6000 test samples, overlap 0
+RESULT budget=250 model=linear method=layer4 seed=1 best_acc=84.63 (epoch 14) final_acc=84.43 time=1.9min
+=== seed 1 budget 250 method layer4 model MLP  Prş 19 Kas 2026 11:31:44 +03
+budget 250: 250 query samples, 6000 test samples, overlap 0
+RESULT budget=250 model=MLP method=layer4 seed=1 best_acc=82.67 (epoch 18) final_acc=82.10 time=2.1min
+=== seed 1 budget 250 method finetune model linear  Prş 19 Kas 2026 11:33:56 +03
+budget 250: 250 query samples, 6000 test samples, overlap 0
+RESULT budget=250 model=linear method=finetune seed=1 best_acc=85.42 (epoch 12) final_acc=85.22 time=2.1min
+=== seed 1 budget 250 method finetune model MLP  Prş 19 Kas 2026 11:36:12 +03
+budget 250: 250 query samples, 6000 test samples, overlap 0
+RESULT budget=250 model=MLP method=finetune seed=1 best_acc=83.18 (epoch 18) final_acc=83.02 time=2.3min
+=== seed 2 budget 4k method frozen model linear  Prş 19 Kas 2026 11:38:40 +03
+budget 4k: 4000 query samples, 6000 test samples, overlap 0
+RESULT budget=4k model=linear method=frozen seed=2 best_acc=87.93 (epoch 19) final_acc=87.93 time=2.8min
+=== seed 2 budget 4k method frozen model MLP  Prş 19 Kas 2026 11:41:35 +03
+budget 4k: 4000 query samples, 6000 test samples, overlap 0
+RESULT budget=4k model=MLP method=frozen seed=2 best_acc=87.65 (epoch 13) final_acc=85.75 time=2.9min
+=== seed 2 budget 4k method layer4 model linear  Prş 19 Kas 2026 11:44:35 +03
+budget 4k: 4000 query samples, 6000 test samples, overlap 0
+RESULT budget=4k model=linear method=layer4 seed=2 best_acc=88.82 (epoch 12) final_acc=88.60 time=3.1min
+=== seed 2 budget 4k method layer4 model MLP  Prş 19 Kas 2026 11:47:50 +03
+budget 4k: 4000 query samples, 6000 test samples, overlap 0
+RESULT budget=4k model=MLP method=layer4 seed=2 best_acc=88.73 (epoch 15) final_acc=87.77 time=3.2min
+=== seed 2 budget 4k method finetune model linear  Prş 19 Kas 2026 11:51:07 +03
+budget 4k: 4000 query samples, 6000 test samples, overlap 0
+RESULT budget=4k model=linear method=finetune seed=2 best_acc=91.03 (epoch 6) final_acc=90.90 time=4.2min
+=== seed 2 budget 4k method finetune model MLP  Prş 19 Kas 2026 11:55:28 +03
+budget 4k: 4000 query samples, 6000 test samples, overlap 0
+RESULT budget=4k model=MLP method=finetune seed=2 best_acc=90.45 (epoch 3) final_acc=90.37 time=4.2min
+=== seed 2 budget 2k method frozen model linear  Prş 19 Kas 2026 11:59:54 +03
+budget 2k: 2000 query samples, 6000 test samples, overlap 0
+RESULT budget=2k model=linear method=frozen seed=2 best_acc=87.07 (epoch 17) final_acc=86.95 time=2.6min
+=== seed 2 budget 2k method frozen model MLP  Prş 19 Kas 2026 12:02:40 +03
+budget 2k: 2000 query samples, 6000 test samples, overlap 0
+RESULT budget=2k model=MLP method=frozen seed=2 best_acc=86.92 (epoch 10) final_acc=85.55 time=2.3min
+=== seed 2 budget 2k method layer4 model linear  Prş 19 Kas 2026 12:05:08 +03
+budget 2k: 2000 query samples, 6000 test samples, overlap 0
+RESULT budget=2k model=linear method=layer4 seed=2 best_acc=88.52 (epoch 7) final_acc=87.95 time=2.5min
+=== seed 2 budget 2k method layer4 model MLP  Prş 19 Kas 2026 12:07:46 +03
+budget 2k: 2000 query samples, 6000 test samples, overlap 0
+RESULT budget=2k model=MLP method=layer4 seed=2 best_acc=88.37 (epoch 18) final_acc=87.82 time=2.5min
+=== seed 2 budget 2k method finetune model linear  Prş 19 Kas 2026 12:10:27 +03
+budget 2k: 2000 query samples, 6000 test samples, overlap 0
+RESULT budget=2k model=linear method=finetune seed=2 best_acc=90.27 (epoch 16) final_acc=89.95 time=3.1min
+=== seed 2 budget 2k method finetune model MLP  Prş 19 Kas 2026 12:13:45 +03
+budget 2k: 2000 query samples, 6000 test samples, overlap 0
+RESULT budget=2k model=MLP method=finetune seed=2 best_acc=90.32 (epoch 8) final_acc=89.22 time=3.2min
+=== seed 2 budget 1k method frozen model linear  Prş 19 Kas 2026 12:17:09 +03
+budget 1k: 1000 query samples, 6000 test samples, overlap 0
+RESULT budget=1k model=linear method=frozen seed=2 best_acc=85.97 (epoch 13) final_acc=85.97 time=2.2min
+=== seed 2 budget 1k method frozen model MLP  Prş 19 Kas 2026 12:19:28 +03
+budget 1k: 1000 query samples, 6000 test samples, overlap 0
+RESULT budget=1k model=MLP method=frozen seed=2 best_acc=85.42 (epoch 13) final_acc=84.88 time=2.1min
+=== seed 2 budget 1k method layer4 model linear  Prş 19 Kas 2026 12:21:39 +03
+budget 1k: 1000 query samples, 6000 test samples, overlap 0
+RESULT budget=1k model=linear method=layer4 seed=2 best_acc=87.32 (epoch 14) final_acc=87.22 time=2.1min
+=== seed 2 budget 1k method layer4 model MLP  Prş 19 Kas 2026 12:23:53 +03
+budget 1k: 1000 query samples, 6000 test samples, overlap 0
+RESULT budget=1k model=MLP method=layer4 seed=2 best_acc=87.22 (epoch 14) final_acc=87.00 time=2.1min
+=== seed 2 budget 1k method finetune model linear  Prş 19 Kas 2026 12:26:07 +03
+budget 1k: 1000 query samples, 6000 test samples, overlap 0
+RESULT budget=1k model=linear method=finetune seed=2 best_acc=89.03 (epoch 15) final_acc=88.90 time=2.6min
+=== seed 2 budget 1k method finetune model MLP  Prş 19 Kas 2026 12:28:48 +03
+budget 1k: 1000 query samples, 6000 test samples, overlap 0
+RESULT budget=1k model=MLP method=finetune seed=2 best_acc=89.05 (epoch 18) final_acc=88.47 time=2.6min
+=== seed 2 budget 250 method frozen model linear  Prş 19 Kas 2026 12:31:33 +03
+budget 250: 250 query samples, 6000 test samples, overlap 0
+RESULT budget=250 model=linear method=frozen seed=2 best_acc=82.13 (epoch 9) final_acc=81.95 time=1.8min
+=== seed 2 budget 250 method frozen model MLP  Prş 19 Kas 2026 12:33:32 +03
+budget 250: 250 query samples, 6000 test samples, overlap 0
+RESULT budget=250 model=MLP method=frozen seed=2 best_acc=79.38 (epoch 19) final_acc=79.38 time=1.9min
+=== seed 2 budget 250 method layer4 model linear  Prş 19 Kas 2026 12:35:36 +03
+budget 250: 250 query samples, 6000 test samples, overlap 0
+RESULT budget=250 model=linear method=layer4 seed=2 best_acc=84.55 (epoch 14) final_acc=84.17 time=1.8min
+=== seed 2 budget 250 method layer4 model MLP  Prş 19 Kas 2026 12:37:30 +03
+budget 250: 250 query samples, 6000 test samples, overlap 0
+RESULT budget=250 model=MLP method=layer4 seed=2 best_acc=81.97 (epoch 19) final_acc=81.97 time=1.9min
+=== seed 2 budget 250 method finetune model linear  Prş 19 Kas 2026 12:39:33 +03
+budget 250: 250 query samples, 6000 test samples, overlap 0
+RESULT budget=250 model=linear method=finetune seed=2 best_acc=85.43 (epoch 14) final_acc=84.97 time=1.9min
+=== seed 2 budget 250 method finetune model MLP  Prş 19 Kas 2026 12:41:36 +03
+budget 250: 250 query samples, 6000 test samples, overlap 0
+RESULT budget=250 model=MLP method=finetune seed=2 best_acc=82.82 (epoch 19) final_acc=82.82 time=2.1min
+DONE Prş 19 Kas 2026 12:43:49 +03
+=== seed 3 budget 4k method frozen model linear  Prş 19 Kas 2026 12:44:15 +03
+budget 4k: 4000 query samples, 6000 test samples, overlap 0
+RESULT budget=4k model=linear method=frozen seed=3 best_acc=87.98 (epoch 13) final_acc=87.70 time=2.4min
+=== seed 3 budget 4k method frozen model MLP  Prş 19 Kas 2026 12:46:43 +03
+budget 4k: 4000 query samples, 6000 test samples, overlap 0
+RESULT budget=4k model=MLP method=frozen seed=3 best_acc=86.85 (epoch 13) final_acc=86.33 time=2.9min
+=== seed 3 budget 4k method layer4 model linear  Prş 19 Kas 2026 12:49:44 +03
+budget 4k: 4000 query samples, 6000 test samples, overlap 0
+RESULT budget=4k model=linear method=layer4 seed=3 best_acc=89.35 (epoch 3) final_acc=88.85 time=3.1min
+=== seed 3 budget 4k method layer4 model MLP  Prş 19 Kas 2026 12:53:00 +03
+budget 4k: 4000 query samples, 6000 test samples, overlap 0
+RESULT budget=4k model=MLP method=layer4 seed=3 best_acc=88.98 (epoch 4) final_acc=88.50 time=3.2min
+=== seed 3 budget 4k method finetune model linear  Prş 19 Kas 2026 12:56:19 +03
+budget 4k: 4000 query samples, 6000 test samples, overlap 0
+RESULT budget=4k model=linear method=finetune seed=3 best_acc=91.00 (epoch 5) final_acc=90.92 time=4.2min
+=== seed 3 budget 4k method finetune model MLP  Prş 19 Kas 2026 13:00:41 +03
+budget 4k: 4000 query samples, 6000 test samples, overlap 0
+RESULT budget=4k model=MLP method=finetune seed=3 best_acc=90.50 (epoch 4) final_acc=90.30 time=4.5min
+=== seed 3 budget 2k method frozen model linear  Prş 19 Kas 2026 13:05:21 +03
+budget 2k: 2000 query samples, 6000 test samples, overlap 0
+RESULT budget=2k model=linear method=frozen seed=3 best_acc=87.20 (epoch 14) final_acc=87.02 time=2.7min
+=== seed 3 budget 2k method frozen model MLP  Prş 19 Kas 2026 13:08:15 +03
+budget 2k: 2000 query samples, 6000 test samples, overlap 0
+RESULT budget=2k model=MLP method=frozen seed=3 best_acc=86.77 (epoch 5) final_acc=86.08 time=2.3min
+=== seed 3 budget 2k method layer4 model linear  Prş 19 Kas 2026 13:10:44 +03
+budget 2k: 2000 query samples, 6000 test samples, overlap 0
+RESULT budget=2k model=linear method=layer4 seed=3 best_acc=88.65 (epoch 16) final_acc=88.13 time=2.6min
+=== seed 3 budget 2k method layer4 model MLP  Prş 19 Kas 2026 13:13:29 +03
+budget 2k: 2000 query samples, 6000 test samples, overlap 0
+RESULT budget=2k model=MLP method=layer4 seed=3 best_acc=88.48 (epoch 5) final_acc=87.27 time=2.6min
+=== seed 3 budget 2k method finetune model linear  Prş 19 Kas 2026 13:16:13 +03
+budget 2k: 2000 query samples, 6000 test samples, overlap 0
+RESULT budget=2k model=linear method=finetune seed=3 best_acc=90.25 (epoch 8) final_acc=90.20 time=3.1min
+=== seed 3 budget 2k method finetune model MLP  Prş 19 Kas 2026 13:19:31 +03
+budget 2k: 2000 query samples, 6000 test samples, overlap 0
+RESULT budget=2k model=MLP method=finetune seed=3 best_acc=90.28 (epoch 7) final_acc=89.12 time=3.2min
+=== seed 3 budget 1k method frozen model linear  Prş 19 Kas 2026 13:22:54 +03
+budget 1k: 1000 query samples, 6000 test samples, overlap 0
+RESULT budget=1k model=linear method=frozen seed=3 best_acc=85.95 (epoch 12) final_acc=85.82 time=2.2min
+=== seed 3 budget 1k method frozen model MLP  Prş 19 Kas 2026 13:25:14 +03
+budget 1k: 1000 query samples, 6000 test samples, overlap 0
+RESULT budget=1k model=MLP method=frozen seed=3 best_acc=85.40 (epoch 13) final_acc=84.62 time=2.4min
+=== seed 3 budget 1k method layer4 model linear  Prş 19 Kas 2026 13:27:48 +03
+budget 1k: 1000 query samples, 6000 test samples, overlap 0
+RESULT budget=1k model=linear method=layer4 seed=3 best_acc=87.45 (epoch 19) final_acc=87.45 time=2.7min
+=== seed 3 budget 1k method layer4 model MLP  Prş 19 Kas 2026 13:30:33 +03
+budget 1k: 1000 query samples, 6000 test samples, overlap 0
+RESULT budget=1k model=MLP method=layer4 seed=3 best_acc=86.77 (epoch 12) final_acc=86.13 time=2.4min
+=== seed 3 budget 1k method finetune model linear  Prş 19 Kas 2026 13:33:08 +03
+budget 1k: 1000 query samples, 6000 test samples, overlap 0
+RESULT budget=1k model=linear method=finetune seed=3 best_acc=89.25 (epoch 17) final_acc=89.10 time=2.8min
+=== seed 3 budget 1k method finetune model MLP  Prş 19 Kas 2026 13:36:02 +03
+budget 1k: 1000 query samples, 6000 test samples, overlap 0
+RESULT budget=1k model=MLP method=finetune seed=3 best_acc=89.12 (epoch 16) final_acc=88.57 time=2.6min
+=== seed 3 budget 250 method frozen model linear  Prş 19 Kas 2026 13:38:48 +03
+budget 250: 250 query samples, 6000 test samples, overlap 0
+RESULT budget=250 model=linear method=frozen seed=3 best_acc=82.42 (epoch 8) final_acc=81.93 time=2.1min
+=== seed 3 budget 250 method frozen model MLP  Prş 19 Kas 2026 13:41:01 +03
+budget 250: 250 query samples, 6000 test samples, overlap 0
+RESULT budget=250 model=MLP method=frozen seed=3 best_acc=80.10 (epoch 19) final_acc=80.10 time=2.3min
+=== seed 3 budget 250 method layer4 model linear  Prş 19 Kas 2026 13:43:29 +03
+budget 250: 250 query samples, 6000 test samples, overlap 0
+RESULT budget=250 model=linear method=layer4 seed=3 best_acc=84.55 (epoch 13) final_acc=84.28 time=1.9min
+=== seed 3 budget 250 method layer4 model MLP  Prş 19 Kas 2026 13:45:29 +03
+budget 250: 250 query samples, 6000 test samples, overlap 0
+RESULT budget=250 model=MLP method=layer4 seed=3 best_acc=82.15 (epoch 19) final_acc=82.15 time=1.8min
+=== seed 3 budget 250 method finetune model linear  Prş 19 Kas 2026 13:47:21 +03
+budget 250: 250 query samples, 6000 test samples, overlap 0
+RESULT budget=250 model=linear method=finetune seed=3 best_acc=85.40 (epoch 16) final_acc=85.25 time=1.9min
+=== seed 3 budget 250 method finetune model MLP  Prş 19 Kas 2026 13:49:22 +03
+budget 250: 250 query samples, 6000 test samples, overlap 0
+RESULT budget=250 model=MLP method=finetune seed=3 best_acc=82.90 (epoch 19) final_acc=82.90 time=1.9min
+=== seed 4 budget 4k method frozen model linear  Prş 19 Kas 2026 13:51:24 +03
+budget 4k: 4000 query samples, 6000 test samples, overlap 0
+RESULT budget=4k model=linear method=frozen seed=4 best_acc=87.88 (epoch 14) final_acc=87.68 time=2.6min
+=== seed 4 budget 4k method frozen model MLP  Prş 19 Kas 2026 13:54:09 +03
+budget 4k: 4000 query samples, 6000 test samples, overlap 0
+RESULT budget=4k model=MLP method=frozen seed=4 best_acc=87.28 (epoch 8) final_acc=85.75 time=3.3min
+=== seed 4 budget 4k method layer4 model linear  Prş 19 Kas 2026 13:57:33 +03
+budget 4k: 4000 query samples, 6000 test samples, overlap 0
+RESULT budget=4k model=linear method=layer4 seed=4 best_acc=89.27 (epoch 12) final_acc=89.05 time=2.9min
+=== seed 4 budget 4k method layer4 model MLP  Prş 19 Kas 2026 14:00:36 +03
+budget 4k: 4000 query samples, 6000 test samples, overlap 0
+RESULT budget=4k model=MLP method=layer4 seed=4 best_acc=88.90 (epoch 8) final_acc=88.02 time=2.9min
+=== seed 4 budget 4k method finetune model linear  Prş 19 Kas 2026 14:03:40 +03
+budget 4k: 4000 query samples, 6000 test samples, overlap 0
+RESULT budget=4k model=linear method=finetune seed=4 best_acc=90.90 (epoch 11) final_acc=90.30 time=4.2min
+=== seed 4 budget 4k method finetune model MLP  Prş 19 Kas 2026 14:08:01 +03
+budget 4k: 4000 query samples, 6000 test samples, overlap 0
+RESULT budget=4k model=MLP method=finetune seed=4 best_acc=90.47 (epoch 3) final_acc=89.88 time=4.3min
+=== seed 4 budget 2k method frozen model linear  Prş 19 Kas 2026 14:12:30 +03
+budget 2k: 2000 query samples, 6000 test samples, overlap 0
+RESULT budget=2k model=linear method=frozen seed=4 best_acc=87.13 (epoch 15) final_acc=86.97 time=2.4min
+=== seed 4 budget 2k method frozen model MLP  Prş 19 Kas 2026 14:15:03 +03
+budget 2k: 2000 query samples, 6000 test samples, overlap 0
+RESULT budget=2k model=MLP method=frozen seed=4 best_acc=86.82 (epoch 11) final_acc=85.50 time=2.1min
+=== seed 4 budget 2k method layer4 model linear  Prş 19 Kas 2026 14:17:18 +03
+budget 2k: 2000 query samples, 6000 test samples, overlap 0
+RESULT budget=2k model=linear method=layer4 seed=4 best_acc=88.43 (epoch 15) final_acc=88.03 time=2.2min
+=== seed 4 budget 2k method layer4 model MLP  Prş 19 Kas 2026 14:19:39 +03
+budget 2k: 2000 query samples, 6000 test samples, overlap 0
+RESULT budget=2k model=MLP method=layer4 seed=4 best_acc=88.23 (epoch 15) final_acc=87.58 time=2.2min
+=== seed 4 budget 2k method finetune model linear  Prş 19 Kas 2026 14:21:58 +03
+budget 2k: 2000 query samples, 6000 test samples, overlap 0
+RESULT budget=2k model=linear method=finetune seed=4 best_acc=90.20 (epoch 10) final_acc=89.90 time=2.9min
+=== seed 4 budget 2k method finetune model MLP  Prş 19 Kas 2026 14:25:02 +03
+budget 2k: 2000 query samples, 6000 test samples, overlap 0
+RESULT budget=2k model=MLP method=finetune seed=4 best_acc=90.22 (epoch 5) final_acc=89.27 time=3.1min
+=== seed 4 budget 1k method frozen model linear  Prş 19 Kas 2026 14:28:14 +03
+budget 1k: 1000 query samples, 6000 test samples, overlap 0
+RESULT budget=1k model=linear method=frozen seed=4 best_acc=86.02 (epoch 11) final_acc=85.77 time=1.9min
+=== seed 4 budget 1k method frozen model MLP  Prş 19 Kas 2026 14:30:18 +03
+budget 1k: 1000 query samples, 6000 test samples, overlap 0
+RESULT budget=1k model=MLP method=frozen seed=4 best_acc=85.43 (epoch 10) final_acc=84.73 time=1.9min
+=== seed 4 budget 1k method layer4 model linear  Prş 19 Kas 2026 14:32:18 +03
+budget 1k: 1000 query samples, 6000 test samples, overlap 0
+RESULT budget=1k model=linear method=layer4 seed=4 best_acc=87.28 (epoch 16) final_acc=87.28 time=1.9min
+=== seed 4 budget 1k method layer4 model MLP  Prş 19 Kas 2026 14:34:18 +03
+budget 1k: 1000 query samples, 6000 test samples, overlap 0
+RESULT budget=1k model=MLP method=layer4 seed=4 best_acc=87.27 (epoch 11) final_acc=86.67 time=1.9min
+=== seed 4 budget 1k method finetune model linear  Prş 19 Kas 2026 14:36:21 +03
+budget 1k: 1000 query samples, 6000 test samples, overlap 0
+RESULT budget=1k model=linear method=finetune seed=4 best_acc=89.30 (epoch 18) final_acc=88.98 time=2.4min
+=== seed 4 budget 1k method finetune model MLP  Prş 19 Kas 2026 14:38:52 +03
+budget 1k: 1000 query samples, 6000 test samples, overlap 0
+RESULT budget=1k model=MLP method=finetune seed=4 best_acc=88.90 (epoch 13) final_acc=88.47 time=2.4min
+=== seed 4 budget 250 method frozen model linear  Prş 19 Kas 2026 14:41:28 +03
+budget 250: 250 query samples, 6000 test samples, overlap 0
+RESULT budget=250 model=linear method=frozen seed=4 best_acc=82.32 (epoch 9) final_acc=82.22 time=1.6min
+=== seed 4 budget 250 method frozen model MLP  Prş 19 Kas 2026 14:43:13 +03
+budget 250: 250 query samples, 6000 test samples, overlap 0
+RESULT budget=250 model=MLP method=frozen seed=4 best_acc=81.05 (epoch 19) final_acc=81.05 time=1.9min
+=== seed 4 budget 250 method layer4 model linear  Prş 19 Kas 2026 14:45:12 +03
+budget 250: 250 query samples, 6000 test samples, overlap 0
+RESULT budget=250 model=linear method=layer4 seed=4 best_acc=84.47 (epoch 12) final_acc=84.32 time=1.7min
+=== seed 4 budget 250 method layer4 model MLP  Prş 19 Kas 2026 14:47:02 +03
+budget 250: 250 query samples, 6000 test samples, overlap 0
+RESULT budget=250 model=MLP method=layer4 seed=4 best_acc=83.08 (epoch 19) final_acc=83.08 time=1.8min
+=== seed 4 budget 250 method finetune model linear  Prş 19 Kas 2026 14:49:00 +03
+budget 250: 250 query samples, 6000 test samples, overlap 0
+RESULT budget=250 model=linear method=finetune seed=4 best_acc=85.32 (epoch 11) final_acc=85.10 time=1.9min
+=== seed 4 budget 250 method finetune model MLP  Prş 19 Kas 2026 14:51:04 +03
+budget 250: 250 query samples, 6000 test samples, overlap 0
+RESULT budget=250 model=MLP method=finetune seed=4 best_acc=83.75 (epoch 19) final_acc=83.75 time=1.9min
+DONE Prş 19 Kas 2026 14:53:07 +03
