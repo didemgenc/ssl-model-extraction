@@ -1,4 +1,8 @@
-"""MixMatch model-extraction baseline (Jagielski et al. 2020 setting) on OUR victim / query set / test split.
+"""MixMatch model-extraction baseline (Jagielski et al. 2020 setting) against OUR victim.
+
+Default --setup original (Table 3): labeled = class-balanced random queries from the CIFAR-10 TRAINING set
+(the same query sets as our Table 3 experiments) with the victim's labels; unlabeled = the 50k training set;
+test = the full 10k CIFAR-10 test set (victim accuracy 94.40%). --setup split uses the Table 1-2 data instead.
 
 Uses the WRN-28-2 model and the MixMatch training step of the unofficial PyTorch implementation
 (YU1ut/MixMatch-pytorch, cloned into ../mixmatch_github, unmodified) with the default hyper-parameters
@@ -47,17 +51,21 @@ parser.add_argument('--lambda-u', default=75, type=float)
 parser.add_argument('--T', default=0.5, type=float)
 parser.add_argument('--ema-decay', default=0.999, type=float)
 parser.add_argument('--seed', default=0, type=int)
+parser.add_argument('--setup', default='original', choices=['original', 'split'],
+                    help='original: queries from the CIFAR-10 training set, full 10k test set (Jagielski et al. setting, Table 3); '
+                         'split: queries from the test set, 6000-image held-out split (Tables 1-2)')
 parser.add_argument('--out', default=os.path.join(HERE, 'outputs'))
 args = parser.parse_args()
 os.makedirs(args.out, exist_ok=True)
-run_dir = os.path.join(args.out, f'{args.budget}_ep{args.epochs}_seed{args.seed}')
+run_dir = os.path.join(args.out, f'{args.setup}_{args.budget}_ep{args.epochs}_seed{args.seed}')
 os.makedirs(run_dir, exist_ok=True)
 
 random.seed(args.seed); np.random.seed(args.seed); torch.manual_seed(args.seed); torch.cuda.manual_seed_all(args.seed)
 device = 'cuda'
 
 # ---------------- data ----------------
-inp = torch.load(os.path.join(HERE, '..', 'cifar10', 'outputs', f'mixmatch_inputs_{args.budget}.pt'))
+inp_name = f'mixmatch_inputs_{args.budget}.pt' if args.setup == 'split' else f'mixmatch_inputs_orig_{args.budget}.pt'
+inp = torch.load(os.path.join(HERE, '..', 'cifar10', 'outputs', inp_name))
 train_base = torchvision.datasets.CIFAR10(DATASET_ROOT, train=True, download=False)
 test_base = torchvision.datasets.CIFAR10(DATASET_ROOT, train=False, download=False)
 
@@ -78,7 +86,8 @@ class ArrayDataset(Dataset):
 transform_train = transforms.Compose([mmdata.RandomPadandCrop(32), mmdata.RandomFlip(), mmdata.ToTensor()])
 transform_val = transforms.Compose([mmdata.ToTensor()])
 
-labeled_set = ArrayDataset(test_base.data[inp['query_idx'].numpy()], inp['query_victim_label'].numpy(), transform_train)
+query_base = train_base if inp.get('query_source', 'test') == 'train' else test_base
+labeled_set = ArrayDataset(query_base.data[inp['query_idx'].numpy()], inp['query_victim_label'].numpy(), transform_train)
 unlabeled_set = ArrayDataset(train_base.data, -np.ones(len(train_base.data), dtype=np.int64), mmdata.TransformTwice(transform_train))
 test_set = ArrayDataset(test_base.data[inp['test_idx'].numpy()], inp['test_true'].numpy(), transform_val)
 victim_pred = inp['test_victim']
@@ -216,12 +225,12 @@ log.close()
 
 acc, fid = evaluate(ema_model)
 torch.save(ema_model.state_dict(), os.path.join(run_dir, 'ema_final.pth'))
-print(f'RESULT mixmatch budget={args.budget} epochs={args.epochs} seed={args.seed} final_acc={acc:.2f} fidelity={fid:.2f}')
+print(f'RESULT mixmatch setup={args.setup} budget={args.budget} epochs={args.epochs} seed={args.seed} final_acc={acc:.2f} fidelity={fid:.2f}')
 res = os.path.join(args.out, 'mixmatch_results.csv')
 new = not os.path.exists(res)
 with open(res, 'a', newline='') as f:
     w = csv.writer(f)
     if new:
-        w.writerow(['budget', 'epochs', 'iterations_per_epoch', 'seed', 'final_acc', 'fidelity', 'victim_acc', 'n_labeled', 'n_unlabeled', 'n_test'])
-    w.writerow([args.budget, args.epochs, args.train_iteration, args.seed, f'{acc:.2f}', f'{fid:.2f}',
+        w.writerow(['setup', 'budget', 'epochs', 'iterations_per_epoch', 'seed', 'final_acc', 'fidelity', 'victim_acc', 'n_labeled', 'n_unlabeled', 'n_test'])
+    w.writerow([args.setup, args.budget, args.epochs, args.train_iteration, args.seed, f'{acc:.2f}', f'{fid:.2f}',
                 f'{100.0 * (victim_pred == inp["test_true"]).float().mean():.2f}', len(labeled_set), len(unlabeled_set), len(test_set)])

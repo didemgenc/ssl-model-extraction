@@ -1,0 +1,7 @@
+setup,budget,epochs,iterations_per_epoch,seed,final_acc,fidelity,victim_acc,n_labeled,n_unlabeled,n_test
+original,4k,32,1024,0,89.85,90.13,94.44,4000,50000,10000
+original,1k,32,1024,0,84.06,84.48,94.44,1000,50000,10000
+original,250,32,1024,0,72.62,73.29,94.44,250,50000,10000
+original,4k,128,1024,0,92.07,91.98,94.44,4000,50000,10000
+original,1k,128,1024,0,86.71,86.80,94.44,1000,50000,10000
+original,250,128,1024,0,79.84,80.28,94.44,250,50000,10000

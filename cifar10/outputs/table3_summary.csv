@@ -1,0 +1,7 @@
+Method,Query Budget,Extracted Model Test Accuracy (%),Fidelity (%),Victim Model Test Accuracy (%),Absolute Difference (%)
+MixMatch-based SSL [6],4000,92.07,91.98,94.40,2.33
+MixMatch-based SSL [6],1000,86.71,86.80,94.40,7.69
+MixMatch-based SSL [6],250,79.84,80.28,94.40,14.56
+Proposed Method,4000,92.48,91.39,94.40,1.92
+Proposed Method,1000,90.70,89.80,94.40,3.70
+Proposed Method,250,87.98,87.42,94.40,6.42

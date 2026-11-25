@@ -7,6 +7,7 @@ the extracted model predicts the same label as the victim. Evaluation is on the 
 Usage:
   python eval_fidelity.py --glob 'table1/*_seed*.pth'            # all Table 1 checkpoints
   python eval_fidelity.py --glob 'table1/4k_linear_finetune_seed950_final.pth'
+  python eval_fidelity.py --glob 'table2/*.pth' --results fidelity_table2.csv   # Table 2 proposed method
 Appends one row per checkpoint to outputs/fidelity_results.csv.
 """
 from paths import data_path, out_path, ckpt_path
@@ -77,11 +78,18 @@ class EncoderWithLinear(nn.Module):
         self.encoder = encoder
         if head == 'linear':
             self.linear_classifier = nn.Linear(2048, 10)
-        else:
+        elif head == 'MLP':
             self.linear_classifier = nn.Sequential(
                 nn.Linear(2048, 1024), nn.ReLU(), nn.Dropout(0.25),
                 nn.Linear(1024, 512), nn.ReLU(), nn.Dropout(0.25),
                 nn.Linear(512, 10),
+            )
+        else:  # 'proposed': 4-layer head of table2_proposed.py
+            self.linear_classifier = nn.Sequential(
+                nn.Linear(2048, 1024), nn.ReLU(), nn.Dropout(0.5),
+                nn.Linear(1024, 512), nn.ReLU(), nn.Dropout(0.5),
+                nn.Linear(512, 128), nn.ReLU(), nn.Dropout(0.5),
+                nn.Linear(128, 10),
             )
 
     def forward(self, x):
@@ -116,6 +124,8 @@ def victim_on(budget):
 
 
 name_re = re.compile(r'(?P<budget>4k|2k|1k|250)_(?P<model>linear|MLP)_(?P<method>finetune|layer4|frozen)_seed(?P<seed>\d+)(?P<final>_final)?\.pth$')
+# Table 2 proposed-method checkpoints: {budget}_conf{c}_sim{s}_seed{seed}[_final].pth
+name_re2 = re.compile(r'(?P<budget>4k|2k|1k|250)_conf(?P<conf>[0-9.]+)_sim(?P<sim>[0-9.]+)_seed(?P<seed>\d+)(?P<final>_final)?\.pth$')
 
 results_file = out_path(args.results)
 write_header = not os.path.exists(results_file)
@@ -126,13 +136,18 @@ with open(results_file, 'a', newline='') as f:
                     'accuracy', 'fidelity', 'victim_accuracy', 'n_test'])
     for path in sorted(glob.glob(ckpt_path(args.glob))):
         m = name_re.search(os.path.basename(path))
-        if not m:
-            print('skip (unrecognised name):', path)
-            continue
+        if m:
+            head, method = m['model'], m['method']
+        else:
+            m = name_re2.search(os.path.basename(path))
+            if not m:
+                print('skip (unrecognised name):', path)
+                continue
+            head, method = 'proposed', f"proposed_conf{m['conf']}_sim{m['sim']}"
         vp, labels, loader = victim_on(m['budget'])
         encoder = EncodeProject()
         encoder.fc = nn.Identity()
-        model = EncoderWithLinear(encoder, m['model']).to(device)
+        model = EncoderWithLinear(encoder, head).to(device)
         model.load_state_dict(torch.load(path, map_location=device, weights_only=True))
         ep, _ = predict(model, loader)
         acc = 100.0 * (ep == labels).float().mean().item()
@@ -140,5 +155,5 @@ with open(results_file, 'a', newline='') as f:
         vacc = 100.0 * (vp == labels).float().mean().item()
         sel = 'final' if m['final'] else 'best'
         print(f"{os.path.basename(path)}: acc {acc:.2f}  fidelity {fid:.2f}")
-        w.writerow([os.path.relpath(path, ckpt_path('')), m['budget'], m['model'], m['method'], m['seed'], sel,
+        w.writerow([os.path.relpath(path, ckpt_path('')), m['budget'], head, method, m['seed'], sel,
                     f'{acc:.2f}', f'{fid:.2f}', f'{vacc:.2f}', len(labels)])

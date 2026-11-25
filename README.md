@@ -5,8 +5,8 @@ that produces it, the exact command, and where the results are written.
 
 ```
 cifar10/      CIFAR-10 experiments (Tables 1, 2, 4, 5; MixMatch inputs)
-svhn/         SVHN experiments (Table 2, SVHN rows; Table 3)
-mixmatch/     MixMatch model-extraction baseline on our victim / query set / test split (Table 2)
+svhn/         SVHN experiments (Table 2, SVHN rows)
+mixmatch/     MixMatch model-extraction baseline (Jagielski et al.) on our victim (Table 3)
 thermal_guard.sh   optional: pauses a run when the CPU overheats (laptop use)
 ```
 
@@ -70,18 +70,30 @@ F = `--training_method frozen`, LL = `layer4`, FT = `finetune`. Results of our r
 
 Results: `outputs/table2_results.csv`, `outputs/fidelity_results.csv`.
 
-### MixMatch baseline on the same victim / query set / test split
+### MixMatch baseline on the same victim (Table 3 / Jagielski et al. setup)
 
 ```
-cd cifar10 && python export_mixmatch_inputs.py      # query indices + victim labels, test split, victim predictions
-cd ../mixmatch && bash run_mixmatch.sh 128 4k 2k 1k 250
+cd cifar10 && python export_mixmatch_inputs.py --setup original   # query indices (CIFAR-10 train) + victim labels, full test set
+cd ../mixmatch && bash run_mixmatch.sh 128 4k 1k 250               # SETUP=original by default
 ```
 `train_mixmatch_mea.py` uses the WRN-28-2 model and the MixMatch step of `mixmatch_github` (unmodified)
-with the default hyper-parameters; labeled set = our query set with the victim's labels, unlabeled set =
-CIFAR-10 training set, test = our 6000-image split, EMA model after the final epoch, no validation set.
+with the default hyper-parameters; labeled set = query set with the victim's labels (4000/1000/250 class-balanced
+samples from the CIFAR-10 training set, as in Jagielski et al.), unlabeled set = CIFAR-10 training set (50k),
+test = full CIFAR-10 test set, EMA model after the final epoch, no validation set, 128 epochs x 1024 iterations, seed 0.
+`SETUP=split` runs the same attack on the Table 1/2 query sets and 6000-image split instead.
 Results: `mixmatch/outputs/mixmatch_results.csv`, per-epoch log in `mixmatch/outputs/<run>/log.csv`.
 
-## Table 2 – SVHN, and Table 3
+## Table 3 – MixMatch vs proposed method (CIFAR-10, Jagielski et al. setup)
+
+| Row | Command |
+|---|---|
+| MixMatch-based SSL | see "MixMatch baseline" above |
+| Proposed Method | `cd cifar10 && bash run_table3.sh 950` → `table3_proposed.py` (queries from the CIFAR-10 training set, similarity 0.8, confidence 0.9 for 4k and 0.95 for 1k/250, full 10k test set, fidelity computed in-script) |
+| Table | `python summarize_table3.py` → `outputs/table3_summary.csv`, `outputs/Table3_revised.docx` |
+
+Results: `cifar10/outputs/table3_results.csv`.
+
+## Table 2 – SVHN rows
 
 | Row | Script |
 |---|---|

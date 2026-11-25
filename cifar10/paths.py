@@ -10,6 +10,8 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 
 # Original experiment folder: .pkl data, pretrained encoders, victim model
 DATA_DIR = '/home/didemgenc/Desktop/2024_SSL_MEA/Scenario4_MEA_SSL_KD/last_period/4k_budget_problem_Domain'
+# Table 3 setup ("original"): queries drawn from the CIFAR-10 TRAINING set (class-balanced, as in MixMatch)
+ORIG_DIR = '/home/didemgenc/Desktop/2024_SSL_MEA/Scenario4_MEA_SSL_KD/last_period/4k_budget_original'
 # Torchvision dataset root
 DATASET_ROOT = '/home/didemgenc/Desktop/2024_SSL_MEA/data'
 
@@ -35,3 +37,8 @@ def ckpt_path(name):
     path = os.path.join(CKPT_DIR, name)
     os.makedirs(os.path.dirname(path), exist_ok=True)
     return path
+
+
+def orig_path(name):
+    """File of the Table 3 ("original") setup: queries from the training set."""
+    return os.path.join(ORIG_DIR, name)

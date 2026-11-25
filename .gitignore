@@ -12,7 +12,7 @@ data/
 # Run outputs: keep the result tables and run logs, ignore the rest
 **/outputs/*
 !**/outputs/*.csv
-!**/outputs/*_run.log
+!**/outputs/*_run*.log
 !**/outputs/*/log.csv
 *.docx
 *.tsv

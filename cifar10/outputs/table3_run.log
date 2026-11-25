@@ -1,0 +1,20 @@
+=== table3 budget 4k seed 950 Pzt 23 Kas 2026 23:41:14 +03
+budget 4k conf 0.9 sim 0.8: 45340 training samples, pseudo-label accuracy 97.47%, 10000 test samples
+victim accuracy on the full test set: 94.44%
+RESULT budget=4k conf=0.9 sim=0.8 seed=950 best_acc=92.48 (epoch 9) final_acc=92.48 fidelity=91.39 time=13.0min
+=== table3 budget 1k seed 950 Pzt 23 Kas 2026 23:54:19 +03
+budget 1k conf 0.95 sim 0.8: 44970 training samples, pseudo-label accuracy 95.71%, 10000 test samples
+victim accuracy on the full test set: 94.44%
+RESULT budget=1k conf=0.95 sim=0.8 seed=950 best_acc=90.70 (epoch 9) final_acc=90.70 fidelity=89.80 time=13.1min
+=== table3 budget 250 seed 950 Sal 24 Kas 2026 00:07:32 +03
+budget 250 conf 0.95 sim 0.8: 36490 training samples, pseudo-label accuracy 97.36%, 10000 test samples
+victim accuracy on the full test set: 94.44%
+RESULT budget=250 conf=0.95 sim=0.8 seed=950 best_acc=88.24 (epoch 8) final_acc=87.98 fidelity=87.42 time=10.9min
+DONE Sal 24 Kas 2026 00:18:32 +03
+=== table3 budget 4k seed 1 Çrş 25 Kas 2026 14:06:36 +03
+budget 4k conf 0.9 sim 0.8: 45340 training samples, pseudo-label accuracy 97.47%, 10000 test samples
+victim accuracy on the full test set: 94.44%
+RESULT budget=4k conf=0.9 sim=0.8 seed=1 best_acc=92.27 (epoch 8) final_acc=92.10 fidelity=91.15 time=14.8min
+=== table3 budget 1k seed 1 Çrş 25 Kas 2026 14:21:31 +03
+budget 1k conf 0.95 sim 0.8: 44970 training samples, pseudo-label accuracy 95.71%, 10000 test samples
+victim accuracy on the full test set: 94.44%
